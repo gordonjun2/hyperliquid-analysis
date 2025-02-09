@@ -1,0 +1,6 @@
+requests
+pytz
+tzlocal
+pytelegrambotapi==4.6.0
+telegramify-markdown
+urllib3==1.26.15
