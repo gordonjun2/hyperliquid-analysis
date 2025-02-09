@@ -1,2 +1,24 @@
 
-No vault updates found.
+========================================
+Vault Updates (TVL >= 500,000.0):
+========================================
+📌 Vault: Personal Capital
+🔗 Vault Address: 0xa48789771e92817ddc9f8dbff8d12c9f010fde7c
+💰 TVL: 1,509,795.948273
+----------------------------------------
+🔴 Coin: kPEPE
+   - Leverage: OPENED → 20.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🟢 Coin: FARTCOIN
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🔹 Coin: AI16Z
+   - Leverage: 5.0 → CLOSED
+   - Direction: SHORT → CLOSED
+----------------------------------------
+🔹 Coin: AI16Z
+   - Leverage: 5.0 → CLOSED
+   - Direction: SHORT → CLOSED
+----------------------------------------
