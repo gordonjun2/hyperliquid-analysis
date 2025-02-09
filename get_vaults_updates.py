@@ -209,7 +209,7 @@ def get_vaults_updates(chat_id, send_to_tg=True):
     if not differences:
         terminal_msg = "\nNo vault updates found."
     else:
-        terminal_msg = f"\n{'='*40}\nVault Updates (TVL >= {MIN_VAULT_TVL:,}):\n{'='*40}"
+        terminal_msg = f"\n{'='*40}\nHyperliquid Vaults Updates (TVL >= {MIN_VAULT_TVL:,}):\n{'='*40}"
 
     print(terminal_msg)
 
@@ -219,7 +219,9 @@ def get_vaults_updates(chat_id, send_to_tg=True):
 
     terminal_output = terminal_msg
     tg_msg_list = []
-    tg_msg_title_list = [f"**Vault Updates (TVL >= {MIN_VAULT_TVL:,}):**\n"]
+    tg_msg_title_list = [
+        f"**Hyperliquid Vaults Updates (TVL >= {MIN_VAULT_TVL:,}):**\n"
+    ]
 
     for vault_address, vault_updates in sorted_differences:
 
