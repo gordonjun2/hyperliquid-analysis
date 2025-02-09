@@ -1,5 +1,6 @@
 
 ========================================
+<<<<<<< Updated upstream
 Vault Updates (TVL >= 500,000.0):
 ========================================
 📌 Vault: Personal Capital
@@ -21,4 +22,59 @@ Vault Updates (TVL >= 500,000.0):
 🔹 Coin: AI16Z
    - Leverage: 5.0 → CLOSED
    - Direction: SHORT → CLOSED
+=======
+Hyperliquid Vaults Updates (TVL >= 500,000.0):
+========================================
+📌 Vault: Personal Capital
+🔗 Vault Address: 0xa48789771e92817ddc9f8dbff8d12c9f010fde7c
+💰 TVL: 1,563,324.526077
+----------------------------------------
+🔴 Coin: DOGE
+   - Leverage: OPENED → 20.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: FARTCOIN
+   - Leverage: 3.0 → 3.0
+   - Direction: LONG → SHORT
+----------------------------------------
+🔹 Coin: BTC
+   - Leverage: 50.0 → CLOSED
+   - Direction: SHORT → CLOSED
+----------------------------------------
+🔹 Coin: ETH
+   - Leverage: 50.0 → CLOSED
+   - Direction: SHORT → CLOSED
+----------------------------------------
+🔹 Coin: BNB
+   - Leverage: 20.0 → CLOSED
+   - Direction: LONG → CLOSED
+----------------------------------------
+🔹 Coin: BNB
+   - Leverage: 20.0 → CLOSED
+   - Direction: LONG → CLOSED
+----------------------------------------
+📌 Vault: BTC VS EVERY OTHER COIN - DCA EDITION
+🔗 Vault Address: 0x2bf3248244c6f07da831b01fe082921c87b52018
+💰 TVL: 1,111,543.913269
+----------------------------------------
+🔴 Coin: TST
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: TST
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+📌 Vault: Stabilizer
+🔗 Vault Address: 0x8d599f4a77eaa7d4569735a0be656aab8efbf101
+💰 TVL: 547,458.700768
+----------------------------------------
+🟢 Coin: SOL
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🟢 Coin: SOL
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → LONG
+>>>>>>> Stashed changes
 ----------------------------------------
