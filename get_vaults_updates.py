@@ -234,7 +234,7 @@ def get_vaults_updates(chat_id, send_to_tg=True):
         escaped_vault_name = re.escape(vault_name)
         escaped_vault_name = escaped_vault_name.replace(r'\ ', ' ')
         tg_msg_list.append(f"*_**📌 Vault: {escaped_vault_name}**_*\n"
-                           f"_**🔗 Address: `{vault_address}`**_*\n"
+                           f"_**🔗 Address: `{vault_address}`**_\n"
                            f"💰 TVL: {vault_tvl:,}")
 
         for coin, updates in positions_updates.items():
