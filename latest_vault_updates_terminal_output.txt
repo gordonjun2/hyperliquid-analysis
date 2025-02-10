@@ -1,61 +1,858 @@
 
 ========================================
-<<<<<<< Updated upstream
-Vault Updates (TVL >= 500,000.0):
+Hyperliquid Vaults Updates (TVL >= 500,000.0):
 ========================================
+📌 Vault: Sifu
+🔗 Vault Address: 0xf967239debef10dbc78e9bbbb2d8a16b72a614eb
+💰 TVL: 5,623,323.782893
+----------------------------------------
+🔴 Coin: BTC
+   - Leverage: OPENED → 20.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ETH
+   - Leverage: OPENED → 20.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: SOL
+   - Leverage: OPENED → 20.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🟢 Coin: HYPE
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🟢 Coin: HYPE
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → LONG
+----------------------------------------
+📌 Vault: Asgard Finance
+🔗 Vault Address: 0x808f70806f5aaa90990aefc39833fe0775f2733d
+💰 TVL: 2,007,497.179986
+----------------------------------------
+🟢 Coin: BTC
+   - Leverage: OPENED → 50.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🟢 Coin: CRV
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🟢 Coin: RUNE
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🟢 Coin: FTT
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🟢 Coin: ADA
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🔴 Coin: JUP
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🟢 Coin: HBAR
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🟢 Coin: PURR
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🟢 Coin: PURR
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → LONG
+----------------------------------------
 📌 Vault: Personal Capital
 🔗 Vault Address: 0xa48789771e92817ddc9f8dbff8d12c9f010fde7c
-💰 TVL: 1,509,795.948273
+💰 TVL: 1,641,930.424989
+----------------------------------------
+🟢 Coin: BTC
+   - Leverage: OPENED → 50.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🔴 Coin: ETH
+   - Leverage: OPENED → 50.0
+   - Direction: OPENED → SHORT
 ----------------------------------------
 🔴 Coin: kPEPE
    - Leverage: OPENED → 20.0
    - Direction: OPENED → SHORT
 ----------------------------------------
-🟢 Coin: FARTCOIN
+🟢 Coin: HYPE
    - Leverage: OPENED → 3.0
    - Direction: OPENED → LONG
 ----------------------------------------
-🔹 Coin: AI16Z
-   - Leverage: 5.0 → CLOSED
-   - Direction: SHORT → CLOSED
+🟢 Coin: HYPE
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → LONG
 ----------------------------------------
-🔹 Coin: AI16Z
-   - Leverage: 5.0 → CLOSED
-   - Direction: SHORT → CLOSED
-=======
-Hyperliquid Vaults Updates (TVL >= 500,000.0):
-========================================
-📌 Vault: Personal Capital
-🔗 Vault Address: 0xa48789771e92817ddc9f8dbff8d12c9f010fde7c
-💰 TVL: 1,563,324.526077
+📌 Vault: SMH
+🔗 Vault Address: 0x5e45ea5c8f03f428cbda82aa43189bd828624d26
+💰 TVL: 1,423,508.098356
+----------------------------------------
+🟢 Coin: PURR
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🟢 Coin: PURR
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → LONG
+----------------------------------------
+📌 Vault: Elsewhere
+🔗 Vault Address: 0x8fc7c0442e582bca195978c5a4fdec2e7c5bb0f7
+💰 TVL: 1,412,351.28492
+----------------------------------------
+🟢 Coin: BTC
+   - Leverage: OPENED → 50.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🔴 Coin: ETH
+   - Leverage: OPENED → 50.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: SOL
+   - Leverage: OPENED → 20.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: SUI
+   - Leverage: OPENED → 20.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: XRP
+   - Leverage: OPENED → 20.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: JTO
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ONDO
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: SCR
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🟢 Coin: GRASS
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🔴 Coin: AI16Z
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: GRIFFAIN
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🟢 Coin: BERA
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🟢 Coin: BERA
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → LONG
+----------------------------------------
+📌 Vault: Joseph
+🔗 Vault Address: 0x832fe0bd18360d4da4206ea7c1d22acebb45ef69
+💰 TVL: 1,400,936.34363
+----------------------------------------
+🟢 Coin: ETH
+   - Leverage: OPENED → 20.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🟢 Coin: SOL
+   - Leverage: OPENED → 20.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🟢 Coin: JTO
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🟢 Coin: TAO
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🟢 Coin: HYPE
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🟢 Coin: HYPE
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → LONG
+----------------------------------------
+📌 Vault: [A] Ventures | IVA labs
+🔗 Vault Address: 0xa671357791d0f31eebf135b9a05a0bfac5ba575e
+💰 TVL: 1,252,432.022179
+----------------------------------------
+🟢 Coin: BTC
+   - Leverage: OPENED → 15.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🟢 Coin: ETH
+   - Leverage: OPENED → 15.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🟢 Coin: ETH
+   - Leverage: OPENED → 15.0
+   - Direction: OPENED → LONG
+----------------------------------------
+📌 Vault: BTC VS EVERY OTHER COIN - DCA EDITION
+🔗 Vault Address: 0x2bf3248244c6f07da831b01fe082921c87b52018
+💰 TVL: 1,170,742.519673
+----------------------------------------
+🟢 Coin: BTC
+   - Leverage: OPENED → 50.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🔴 Coin: ETH
+   - Leverage: OPENED → 50.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ATOM
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: DYDX
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: SOL
+   - Leverage: OPENED → 20.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: AVAX
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: BNB
+   - Leverage: OPENED → 20.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: APE
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: OP
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: LTC
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ARB
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
 ----------------------------------------
 🔴 Coin: DOGE
    - Leverage: OPENED → 20.0
    - Direction: OPENED → SHORT
 ----------------------------------------
+🔴 Coin: INJ
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: SUI
+   - Leverage: OPENED → 20.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: kPEPE
+   - Leverage: OPENED → 20.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: CRV
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: LDO
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: LINK
+   - Leverage: OPENED → 20.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: STX
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: CFX
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: GMX
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: SNX
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: XRP
+   - Leverage: OPENED → 20.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: BCH
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: APT
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: AAVE
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: COMP
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: MKR
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: WLD
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: FXS
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: YGG
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: TRX
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: kSHIB
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: UNI
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: SEI
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: RUNE
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: CYBER
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ZRO
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: DOT
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: BANANA
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: TRB
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: FTT
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: OGN
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: RDNT
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ARK
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: REQ
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: BIGTIME
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: KAS
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ORBS
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: BLUR
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: TIA
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: BSV
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ADA
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: TON
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: MINA
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: POLYX
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: GAS
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: PENDLE
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: STG
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: FET
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: NEAR
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: MEME
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ORDI
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: NEO
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ZEN
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: FIL
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: PYTH
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: SUSHI
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ILV
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: IMX
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: kBONK
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: GMT
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: SUPER
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: USTC
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: JUP
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: kLUNC
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: RSR
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: GALA
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: JTO
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: NTRN
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ACE
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: MAV
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: WIF
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: CAKE
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: PEOPLE
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ENS
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ETC
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: XAI
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: MANTA
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: UMA
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ONDO
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ALT
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ZETA
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: DYM
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: MAVIA
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: W
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: STRK
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: PIXEL
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: AI
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: TAO
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: AR
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: MYRO
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: kFLOKI
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: BOME
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ETHFI
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ENA
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: MNT
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: TNSR
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: SAGA
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: MERL
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: HBAR
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: POPCAT
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: OMNI
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: EIGEN
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: REZ
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: NOT
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: TURBO
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: BRETT
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: IO
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ZK
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: BLAST
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: LISTA
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: MEW
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: RENDER
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: kDOGS
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: POL
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: CATI
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: CELO
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: HMSTR
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: SCR
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: NEIROETH
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: kNEIRO
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: GOAT
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: MOODENG
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: GRASS
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: PNUT
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: XLM
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: CHILLGUY
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: SAND
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: IOTA
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ALGO
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ME
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: MOVE
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: VIRTUAL
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: PENGU
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: USUAL
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
 🔴 Coin: FARTCOIN
-   - Leverage: 3.0 → 3.0
-   - Direction: LONG → SHORT
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
 ----------------------------------------
-🔹 Coin: BTC
-   - Leverage: 50.0 → CLOSED
-   - Direction: SHORT → CLOSED
+🔴 Coin: AI16Z
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
 ----------------------------------------
-🔹 Coin: ETH
-   - Leverage: 50.0 → CLOSED
-   - Direction: SHORT → CLOSED
+🔴 Coin: AIXBT
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
 ----------------------------------------
-🔹 Coin: BNB
-   - Leverage: 20.0 → CLOSED
-   - Direction: LONG → CLOSED
+🔴 Coin: ZEREBRO
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
 ----------------------------------------
-🔹 Coin: BNB
-   - Leverage: 20.0 → CLOSED
-   - Direction: LONG → CLOSED
+🔴 Coin: BIO
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
 ----------------------------------------
-📌 Vault: BTC VS EVERY OTHER COIN - DCA EDITION
-🔗 Vault Address: 0x2bf3248244c6f07da831b01fe082921c87b52018
-💰 TVL: 1,111,543.913269
+🔴 Coin: GRIFFAIN
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: SPX
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: S
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: MORPHO
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: TRUMP
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: MELANIA
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ANIME
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: VINE
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: VVV
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: JELLY
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: BERA
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
 ----------------------------------------
 🔴 Coin: TST
    - Leverage: OPENED → 3.0
@@ -63,18 +860,558 @@ Hyperliquid Vaults Updates (TVL >= 500,000.0):
 ----------------------------------------
 🔴 Coin: TST
    - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+📌 Vault: [ Systemic Strategies ] L/S Grids
+🔗 Vault Address: 0x07fd993f0fa3a185f7207adccd29f7a87404689d
+💰 TVL: 1,157,853.111226
+----------------------------------------
+🟢 Coin: BTC
+   - Leverage: OPENED → 20.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🟢 Coin: ETH
+   - Leverage: OPENED → 20.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🔴 Coin: ATOM
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: AVAX
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🟢 Coin: BNB
+   - Leverage: OPENED → 20.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🔴 Coin: APE
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: OP
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ARB
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🟢 Coin: DOGE
+   - Leverage: OPENED → 20.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🔴 Coin: SUI
+   - Leverage: OPENED → 20.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: APT
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🟢 Coin: AAVE
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🔴 Coin: WLD
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: DOT
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: BLUR
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: TIA
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🟢 Coin: PENDLE
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🔴 Coin: NEAR
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: MEME
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: FIL
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: kBONK
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: XAI
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ALT
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ZETA
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: DYM
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: W
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: STRK
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: PIXEL
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: SAGA
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: IO
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: LISTA
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🟢 Coin: POL
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🟢 Coin: XLM
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🟢 Coin: S
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🔴 Coin: TRUMP
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: MELANIA
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: MELANIA
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+📌 Vault: Chicken Genius
+🔗 Vault Address: 0x87c02ac42668c4d877c1eb9263eb96c2ecb83345
+💰 TVL: 892,242.631376
+----------------------------------------
+🟢 Coin: BTC
+   - Leverage: OPENED → 1.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🟢 Coin: ETH
+   - Leverage: OPENED → 1.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🟢 Coin: HYPE
+   - Leverage: OPENED → 1.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🟢 Coin: HYPE
+   - Leverage: OPENED → 1.0
+   - Direction: OPENED → LONG
+----------------------------------------
+📌 Vault: ah mierda
+🔗 Vault Address: 0x164e90af0d04112d15894e051b722e0d9d3f233e
+💰 TVL: 686,204.320451
+----------------------------------------
+🟢 Coin: BTC
+   - Leverage: OPENED → 20.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🟢 Coin: ETH
+   - Leverage: OPENED → 50.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🔴 Coin: SOL
+   - Leverage: OPENED → 20.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: AVAX
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: APE
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: OP
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: LTC
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ARB
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: DOGE
+   - Leverage: OPENED → 20.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: SUI
+   - Leverage: OPENED → 20.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: kPEPE
+   - Leverage: OPENED → 20.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: CRV
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: LDO
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: LINK
+   - Leverage: OPENED → 20.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: XRP
+   - Leverage: OPENED → 20.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: AAVE
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: kSHIB
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: SEI
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: RUNE
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ZRO
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: DOT
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: BLUR
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: TIA
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ADA
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: TON
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🟢 Coin: PENDLE
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🔴 Coin: NEAR
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: IMX
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: kBONK
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: WIF
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: MANTA
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: W
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: STRK
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: AI
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: kFLOKI
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: TNSR
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: HBAR
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: POPCAT
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: BRETT
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ZK
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: BLAST
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: MEW
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: SCR
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: NEIROETH
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: kNEIRO
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: GOAT
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: MOODENG
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: GRASS
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: PNUT
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: CHILLGUY
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ALGO
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: HYPE
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: VIRTUAL
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: FARTCOIN
+   - Leverage: OPENED → 3.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: AI16Z
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: AIXBT
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: ZEREBRO
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: BIO
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: GRIFFAIN
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: SPX
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: S
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: MORPHO
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: TRUMP
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: MELANIA
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → SHORT
+----------------------------------------
+🔴 Coin: MELANIA
+   - Leverage: OPENED → 5.0
    - Direction: OPENED → SHORT
 ----------------------------------------
 📌 Vault: Stabilizer
 🔗 Vault Address: 0x8d599f4a77eaa7d4569735a0be656aab8efbf101
-💰 TVL: 547,458.700768
+💰 TVL: 541,185.368846
 ----------------------------------------
 🟢 Coin: SOL
    - Leverage: OPENED → 10.0
    - Direction: OPENED → LONG
 ----------------------------------------
-🟢 Coin: SOL
+🟢 Coin: SUI
    - Leverage: OPENED → 10.0
    - Direction: OPENED → LONG
->>>>>>> Stashed changes
+----------------------------------------
+🟢 Coin: kPEPE
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🟢 Coin: TAO
+   - Leverage: OPENED → 5.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🟢 Coin: ENA
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → LONG
+----------------------------------------
+🟢 Coin: ENA
+   - Leverage: OPENED → 10.0
+   - Direction: OPENED → LONG
+----------------------------------------
+📊 **Summary of Long/Short Positions (Count >= 2):**
+
+LONG Positions:
+🟢 BTC: 8 time(s)
+🟢 ETH: 5 time(s)
+🟢 HYPE: 4 time(s)
+🟢 PURR: 2 time(s)
+🟢 SOL: 2 time(s)
+🟢 TAO: 2 time(s)
+🟢 PENDLE: 2 time(s)
+SHORT Positions:
+🔴 ETH: 4 time(s)
+🔴 SOL: 4 time(s)
+🔴 SUI: 4 time(s)
+🔴 kPEPE: 3 time(s)
+🔴 XRP: 3 time(s)
+🔴 SCR: 3 time(s)
+🔴 AI16Z: 3 time(s)
+🔴 GRIFFAIN: 3 time(s)
+🔴 AVAX: 3 time(s)
+🔴 APE: 3 time(s)
+🔴 OP: 3 time(s)
+🔴 ARB: 3 time(s)
+🔴 DOT: 3 time(s)
+🔴 BLUR: 3 time(s)
+🔴 TIA: 3 time(s)
+🔴 NEAR: 3 time(s)
+🔴 kBONK: 3 time(s)
+🔴 W: 3 time(s)
+🔴 STRK: 3 time(s)
+🔴 TRUMP: 3 time(s)
+🔴 MELANIA: 3 time(s)
+🔴 JUP: 2 time(s)
+🔴 JTO: 2 time(s)
+🔴 ONDO: 2 time(s)
+🔴 ATOM: 2 time(s)
+🔴 LTC: 2 time(s)
+🔴 DOGE: 2 time(s)
+🔴 CRV: 2 time(s)
+🔴 LDO: 2 time(s)
+🔴 LINK: 2 time(s)
+🔴 APT: 2 time(s)
+🔴 AAVE: 2 time(s)
+🔴 WLD: 2 time(s)
+🔴 kSHIB: 2 time(s)
+🔴 SEI: 2 time(s)
+🔴 RUNE: 2 time(s)
+🔴 ZRO: 2 time(s)
+🔴 ADA: 2 time(s)
+🔴 TON: 2 time(s)
+🔴 MEME: 2 time(s)
+🔴 FIL: 2 time(s)
+🔴 IMX: 2 time(s)
+🔴 WIF: 2 time(s)
+🔴 XAI: 2 time(s)
+🔴 MANTA: 2 time(s)
+🔴 ALT: 2 time(s)
+🔴 ZETA: 2 time(s)
+🔴 DYM: 2 time(s)
+🔴 PIXEL: 2 time(s)
+🔴 AI: 2 time(s)
+🔴 kFLOKI: 2 time(s)
+🔴 TNSR: 2 time(s)
+🔴 SAGA: 2 time(s)
+🔴 HBAR: 2 time(s)
+🔴 POPCAT: 2 time(s)
+🔴 BRETT: 2 time(s)
+🔴 IO: 2 time(s)
+🔴 ZK: 2 time(s)
+🔴 BLAST: 2 time(s)
+🔴 LISTA: 2 time(s)
+🔴 MEW: 2 time(s)
+🔴 NEIROETH: 2 time(s)
+🔴 kNEIRO: 2 time(s)
+🔴 GOAT: 2 time(s)
+🔴 MOODENG: 2 time(s)
+🔴 GRASS: 2 time(s)
+🔴 PNUT: 2 time(s)
+🔴 CHILLGUY: 2 time(s)
+🔴 ALGO: 2 time(s)
+🔴 VIRTUAL: 2 time(s)
+🔴 FARTCOIN: 2 time(s)
+🔴 AIXBT: 2 time(s)
+🔴 ZEREBRO: 2 time(s)
+🔴 BIO: 2 time(s)
+🔴 SPX: 2 time(s)
+🔴 S: 2 time(s)
+🔴 MORPHO: 2 time(s)
 ----------------------------------------

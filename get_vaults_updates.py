@@ -5,7 +5,8 @@ import argparse
 import telebot
 from utils import *
 from config import (MIN_VAULT_TVL, EXCLUDED_VAULT_ADDRESSES, MAX_RETRIES,
-                    RETRY_AFTER, USER_ID, TEST_TG_CHAT_ID, TELEGRAM_BOT_TOKEN)
+                    RETRY_AFTER, MIN_POSITION_COUNTS, USER_ID, TEST_TG_CHAT_ID,
+                    TELEGRAM_BOT_TOKEN)
 
 
 def get_top_tvl_vaults():
@@ -71,6 +72,7 @@ def get_vaults_updates(chat_id, send_to_tg=True):
     count = 1
     total_curr_top_tvl_vaults = len(curr_top_tvl_vaults)
     updated_top_tvl_vaults = {}
+    long_short_counter = {"LONG": {}, "SHORT": {}}
     url = "https://api.hyperliquid.xyz/info"
     headers = {"Content-Type": "application/json"}
 
@@ -136,6 +138,11 @@ def get_vaults_updates(chat_id, send_to_tg=True):
                         "unrealised_pnl": unrealised_pnl,
                         "direction": direction
                     }
+
+                    if coin in long_short_counter[direction]:
+                        long_short_counter[direction][coin] += 1
+                    else:
+                        long_short_counter[direction][coin] = 1
 
                 updated_top_tvl_vaults[vault_address] = {
                     "vault_name": vault_name,
@@ -207,111 +214,143 @@ def get_vaults_updates(chat_id, send_to_tg=True):
             }
 
     if not differences:
-        terminal_msg = "\nNo vault updates found."
+        terminal_msg = "\nNo vault updates found.\n"
+        print(terminal_msg)
     else:
         terminal_msg = f"\n{'='*40}\nHyperliquid Vaults Updates (TVL >= {MIN_VAULT_TVL:,}):\n{'='*40}"
-
-    print(terminal_msg)
-
-    sorted_differences = sorted(differences.items(),
-                                key=lambda x: x[1]["vault_tvl"],
-                                reverse=True)
-
-    terminal_output = terminal_msg
-    tg_msg_list = []
-    tg_msg_title_list = [
-        f"**Hyperliquid Vaults Updates (TVL >= {MIN_VAULT_TVL:,}):**\n"
-    ]
-
-    for vault_address, vault_updates in sorted_differences:
-
-        vault_name = vault_updates["vault_name"]
-        vault_tvl = vault_updates["vault_tvl"]
-        positions_updates = vault_updates["positions"]
-
-        terminal_msg = f"\n📌 Vault: {vault_name}\n🔗 Vault Address: {vault_address}\n💰 TVL: {vault_tvl:,}\n{'-'*40}"
         print(terminal_msg)
-        terminal_output += terminal_msg
 
-        escaped_vault_name = re.escape(vault_name)
-        escaped_vault_name = escaped_vault_name.replace(r'\ ', ' ')
-        tg_msg_list.append(f"*_**📌 Vault: {escaped_vault_name}**_*\n"
-                           f"_**🔗 Address: `{vault_address}`**_\n"
-                           f"💰 TVL: {vault_tvl:,}")
+        sorted_differences = sorted(differences.items(),
+                                    key=lambda x: x[1]["vault_tvl"],
+                                    reverse=True)
 
-        for coin, updates in positions_updates.items():
-            before = updates.get('before', {})
-            after = updates.get('after', {})
+        terminal_output = terminal_msg
+        tg_msg_list = []
+        tg_msg_title_list = [
+            f"**Hyperliquid Vaults Updates (TVL >= {MIN_VAULT_TVL:,}):**\n"
+        ]
 
-            before_leverage = before.get("leverage", "OPENED")
-            after_leverage = after.get("leverage", "CLOSED")
-            before_direction = before.get("direction", "OPENED")
-            after_direction = after.get("direction", "CLOSED")
+        for vault_address, vault_updates in sorted_differences:
 
-            if before_direction in ["SHORT", "OPENED"
-                                    ] and after_direction == "LONG":
-                dot = "🟢"
-            elif before_direction in ["LONG", "OPENED"
-                                      ] and after_direction == "SHORT":
-                dot = "🔴"
-            elif after_direction == "LONG":
-                dot = "🟢"
-            elif after_direction == "SHORT":
-                dot = "🔴"
-            else:
-                dot = "🔹"
+            vault_name = vault_updates["vault_name"]
+            vault_tvl = vault_updates["vault_tvl"]
+            positions_updates = vault_updates["positions"]
 
-            terminal_msg = (
-                f"\n{dot} Coin: {coin}"
-                f"\n   - Leverage: {before_leverage} → {after_leverage}"
-                f"\n   - Direction: {before_direction} → {after_direction}"
-                f"\n{'-'*40}")
+            terminal_msg = f"\n📌 Vault: {vault_name}\n🔗 Vault Address: {vault_address}\n💰 TVL: {vault_tvl:,}\n{'-'*40}"
             print(terminal_msg)
             terminal_output += terminal_msg
 
-            escaped_coin = re.escape(coin)
-            escaped_coin = escaped_coin.replace(r'\ ', ' ')
-            tg_msg_list.append(
-                f"\n{dot} *Coin: {escaped_coin}*\n"
-                f"• Leverage: {before_leverage} → {after_leverage}\n"
-                f"• Direction: {before_direction} → {after_direction}")
+            escaped_vault_name = re.escape(vault_name)
+            escaped_vault_name = escaped_vault_name.replace(r'\ ', ' ')
+            tg_msg_list.append(f"*_**📌 Vault: {escaped_vault_name}**_*\n"
+                               f"_**🔗 Address: `{vault_address}`**_\n"
+                               f"💰 TVL: {vault_tvl:,}")
 
-        terminal_output += terminal_msg
+            for coin, updates in positions_updates.items():
+                before = updates.get('before', {})
+                after = updates.get('after', {})
+
+                before_leverage = before.get("leverage", "OPENED")
+                after_leverage = after.get("leverage", "CLOSED")
+                before_direction = before.get("direction", "OPENED")
+                after_direction = after.get("direction", "CLOSED")
+
+                if before_direction in ["SHORT", "OPENED"
+                                        ] and after_direction == "LONG":
+                    dot = "🟢"
+                elif before_direction in ["LONG", "OPENED"
+                                          ] and after_direction == "SHORT":
+                    dot = "🔴"
+                elif after_direction == "LONG":
+                    dot = "🟢"
+                elif after_direction == "SHORT":
+                    dot = "🔴"
+                else:
+                    dot = "🔹"
+
+                terminal_msg = (
+                    f"\n{dot} Coin: {coin}"
+                    f"\n   - Leverage: {before_leverage} → {after_leverage}"
+                    f"\n   - Direction: {before_direction} → {after_direction}"
+                    f"\n{'-'*40}")
+                print(terminal_msg)
+                terminal_output += terminal_msg
+
+                escaped_coin = re.escape(coin)
+                escaped_coin = escaped_coin.replace(r'\ ', ' ')
+                tg_msg_list.append(
+                    f"\n{dot} *Coin: {escaped_coin}*\n"
+                    f"• Leverage: {before_leverage} → {after_leverage}\n"
+                    f"• Direction: {before_direction} → {after_direction}")
+
+            terminal_output += terminal_msg
+            tg_msg_list.append(f"{'_'*32}\n")
+
+        summary_msg = f"\n📊 **Summary of Long/Short Positions (Count >= {MIN_POSITION_COUNTS}):**\n"
+        tg_summary_msg = f"\n📊 *Summary of Long/Short Positions (Count >= {MIN_POSITION_COUNTS}):*\n"
+
+        print(summary_msg)
+        terminal_output += summary_msg
+        tg_msg_list.append(tg_summary_msg)
+
+        for direction, coins in long_short_counter.items():
+            direction_icon = "🟢" if direction == "LONG" else "🔴"
+            direction_msg = f"\n{direction} Positions:"
+            print(direction_msg)
+            terminal_output += direction_msg
+            tg_msg_list.append(f"\n*{direction} Positions:*")
+
+            sorted_coins = sorted(coins.items(),
+                                  key=lambda x: x[1],
+                                  reverse=True)
+
+            for coin, count in sorted_coins:
+                if count >= MIN_POSITION_COUNTS:
+                    coin_msg = f"{direction_icon} {coin}: {count} time(s)"
+                    print(coin_msg)
+                    terminal_output += f"\n{coin_msg}"
+                    tg_msg_list.append(
+                        f"{direction_icon} {coin}: {count} time(s)")
+
+        print("\n" + "-" * 40)
+        terminal_output += "\n" + "-" * 40
         tg_msg_list.append(f"{'_'*32}\n")
 
-    file_path = "latest_vault_updates_terminal_output.txt"
-    with open(file_path, "w") as file:
-        file.write(terminal_output)
+        file_path = "latest_vault_updates_terminal_output.txt"
+        with open(file_path, "w") as file:
+            file.write(terminal_output)
 
-    print(f"\nTerminal output saved to {file_path}\n")
+        print(f"\nTerminal output saved to {file_path}\n")
 
-    if send_to_tg:
-        if tg_msg_list:
-            print("Sending vault updates to Telegram...\n")
-            bot = telebot.TeleBot(token=TELEGRAM_BOT_TOKEN, threaded=False)
-            tg_msg_title_list.extend(tg_msg_list)
-            chunks = chunk_message(tg_msg_title_list)
-            for chunk in chunks:
-                retry_count = 0
-                while retry_count < MAX_RETRIES:
-                    try:
-                        bot.send_message(chat_id,
-                                         chunk,
-                                         parse_mode='MarkdownV2')
-                        time.sleep(3)
+        if send_to_tg:
+            if tg_msg_list:
+                print("Sending vault updates to Telegram...\n")
+                bot = telebot.TeleBot(token=TELEGRAM_BOT_TOKEN, threaded=False)
+                tg_msg_title_list.extend(tg_msg_list)
+                chunks = chunk_message(tg_msg_title_list)
+                for chunk in chunks:
+                    retry_count = 0
+                    while retry_count < MAX_RETRIES:
+                        try:
+                            bot.send_message(chat_id,
+                                             chunk,
+                                             parse_mode='MarkdownV2')
+                            time.sleep(3)
+                            break
+                        except:
+                            retry_count += 1
+                            time.sleep(60)
+                    else:
+                        print(
+                            "Max retries reached. No new message will be sent.\n"
+                        )
                         break
-                    except:
-                        retry_count += 1
-                        time.sleep(60)
-                else:
-                    print(
-                        "Max retries reached. No new message will be sent.\n")
-                    break
 
-            print('Vault updates sent to Telegram.\n')
+                print('Vault updates sent to Telegram.\n')
 
-        else:
-            print('No vault update found, so no message sent to Telegram.\n')
+            else:
+                print(
+                    'No vault update found, so no message sent to Telegram.\n')
 
     print('Total time taken: {:.2f} seconds\n'.format(time.time() -
                                                       start_time))

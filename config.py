@@ -29,6 +29,7 @@ else:
 MIN_VAULT_TVL = 5e5
 MAX_RETRIES = 10
 RETRY_AFTER = 10
+MIN_POSITION_COUNTS = 2
 
 EXCLUDED_VAULT_ADDRESSES = [
     "0xdfc24b077bc1425ad1dea75bcb6f8158e10df303",  # Hyperliquidity Provider (HLP)

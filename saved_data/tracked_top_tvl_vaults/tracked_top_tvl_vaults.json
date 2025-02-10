@@ -1,4196 +1,2221 @@
 {
     "0xf967239debef10dbc78e9bbbb2d8a16b72a614eb": {
         "vault_name": "Sifu",
-<<<<<<< Updated upstream
-        "vault_tvl": 6018937.877773,
+        "vault_tvl": 5623323.782893,
         "positions": {
             "BTC": {
                 "leverage": 20.0,
-                "position_value": 7935560.577,
+                "position_value": 7857924.75216,
                 "size": -81.89433,
-                "unrealised_pnl": -57040.45582,
-=======
-        "vault_tvl": 5846198.840571,
-        "positions": {
-            "BTC": {
-                "leverage": 20.0,
-                "position_value": 7864312.5099,
-                "size": -81.89433,
-                "unrealised_pnl": 14207.61128,
->>>>>>> Stashed changes
+                "unrealised_pnl": 20595.36902,
                 "direction": "SHORT"
             },
             "ETH": {
                 "leverage": 20.0,
-<<<<<<< Updated upstream
-                "position_value": 1460965.0,
+                "position_value": 1427690.0,
                 "size": -550.0,
-                "unrealised_pnl": -17739.85139,
-=======
-                "position_value": 1443695.0,
-                "size": -550.0,
-                "unrealised_pnl": -469.85139,
->>>>>>> Stashed changes
+                "unrealised_pnl": 15535.14861,
                 "direction": "SHORT"
             },
             "SOL": {
                 "leverage": 20.0,
-<<<<<<< Updated upstream
-                "position_value": 1410150.0,
+                "position_value": 1394540.0,
                 "size": -7000.0,
-                "unrealised_pnl": -67899.2878,
-=======
-                "position_value": 1389640.0,
-                "size": -7000.0,
-                "unrealised_pnl": -47389.2878,
->>>>>>> Stashed changes
+                "unrealised_pnl": -52289.2878,
                 "direction": "SHORT"
             },
             "HYPE": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 9937620.0,
+                "position_value": 9507120.0,
                 "size": 420000.0,
-                "unrealised_pnl": -713438.950097,
-=======
-                "position_value": 9652860.0,
-                "size": 420000.0,
-                "unrealised_pnl": -998198.950097,
->>>>>>> Stashed changes
+                "unrealised_pnl": -1143938.950097,
                 "direction": "LONG"
             }
         }
     },
     "0x808f70806f5aaa90990aefc39833fe0775f2733d": {
         "vault_name": "Asgard Finance",
-<<<<<<< Updated upstream
-        "vault_tvl": 2055720.046257,
+        "vault_tvl": 2007497.179986,
         "positions": {
             "BTC": {
                 "leverage": 50.0,
-                "position_value": 16734.63,
-                "size": 0.1727,
-                "unrealised_pnl": 193.627115,
-=======
-        "vault_tvl": 2032168.43325,
-        "positions": {
-            "BTC": {
-                "leverage": 50.0,
-                "position_value": 16584.381,
-                "size": 0.1727,
-                "unrealised_pnl": 43.378115,
->>>>>>> Stashed changes
-                "direction": "LONG"
-            },
-            "ETH": {
-                "leverage": 50.0,
-<<<<<<< Updated upstream
-                "position_value": 226833.14472,
-                "size": 85.3944,
-                "unrealised_pnl": 4129.564433,
-=======
-                "position_value": 224151.76056,
-                "size": 85.3944,
-                "unrealised_pnl": 1448.180273,
->>>>>>> Stashed changes
+                "position_value": 2673456.1556,
+                "size": 27.86011,
+                "unrealised_pnl": -4170.5052,
                 "direction": "LONG"
             },
             "CRV": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 1.02284,
+                "position_value": 1.0213,
                 "size": 2.0,
-                "unrealised_pnl": -0.46878,
-=======
-                "position_value": 1.01106,
-                "size": 2.0,
-                "unrealised_pnl": -0.48056,
->>>>>>> Stashed changes
+                "unrealised_pnl": -0.47032,
                 "direction": "LONG"
             },
             "RUNE": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 223226.57328,
+                "position_value": 222796.87824,
                 "size": 179039.6,
-                "unrealised_pnl": -11712.466115,
-=======
-                "position_value": 219359.31792,
-                "size": 179039.6,
-                "unrealised_pnl": -15579.721475,
->>>>>>> Stashed changes
+                "unrealised_pnl": -12142.161155,
                 "direction": "LONG"
             },
             "FTT": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 43112.9022,
+                "position_value": 42344.021,
                 "size": 22222.0,
-                "unrealised_pnl": -6981.29839,
-=======
-                "position_value": 42641.7958,
-                "size": 22222.0,
-                "unrealised_pnl": -7452.40479,
->>>>>>> Stashed changes
+                "unrealised_pnl": -7750.17959,
                 "direction": "LONG"
             },
             "ADA": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 303306.1596,
+                "position_value": 290165.83875,
                 "size": 433245.0,
-                "unrealised_pnl": -19261.37467,
-=======
-                "position_value": 295971.32175,
-                "size": 433245.0,
-                "unrealised_pnl": -26596.21252,
->>>>>>> Stashed changes
+                "unrealised_pnl": -32401.69552,
                 "direction": "LONG"
             },
             "JUP": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 3.34836,
+                "position_value": 3.24444,
                 "size": -4.0,
-                "unrealised_pnl": 0.703489,
-=======
-                "position_value": 3.29572,
-                "size": -4.0,
-                "unrealised_pnl": 0.756129,
->>>>>>> Stashed changes
+                "unrealised_pnl": 0.807409,
                 "direction": "SHORT"
             },
             "HBAR": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 256705.81563,
+                "position_value": 241892.36808,
                 "size": 1069563.0,
-                "unrealised_pnl": -16172.527178,
-=======
-                "position_value": 247004.87922,
-                "size": 1069563.0,
-                "unrealised_pnl": -25873.463588,
->>>>>>> Stashed changes
+                "unrealised_pnl": -30985.974728,
                 "direction": "LONG"
             },
             "PURR": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 1390.3197,
+                "position_value": 1272.5867,
                 "size": 9730.0,
-                "unrealised_pnl": 247.132282,
-=======
-                "position_value": 1348.0915,
-                "size": 9730.0,
-                "unrealised_pnl": 204.904082,
->>>>>>> Stashed changes
+                "unrealised_pnl": 129.399282,
                 "direction": "LONG"
             }
         }
     },
     "0xa48789771e92817ddc9f8dbff8d12c9f010fde7c": {
         "vault_name": "Personal Capital",
-<<<<<<< Updated upstream
-        "vault_tvl": 1509795.948273,
+        "vault_tvl": 1641930.424989,
         "positions": {
             "BTC": {
                 "leverage": 50.0,
-                "position_value": 1174110.168,
-                "size": -12.11672,
-                "unrealised_pnl": -285.30992,
-                "direction": "SHORT"
+                "position_value": 2878800.0,
+                "size": 30.0,
+                "unrealised_pnl": 15477.0,
+                "direction": "LONG"
             },
-            "SOL": {
-                "leverage": 20.0,
-                "position_value": 3241609.9913,
-                "size": -16089.79,
-                "unrealised_pnl": -50274.607178,
-=======
-        "vault_tvl": 1563324.526077,
-        "positions": {
-            "SOL": {
-                "leverage": 20.0,
-                "position_value": 1507854.6896,
-                "size": -7595.48,
-                "unrealised_pnl": 2085.334556,
->>>>>>> Stashed changes
-                "direction": "SHORT"
-            },
-            "DOGE": {
-                "leverage": 20.0,
-<<<<<<< Updated upstream
-                "position_value": 509806.61936,
-                "size": -799.496,
-                "unrealised_pnl": -11027.626083,
+            "ETH": {
+                "leverage": 50.0,
+                "position_value": 0.25962,
+                "size": -0.0001,
+                "unrealised_pnl": 0.00487,
                 "direction": "SHORT"
             },
             "kPEPE": {
                 "leverage": 20.0,
-                "position_value": 107227.01652,
-                "size": -11046360.0,
-                "unrealised_pnl": 33.13908,
-=======
-                "position_value": 318855.62475,
-                "size": -1272115.0,
-                "unrealised_pnl": -243.506484,
->>>>>>> Stashed changes
-                "direction": "SHORT"
-            },
-            "ONDO": {
-                "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 3461.4292,
-                "size": -2582.0,
-                "unrealised_pnl": -14.201,
-=======
-                "position_value": 3422.9574,
-                "size": -2582.0,
-                "unrealised_pnl": 24.2708,
->>>>>>> Stashed changes
+                "position_value": 0.009259,
+                "size": -1.0,
+                "unrealised_pnl": 0.000443,
                 "direction": "SHORT"
             },
             "HYPE": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 920129.44122,
-                "size": 38888.02,
-                "unrealised_pnl": -43518.583265,
-=======
-                "position_value": 893763.36366,
-                "size": 38888.02,
-                "unrealised_pnl": -69884.660825,
->>>>>>> Stashed changes
-                "direction": "LONG"
-            },
-            "FARTCOIN": {
-                "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 265.975,
-                "size": 500.0,
-                "unrealised_pnl": -1.635398,
-                "direction": "LONG"
-            }
-        }
-    },
-    "0x832fe0bd18360d4da4206ea7c1d22acebb45ef69": {
-        "vault_name": "Joseph",
-        "vault_tvl": 1504248.222111,
-        "positions": {
-            "ETH": {
-                "leverage": 20.0,
-                "position_value": 265630.0,
-                "size": 100.0,
-                "unrealised_pnl": -5870.25401,
-                "direction": "LONG"
-            },
-            "SOL": {
-                "leverage": 20.0,
-                "position_value": 2625105.7472,
-                "size": 13029.76,
-                "unrealised_pnl": 104183.2965,
-                "direction": "LONG"
-            },
-            "JTO": {
-                "leverage": 3.0,
-                "position_value": 272419.1096,
-                "size": 106198.0,
-                "unrealised_pnl": -30943.4685,
-                "direction": "LONG"
-            },
-            "TAO": {
-                "leverage": 5.0,
-                "position_value": 250558.0,
-                "size": 700.0,
-                "unrealised_pnl": -11942.0,
-=======
-                "position_value": 93003.77526,
-                "size": -180958.8,
-                "unrealised_pnl": 77.246316,
-                "direction": "SHORT"
-            },
-            "AI16Z": {
-                "leverage": 5.0,
-                "position_value": 191.364,
-                "size": 555.0,
-                "unrealised_pnl": 0.87135,
-                "direction": "LONG"
-            }
-        }
-    },
-    "0x832fe0bd18360d4da4206ea7c1d22acebb45ef69": {
-        "vault_name": "Joseph",
-        "vault_tvl": 1448463.262634,
-        "positions": {
-            "ETH": {
-                "leverage": 20.0,
-                "position_value": 262550.0,
-                "size": 100.0,
-                "unrealised_pnl": -8950.25401,
-                "direction": "LONG"
-            },
-            "SOL": {
-                "leverage": 20.0,
-                "position_value": 2586537.6576,
-                "size": 13029.76,
-                "unrealised_pnl": 65615.2069,
-                "direction": "LONG"
-            },
-            "JTO": {
-                "leverage": 3.0,
-                "position_value": 268415.445,
-                "size": 106198.0,
-                "unrealised_pnl": -34947.1331,
-                "direction": "LONG"
-            },
-            "TAO": {
-                "leverage": 5.0,
-                "position_value": 250075.0,
-                "size": 700.0,
-                "unrealised_pnl": -12425.0,
->>>>>>> Stashed changes
-                "direction": "LONG"
-            },
-            "HYPE": {
-                "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 254848.13541,
-                "size": 10770.81,
-                "unrealised_pnl": 37603.49085,
-=======
-                "position_value": 247545.52623,
-                "size": 10770.81,
-                "unrealised_pnl": 30300.88167,
->>>>>>> Stashed changes
+                "position_value": 914505.93686,
+                "size": 40388.02,
+                "unrealised_pnl": -83719.907795,
                 "direction": "LONG"
             }
         }
     },
     "0x5e45ea5c8f03f428cbda82aa43189bd828624d26": {
         "vault_name": "SMH",
-<<<<<<< Updated upstream
-        "vault_tvl": 1439333.410791,
+        "vault_tvl": 1423508.098356,
         "positions": {
             "PURR": {
                 "leverage": 3.0,
-                "position_value": 214971.28917,
+                "position_value": 196767.40787,
                 "size": 1504453.0,
-                "unrealised_pnl": -130633.402451,
-=======
-        "vault_tvl": 1440571.08422,
-        "positions": {
-            "PURR": {
-                "leverage": 3.0,
-                "position_value": 208441.96315,
-                "size": 1504453.0,
-                "unrealised_pnl": -137162.728471,
->>>>>>> Stashed changes
+                "unrealised_pnl": -148837.283751,
                 "direction": "LONG"
             }
         }
     },
     "0x8fc7c0442e582bca195978c5a4fdec2e7c5bb0f7": {
         "vault_name": "Elsewhere",
-<<<<<<< Updated upstream
-        "vault_tvl": 1385264.859856,
+        "vault_tvl": 1412351.28492,
         "positions": {
             "BTC": {
                 "leverage": 50.0,
-                "position_value": 680318.17083,
+                "position_value": 673697.7356,
                 "size": 7.02061,
-                "unrealised_pnl": -7252.343586,
-=======
-        "vault_tvl": 1395650.71091,
-        "positions": {
-            "BTC": {
-                "leverage": 50.0,
-                "position_value": 674217.26074,
-                "size": 7.02061,
-                "unrealised_pnl": -13353.253676,
->>>>>>> Stashed changes
+                "unrealised_pnl": -13872.778816,
                 "direction": "LONG"
             },
             "ETH": {
                 "leverage": 50.0,
-<<<<<<< Updated upstream
-                "position_value": 704526.73018,
+                "position_value": 688613.01418,
                 "size": -265.2286,
-                "unrealised_pnl": 29510.64876,
-=======
-                "position_value": 696357.6893,
-                "size": -265.2286,
-                "unrealised_pnl": 37679.68964,
->>>>>>> Stashed changes
+                "unrealised_pnl": 45424.36476,
                 "direction": "SHORT"
             },
             "SOL": {
                 "leverage": 20.0,
-<<<<<<< Updated upstream
-                "position_value": 308450.57,
-                "size": -1531.0,
-                "unrealised_pnl": -3197.4182,
-=======
-                "position_value": 353381.5467,
+                "position_value": 354681.0708,
                 "size": -1780.17,
-                "unrealised_pnl": 2052.7063,
->>>>>>> Stashed changes
+                "unrealised_pnl": 753.1822,
                 "direction": "SHORT"
             },
             "SUI": {
                 "leverage": 20.0,
-<<<<<<< Updated upstream
-                "position_value": 41522.40606,
+                "position_value": 39929.81716,
                 "size": -13383.1,
-                "unrealised_pnl": 3532.29025,
-=======
-                "position_value": 40540.08652,
-                "size": -13383.1,
-                "unrealised_pnl": 4514.60979,
->>>>>>> Stashed changes
+                "unrealised_pnl": 5124.87915,
                 "direction": "SHORT"
             },
             "XRP": {
                 "leverage": 20.0,
-<<<<<<< Updated upstream
-                "position_value": 53674.956,
+                "position_value": 51174.0426,
                 "size": -21766.0,
-                "unrealised_pnl": -3021.692,
-=======
-                "position_value": 52336.347,
-                "size": -21766.0,
-                "unrealised_pnl": -1683.083,
->>>>>>> Stashed changes
+                "unrealised_pnl": -520.7786,
                 "direction": "SHORT"
             },
             "JTO": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 18402.7448,
+                "position_value": 17667.4098,
                 "size": -7174.0,
-                "unrealised_pnl": 1670.3169,
-=======
-                "position_value": 18132.285,
-                "size": -7174.0,
-                "unrealised_pnl": 1940.7767,
->>>>>>> Stashed changes
+                "unrealised_pnl": 2405.6519,
                 "direction": "SHORT"
             },
             "ONDO": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 70724.8656,
+                "position_value": 68872.8492,
                 "size": -52764.0,
-                "unrealised_pnl": 395.6569,
-=======
-                "position_value": 69885.918,
-                "size": -52764.0,
-                "unrealised_pnl": 1234.6045,
->>>>>>> Stashed changes
+                "unrealised_pnl": 2247.6733,
                 "direction": "SHORT"
             },
             "SCR": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 16615.40826,
+                "position_value": 16295.773736,
                 "size": -29405.2,
-                "unrealised_pnl": 3354.834101,
-=======
-                "position_value": 16472.204936,
-                "size": -29405.2,
-                "unrealised_pnl": 3498.037425,
->>>>>>> Stashed changes
+                "unrealised_pnl": 3674.468625,
                 "direction": "SHORT"
             },
             "GRASS": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 38030.90408,
-                "size": 26692.1,
-                "unrealised_pnl": -2287.426495,
-=======
-                "position_value": 37788.00597,
-                "size": 26692.1,
-                "unrealised_pnl": -2530.324605,
->>>>>>> Stashed changes
+                "position_value": 29803.3008,
+                "size": 21129.6,
+                "unrealised_pnl": -2112.891544,
                 "direction": "LONG"
             },
             "AI16Z": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 28577.709792,
+                "position_value": 29252.13858,
                 "size": -80673.3,
-                "unrealised_pnl": 1720.045526,
-=======
-                "position_value": 27807.279777,
-                "size": -80673.3,
-                "unrealised_pnl": 2490.475541,
->>>>>>> Stashed changes
+                "unrealised_pnl": 1045.616738,
                 "direction": "SHORT"
             },
             "GRIFFAIN": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11753.061,
+                "position_value": 11427.7137,
                 "size": -88170.0,
-                "unrealised_pnl": 3158.43021,
-=======
-                "position_value": 11485.9059,
-                "size": -88170.0,
-                "unrealised_pnl": 3425.58531,
->>>>>>> Stashed changes
+                "unrealised_pnl": 3483.77751,
                 "direction": "SHORT"
             },
             "BERA": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 30227.19232,
+                "position_value": 24623.6224,
                 "size": 5158.4,
-                "unrealised_pnl": -10608.77566,
-=======
-                "position_value": 28734.8672,
-                "size": 5158.4,
-                "unrealised_pnl": -12101.10078,
->>>>>>> Stashed changes
+                "unrealised_pnl": -16212.34558,
+                "direction": "LONG"
+            }
+        }
+    },
+    "0x832fe0bd18360d4da4206ea7c1d22acebb45ef69": {
+        "vault_name": "Joseph",
+        "vault_tvl": 1400936.34363,
+        "positions": {
+            "ETH": {
+                "leverage": 20.0,
+                "position_value": 259630.0,
+                "size": 100.0,
+                "unrealised_pnl": -11870.25401,
+                "direction": "LONG"
+            },
+            "SOL": {
+                "leverage": 20.0,
+                "position_value": 2596049.3824,
+                "size": 13029.76,
+                "unrealised_pnl": 75126.9317,
+                "direction": "LONG"
+            },
+            "JTO": {
+                "leverage": 3.0,
+                "position_value": 261533.8146,
+                "size": 106198.0,
+                "unrealised_pnl": -41828.7635,
+                "direction": "LONG"
+            },
+            "TAO": {
+                "leverage": 5.0,
+                "position_value": 251069.0,
+                "size": 700.0,
+                "unrealised_pnl": -11431.0,
+                "direction": "LONG"
+            },
+            "HYPE": {
+                "leverage": 3.0,
+                "position_value": 243894.22164,
+                "size": 10770.81,
+                "unrealised_pnl": 26649.57708,
                 "direction": "LONG"
             }
         }
     },
     "0xa671357791d0f31eebf135b9a05a0bfac5ba575e": {
         "vault_name": "[A] Ventures | IVA labs",
-<<<<<<< Updated upstream
-        "vault_tvl": 1348005.541777,
+        "vault_tvl": 1252432.022179,
         "positions": {
             "BTC": {
                 "leverage": 15.0,
-                "position_value": 5232762.0,
+                "position_value": 5181840.0,
                 "size": 54.0,
-                "unrealised_pnl": -294248.041799,
-=======
-        "vault_tvl": 1281097.334197,
-        "positions": {
-            "BTC": {
-                "leverage": 15.0,
-                "position_value": 5185836.0,
-                "size": 54.0,
-                "unrealised_pnl": -341174.041799,
->>>>>>> Stashed changes
+                "unrealised_pnl": -345170.041799,
                 "direction": "LONG"
             },
             "ETH": {
                 "leverage": 15.0,
-<<<<<<< Updated upstream
-                "position_value": 634935.389,
+                "position_value": 620593.589,
                 "size": 239.03,
-                "unrealised_pnl": -215950.707785,
-=======
-                "position_value": 627573.265,
-                "size": 239.03,
-                "unrealised_pnl": -223312.831785,
->>>>>>> Stashed changes
+                "unrealised_pnl": -230292.507785,
                 "direction": "LONG"
-            }
-        }
-    },
-    "0x07fd993f0fa3a185f7207adccd29f7a87404689d": {
-        "vault_name": "[ Systemic Strategies ] L/S Grids",
-<<<<<<< Updated upstream
-        "vault_tvl": 1136451.40149,
-        "positions": {
-            "BTC": {
-                "leverage": 20.0,
-                "position_value": 206201.83176,
-                "size": 2.12792,
-                "unrealised_pnl": -3342.178629,
-=======
-        "vault_tvl": 1144487.97039,
-        "positions": {
-            "BTC": {
-                "leverage": 20.0,
-                "position_value": 204352.66928,
-                "size": 2.12792,
-                "unrealised_pnl": -5191.341109,
->>>>>>> Stashed changes
-                "direction": "LONG"
-            },
-            "ETH": {
-                "leverage": 20.0,
-<<<<<<< Updated upstream
-                "position_value": 208084.44806,
-                "size": 78.3362,
-                "unrealised_pnl": -11256.758841,
-=======
-                "position_value": 207784.6955,
-                "size": 79.141,
-                "unrealised_pnl": -13659.614761,
->>>>>>> Stashed changes
-                "direction": "LONG"
-            },
-            "ATOM": {
-                "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 30086.209038,
-                "size": -6352.26,
-                "unrealised_pnl": 134.99088,
-=======
-                "position_value": 28358.189952,
-                "size": -6216.72,
-                "unrealised_pnl": 1218.660366,
->>>>>>> Stashed changes
-                "direction": "SHORT"
-            },
-            "AVAX": {
-                "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 26625.76968,
-                "size": -1055.28,
-                "unrealised_pnl": 1857.164088,
-=======
-                "position_value": 25489.03104,
-                "size": -1031.36,
-                "unrealised_pnl": 2348.280924,
->>>>>>> Stashed changes
-                "direction": "SHORT"
-            },
-            "BNB": {
-                "leverage": 20.0,
-<<<<<<< Updated upstream
-                "position_value": 107753.18814,
-                "size": 168.961,
-                "unrealised_pnl": 6298.066954,
-=======
-                "position_value": 109289.45104,
-                "size": 174.796,
-                "unrealised_pnl": 4171.058504,
->>>>>>> Stashed changes
-                "direction": "LONG"
-            },
-            "APE": {
-                "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 30550.387792,
-                "size": -43821.2,
-                "unrealised_pnl": 445.415465,
-=======
-                "position_value": 29171.225952,
-                "size": -42897.6,
-                "unrealised_pnl": 1171.292503,
->>>>>>> Stashed changes
-                "direction": "SHORT"
-            },
-            "OP": {
-                "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 27851.76004,
-                "size": -25855.7,
-                "unrealised_pnl": 1137.274675,
-=======
-                "position_value": 27084.92391,
-                "size": -25568.7,
-                "unrealised_pnl": 1582.33058,
->>>>>>> Stashed changes
-                "direction": "SHORT"
-            },
-            "ARB": {
-                "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 27819.062128,
-                "size": -60724.4,
-                "unrealised_pnl": 1362.640407,
-=======
-                "position_value": 26707.7741,
-                "size": -59383.6,
-                "unrealised_pnl": 1829.593921,
->>>>>>> Stashed changes
-                "direction": "SHORT"
-            },
-            "DOGE": {
-                "leverage": 20.0,
-<<<<<<< Updated upstream
-                "position_value": 61722.05788,
-                "size": 240782.0,
-                "unrealised_pnl": -2532.355681,
-=======
-                "position_value": 61645.31512,
-                "size": 245932.0,
-                "unrealised_pnl": -3904.838441,
->>>>>>> Stashed changes
-                "direction": "LONG"
-            },
-            "SUI": {
-                "leverage": 20.0,
-<<<<<<< Updated upstream
-                "position_value": 24765.57372,
-                "size": -7982.2,
-                "unrealised_pnl": 2115.618108,
-=======
-                "position_value": 23628.36584,
-                "size": -7800.2,
-                "unrealised_pnl": 2639.915146,
->>>>>>> Stashed changes
-                "direction": "SHORT"
-            },
-            "APT": {
-                "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 28099.567242,
-                "size": -4760.46,
-                "unrealised_pnl": 980.107175,
-=======
-                "position_value": 26971.643358,
-                "size": -4655.34,
-                "unrealised_pnl": 1465.896605,
->>>>>>> Stashed changes
-                "direction": "SHORT"
-            },
-            "AAVE": {
-                "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 104578.7144,
-                "size": 424.22,
-                "unrealised_pnl": -5155.716881,
-=======
-                "position_value": 105367.776,
-                "size": 437.12,
-                "unrealised_pnl": -7485.875281,
->>>>>>> Stashed changes
-                "direction": "LONG"
-            },
-            "WLD": {
-                "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 15610.90308,
-                "size": -12323.1,
-                "unrealised_pnl": 532.085055,
-=======
-                "position_value": 14661.2436,
-                "size": -11958.6,
-                "unrealised_pnl": 1004.257605,
->>>>>>> Stashed changes
-                "direction": "SHORT"
-            },
-            "DOT": {
-                "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 29494.2945,
-                "size": -6171.0,
-                "unrealised_pnl": 622.409348,
-=======
-                "position_value": 28911.52245,
-                "size": -6104.5,
-                "unrealised_pnl": 878.856763,
->>>>>>> Stashed changes
-                "direction": "SHORT"
-            },
-            "BLUR": {
-                "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 32138.77348,
-                "size": -231514.0,
-                "unrealised_pnl": 211.123365,
-=======
-                "position_value": 30514.3254,
-                "size": -226788.0,
-                "unrealised_pnl": 1175.198367,
->>>>>>> Stashed changes
-                "direction": "SHORT"
-            },
-            "TIA": {
-                "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 32638.8032,
-                "size": -10434.4,
-                "unrealised_pnl": -159.413858,
-=======
-                "position_value": 31147.82908,
-                "size": -10223.8,
-                "unrealised_pnl": 680.645792,
->>>>>>> Stashed changes
-                "direction": "SHORT"
-            },
-            "PENDLE": {
-                "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 104018.8834,
-                "size": 32957.0,
-                "unrealised_pnl": 1637.13948,
-=======
-                "position_value": 105067.749,
-                "size": 33695.0,
-                "unrealised_pnl": 391.96898,
->>>>>>> Stashed changes
-                "direction": "LONG"
-            },
-            "NEAR": {
-                "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 31780.19537,
-                "size": -9316.7,
-                "unrealised_pnl": 545.14175,
-=======
-                "position_value": 28423.27632,
-                "size": -8746.7,
-                "unrealised_pnl": 1924.381772,
->>>>>>> Stashed changes
-                "direction": "SHORT"
-            },
-            "MEME": {
-                "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 29192.217755,
-                "size": -6344755.0,
-                "unrealised_pnl": 1416.350493,
-=======
-                "position_value": 27814.9088,
-                "size": -6208685.0,
-                "unrealised_pnl": 2137.226238,
->>>>>>> Stashed changes
-                "direction": "SHORT"
-            },
-            "FIL": {
-                "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 30634.65832,
-                "size": -9138.4,
-                "unrealised_pnl": 410.142533,
-=======
-                "position_value": 29859.6558,
-                "size": -9042.9,
-                "unrealised_pnl": 860.714245,
->>>>>>> Stashed changes
-                "direction": "SHORT"
-            },
-            "kBONK": {
-                "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 15689.457208,
-                "size": -863624.0,
-                "unrealised_pnl": 18.180982,
-=======
-                "position_value": 14414.417616,
-                "size": -828272.0,
-                "unrealised_pnl": 650.236558,
->>>>>>> Stashed changes
-                "direction": "SHORT"
-            },
-            "XAI": {
-                "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 29546.3825,
-                "size": -278083.6,
-                "unrealised_pnl": 311.54352,
-=======
-                "position_value": 27710.403739,
-                "size": -270266.3,
-                "unrealised_pnl": 1307.799021,
->>>>>>> Stashed changes
-                "direction": "SHORT"
-            },
-            "ALT": {
-                "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 30800.635428,
-                "size": -611682.0,
-                "unrealised_pnl": 761.317789,
-=======
-                "position_value": 29521.54048,
-                "size": -598960.0,
-                "unrealised_pnl": 1383.97496,
->>>>>>> Stashed changes
-                "direction": "SHORT"
-            },
-            "ZETA": {
-                "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 32956.018935,
-                "size": -104274.7,
-                "unrealised_pnl": 380.585971,
-=======
-                "position_value": 30996.651327,
-                "size": -101127.7,
-                "unrealised_pnl": 1334.059781,
->>>>>>> Stashed changes
-                "direction": "SHORT"
-            },
-            "DYM": {
-                "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 29722.79191,
-                "size": -51219.7,
-                "unrealised_pnl": 1339.42181,
-=======
-                "position_value": 27830.39167,
-                "size": -49599.7,
-                "unrealised_pnl": 2249.372204,
->>>>>>> Stashed changes
-                "direction": "SHORT"
-            },
-            "W": {
-                "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 32828.784912,
-                "size": -188411.3,
-                "unrealised_pnl": 472.329793,
-=======
-                "position_value": 31601.01406,
-                "size": -184628.5,
-                "unrealised_pnl": 1031.50244,
->>>>>>> Stashed changes
-                "direction": "SHORT"
-            },
-            "STRK": {
-                "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 28611.46998,
-                "size": -117308.2,
-                "unrealised_pnl": 1754.561377,
-=======
-                "position_value": 26918.739744,
-                "size": -113523.7,
-                "unrealised_pnl": 2467.647853,
->>>>>>> Stashed changes
-                "direction": "SHORT"
-            },
-            "PIXEL": {
-                "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 30181.72848,
-                "size": -439480.0,
-                "unrealised_pnl": 917.759213,
-=======
-                "position_value": 26970.90561,
-                "size": -416070.0,
-                "unrealised_pnl": 2471.990182,
->>>>>>> Stashed changes
-                "direction": "SHORT"
-            },
-            "SAGA": {
-                "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 29528.1746,
-                "size": -40751.0,
-                "unrealised_pnl": 1262.64753,
-=======
-                "position_value": 27624.069543,
-                "size": -39433.1,
-                "unrealised_pnl": 2170.96783,
->>>>>>> Stashed changes
-                "direction": "SHORT"
-            },
-            "IO": {
-                "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 28225.08494,
-                "size": -20310.2,
-                "unrealised_pnl": 2045.740308,
-=======
-                "position_value": 26109.3833,
-                "size": -19419.4,
-                "unrealised_pnl": 2833.771556,
->>>>>>> Stashed changes
-                "direction": "SHORT"
-            },
-            "LISTA": {
-                "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 40581.8595,
-                "size": -205218.0,
-                "unrealised_pnl": -2415.385633,
-=======
-                "position_value": 35568.23922,
-                "size": -190602.0,
-                "unrealised_pnl": -94.581312,
->>>>>>> Stashed changes
-                "direction": "SHORT"
-            },
-            "POL": {
-                "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 109485.47722,
-                "size": 350533.0,
-                "unrealised_pnl": -2734.790777,
-=======
-                "position_value": 108685.2591,
-                "size": 354139.0,
-                "unrealised_pnl": -4643.132697,
->>>>>>> Stashed changes
-                "direction": "LONG"
-            },
-            "XLM": {
-                "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 63997.37819,
-                "size": 195001.0,
-                "unrealised_pnl": -2306.101919,
-=======
-                "position_value": 64153.7786,
-                "size": 201046.0,
-                "unrealised_pnl": -4103.244009,
->>>>>>> Stashed changes
-                "direction": "LONG"
-            },
-            "S": {
-                "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 102029.70195,
-                "size": 250755.0,
-                "unrealised_pnl": -9586.620263,
-=======
-                "position_value": 101831.6055,
-                "size": 250755.0,
-                "unrealised_pnl": -9691.056869,
->>>>>>> Stashed changes
-                "direction": "LONG"
-            },
-            "TRUMP": {
-                "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 12380.8564,
-                "size": -728.2,
-                "unrealised_pnl": 1107.406234,
-=======
-                "position_value": 11709.871,
-                "size": -703.0,
-                "unrealised_pnl": 1311.618469,
->>>>>>> Stashed changes
-                "direction": "SHORT"
-            },
-            "MELANIA": {
-                "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 13594.15244,
-                "size": -9348.2,
-                "unrealised_pnl": 1405.255975,
-=======
-                "position_value": 13407.73344,
-                "size": -9244.8,
-                "unrealised_pnl": 1425.767224,
->>>>>>> Stashed changes
-                "direction": "SHORT"
             }
         }
     },
     "0x2bf3248244c6f07da831b01fe082921c87b52018": {
         "vault_name": "BTC VS EVERY OTHER COIN - DCA EDITION",
-<<<<<<< Updated upstream
-        "vault_tvl": 1079492.81556,
+        "vault_tvl": 1170742.519673,
         "positions": {
             "BTC": {
                 "leverage": 50.0,
-                "position_value": 1938409.54202,
-                "size": 20.00402,
-                "unrealised_pnl": 4205.59853,
-=======
-        "vault_tvl": 1111543.913269,
-        "positions": {
-            "BTC": {
-                "leverage": 50.0,
-                "position_value": 1933450.79466,
-                "size": 20.12879,
-                "unrealised_pnl": -12752.90358,
->>>>>>> Stashed changes
+                "position_value": 2094150.4336,
+                "size": 21.82316,
+                "unrealised_pnl": -14095.1273,
                 "direction": "LONG"
             },
             "ETH": {
                 "leverage": 50.0,
-<<<<<<< Updated upstream
-                "position_value": 11865.95773,
-                "size": -4.4671,
-                "unrealised_pnl": 130.73329,
-=======
-                "position_value": 11731.49802,
-                "size": -4.4671,
-                "unrealised_pnl": 265.193,
->>>>>>> Stashed changes
+                "position_value": 12608.15206,
+                "size": -4.8562,
+                "unrealised_pnl": 388.25359,
                 "direction": "SHORT"
             },
             "ATOM": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 12533.954868,
-                "size": -2646.36,
-                "unrealised_pnl": -536.946196,
-=======
-                "position_value": 12075.076044,
-                "size": -2646.36,
-                "unrealised_pnl": -78.067372,
->>>>>>> Stashed changes
+                "position_value": 12840.80425,
+                "size": -2871.25,
+                "unrealised_pnl": 155.795494,
                 "direction": "SHORT"
             },
             "DYDX": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 12257.255716,
-                "size": -16057.4,
-                "unrealised_pnl": -262.410699,
-=======
-                "position_value": 11938.6769,
-                "size": -16057.4,
-                "unrealised_pnl": 56.168117,
->>>>>>> Stashed changes
+                "position_value": 12661.512248,
+                "size": -17452.6,
+                "unrealised_pnl": 332.416142,
                 "direction": "SHORT"
             },
             "SOL": {
                 "leverage": 20.0,
-<<<<<<< Updated upstream
-                "position_value": 12037.235,
-                "size": -59.75,
-                "unrealised_pnl": -48.8631,
-=======
-                "position_value": 11862.765,
-                "size": -59.75,
-                "unrealised_pnl": 125.6069,
->>>>>>> Stashed changes
+                "position_value": 12914.7368,
+                "size": -64.82,
+                "unrealised_pnl": 71.9688,
                 "direction": "SHORT"
             },
             "AVAX": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 11726.18691,
-                "size": -464.79,
-                "unrealised_pnl": 271.15849,
-=======
-                "position_value": 11489.6088,
-                "size": -464.79,
-                "unrealised_pnl": 507.7366,
->>>>>>> Stashed changes
+                "position_value": 12286.5698,
+                "size": -506.6,
+                "unrealised_pnl": 710.32727,
                 "direction": "SHORT"
             },
             "BNB": {
                 "leverage": 20.0,
-<<<<<<< Updated upstream
-                "position_value": 13065.1976,
-                "size": -20.488,
-                "unrealised_pnl": -1068.07072,
-=======
-                "position_value": 12812.78544,
-                "size": -20.488,
-                "unrealised_pnl": -815.65856,
->>>>>>> Stashed changes
+                "position_value": 13292.29774,
+                "size": -22.159,
+                "unrealised_pnl": -295.4784,
                 "direction": "SHORT"
             },
             "APE": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 12171.577008,
-                "size": -17458.8,
-                "unrealised_pnl": -175.195146,
-=======
-                "position_value": 11874.951996,
-                "size": -17458.8,
-                "unrealised_pnl": 121.429866,
->>>>>>> Stashed changes
+                "position_value": 12743.858547,
+                "size": -18962.1,
+                "unrealised_pnl": 251.766825,
                 "direction": "SHORT"
             },
             "OP": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 11851.54672,
-                "size": -11003.2,
-                "unrealised_pnl": 144.904216,
-=======
-                "position_value": 11660.09104,
-                "size": -11003.2,
-                "unrealised_pnl": 336.359896,
->>>>>>> Stashed changes
+                "position_value": 12610.9674,
+                "size": -11966.0,
+                "unrealised_pnl": 384.947756,
                 "direction": "SHORT"
             },
             "LTC": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 12505.9997,
-                "size": -117.97,
-                "unrealised_pnl": -513.68225,
-=======
-                "position_value": 12531.9531,
-                "size": -117.97,
-                "unrealised_pnl": -539.63565,
->>>>>>> Stashed changes
+                "position_value": 13900.0572,
+                "size": -127.22,
+                "unrealised_pnl": -908.18475,
                 "direction": "SHORT"
             },
             "ARB": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 12079.4791,
-                "size": -26367.5,
-                "unrealised_pnl": -81.819254,
-=======
-                "position_value": 11861.419875,
-                "size": -26367.5,
-                "unrealised_pnl": 136.239971,
->>>>>>> Stashed changes
+                "position_value": 12631.498325,
+                "size": -28659.1,
+                "unrealised_pnl": 365.894937,
                 "direction": "SHORT"
             },
             "DOGE": {
                 "leverage": 20.0,
-<<<<<<< Updated upstream
-                "position_value": 11898.48525,
-                "size": -46415.0,
-                "unrealised_pnl": 96.91154,
-=======
-                "position_value": 11636.70465,
-                "size": -46415.0,
-                "unrealised_pnl": 358.69214,
->>>>>>> Stashed changes
+                "position_value": 12332.70104,
+                "size": -50548.0,
+                "unrealised_pnl": 662.63377,
                 "direction": "SHORT"
             },
             "INJ": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 11743.6928,
-                "size": -845.6,
-                "unrealised_pnl": 247.6053,
-=======
-                "position_value": 11410.5264,
-                "size": -845.6,
-                "unrealised_pnl": 580.7717,
->>>>>>> Stashed changes
+                "position_value": 12518.478,
+                "size": -919.8,
+                "unrealised_pnl": 471.7747,
                 "direction": "SHORT"
             },
             "SUI": {
                 "leverage": 20.0,
-<<<<<<< Updated upstream
-                "position_value": 11511.76544,
-                "size": -3710.6,
-                "unrealised_pnl": 486.38521,
-=======
-                "position_value": 11245.71542,
-                "size": -3710.6,
-                "unrealised_pnl": 752.43523,
->>>>>>> Stashed changes
+                "position_value": 12092.82916,
+                "size": -4053.1,
+                "unrealised_pnl": 904.90774,
                 "direction": "SHORT"
             },
             "kPEPE": {
                 "leverage": 20.0,
-<<<<<<< Updated upstream
-                "position_value": 11827.06224,
-                "size": -1218280.0,
-                "unrealised_pnl": 171.343693,
-=======
-                "position_value": 11450.61372,
-                "size": -1218280.0,
-                "unrealised_pnl": 547.792213,
->>>>>>> Stashed changes
+                "position_value": 12287.328696,
+                "size": -1327212.0,
+                "unrealised_pnl": 711.290861,
                 "direction": "SHORT"
             },
             "CRV": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 11873.563452,
-                "size": -23216.4,
-                "unrealised_pnl": 121.327489,
-=======
-                "position_value": 11741.229972,
-                "size": -23216.4,
-                "unrealised_pnl": 253.660969,
->>>>>>> Stashed changes
+                "position_value": 12866.220458,
+                "size": -25209.1,
+                "unrealised_pnl": 129.344642,
                 "direction": "SHORT"
             },
             "LDO": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 10722.87306,
-                "size": -7100.3,
-                "unrealised_pnl": 1274.32623,
-=======
-                "position_value": 10448.09145,
-                "size": -7100.3,
-                "unrealised_pnl": 1549.10784,
->>>>>>> Stashed changes
+                "position_value": 11510.2398,
+                "size": -7783.5,
+                "unrealised_pnl": 1487.57421,
                 "direction": "SHORT"
             },
             "LINK": {
                 "leverage": 20.0,
-<<<<<<< Updated upstream
-                "position_value": 11666.8222,
-                "size": -621.7,
-                "unrealised_pnl": 321.0199,
-=======
-                "position_value": 11397.0044,
-                "size": -621.7,
-                "unrealised_pnl": 590.8377,
->>>>>>> Stashed changes
+                "position_value": 12139.8332,
+                "size": -677.9,
+                "unrealised_pnl": 846.7314,
                 "direction": "SHORT"
             },
             "STX": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11552.293467,
-                "size": -12587.9,
-                "unrealised_pnl": 444.591079,
-=======
-                "position_value": 11321.179623,
-                "size": -12587.9,
-                "unrealised_pnl": 675.704923,
->>>>>>> Stashed changes
+                "position_value": 12103.684056,
+                "size": -13727.2,
+                "unrealised_pnl": 893.141314,
                 "direction": "SHORT"
             },
             "CFX": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11810.54844,
-                "size": -105489.0,
-                "unrealised_pnl": 184.73146,
-=======
-                "position_value": 11491.97166,
-                "size": -105489.0,
-                "unrealised_pnl": 503.30824,
->>>>>>> Stashed changes
+                "position_value": 12333.93428,
+                "size": -114916.0,
+                "unrealised_pnl": 660.9847,
                 "direction": "SHORT"
             },
             "GMX": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 16778.20464,
-                "size": -704.02,
-                "unrealised_pnl": -4780.91841,
-=======
-                "position_value": 16131.21026,
-                "size": -704.02,
-                "unrealised_pnl": -4133.92403,
->>>>>>> Stashed changes
+                "position_value": 17135.35228,
+                "size": -748.04,
+                "unrealised_pnl": -4137.97567,
                 "direction": "SHORT"
             },
             "SNX": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 10649.87326,
-                "size": -10891.0,
-                "unrealised_pnl": 1340.867484,
-=======
-                "position_value": 10417.2415,
-                "size": -10891.0,
-                "unrealised_pnl": 1573.499244,
->>>>>>> Stashed changes
+                "position_value": 11284.078806,
+                "size": -11957.4,
+                "unrealised_pnl": 1706.134674,
                 "direction": "SHORT"
             },
             "XRP": {
                 "leverage": 20.0,
-<<<<<<< Updated upstream
-                "position_value": 12116.9412,
-                "size": -4914.0,
-                "unrealised_pnl": -122.1008,
-=======
-                "position_value": 11817.1872,
-                "size": -4914.0,
-                "unrealised_pnl": 177.6532,
->>>>>>> Stashed changes
+                "position_value": 12557.2251,
+                "size": -5341.0,
+                "unrealised_pnl": 437.265,
                 "direction": "SHORT"
             },
             "BCH": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 11925.53364,
-                "size": -36.668,
-                "unrealised_pnl": 72.79114,
-=======
-                "position_value": 11890.69904,
-                "size": -36.668,
-                "unrealised_pnl": 107.62574,
->>>>>>> Stashed changes
+                "position_value": 12711.5016,
+                "size": -39.823,
+                "unrealised_pnl": 286.73733,
                 "direction": "SHORT"
             },
             "APT": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 11983.555032,
-                "size": -2030.01,
-                "unrealised_pnl": 13.527296,
-=======
-                "position_value": 11763.501948,
-                "size": -2030.01,
-                "unrealised_pnl": 233.58038,
->>>>>>> Stashed changes
+                "position_value": 12723.606704,
+                "size": -2206.24,
+                "unrealised_pnl": 273.753218,
                 "direction": "SHORT"
             },
             "AAVE": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 11860.0772,
-                "size": -48.11,
-                "unrealised_pnl": 122.498,
-=======
-                "position_value": 11600.7643,
-                "size": -48.11,
-                "unrealised_pnl": 381.8109,
->>>>>>> Stashed changes
+                "position_value": 12486.2892,
+                "size": -52.36,
+                "unrealised_pnl": 495.546,
                 "direction": "SHORT"
             },
             "COMP": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 12023.9232,
-                "size": -230.52,
-                "unrealised_pnl": -29.27097,
-=======
-                "position_value": 11770.12068,
-                "size": -230.52,
-                "unrealised_pnl": 224.53155,
->>>>>>> Stashed changes
+                "position_value": 12507.62874,
+                "size": -250.86,
+                "unrealised_pnl": 485.96157,
                 "direction": "SHORT"
             },
             "MKR": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 11628.427602,
-                "size": -12.8579,
-                "unrealised_pnl": 368.478325,
-=======
-                "position_value": 11565.295313,
-                "size": -12.8579,
-                "unrealised_pnl": 431.610614,
->>>>>>> Stashed changes
+                "position_value": 12507.0779,
+                "size": -13.9822,
+                "unrealised_pnl": 489.645531,
                 "direction": "SHORT"
             },
             "WLD": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 11997.2294,
-                "size": -9470.5,
-                "unrealised_pnl": -2.03221,
-=======
-                "position_value": 11611.78005,
-                "size": -9470.5,
-                "unrealised_pnl": 383.41714,
->>>>>>> Stashed changes
+                "position_value": 12295.0885,
+                "size": -10319.0,
+                "unrealised_pnl": 700.32049,
                 "direction": "SHORT"
             },
             "FXS": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11793.7317,
-                "size": -6894.5,
-                "unrealised_pnl": 202.37473,
-=======
-                "position_value": 11560.6976,
-                "size": -6894.5,
-                "unrealised_pnl": 435.40883,
->>>>>>> Stashed changes
+                "position_value": 12387.25782,
+                "size": -7504.7,
+                "unrealised_pnl": 608.87193,
                 "direction": "SHORT"
             },
             "YGG": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 12499.77105,
-                "size": -52377.0,
-                "unrealised_pnl": -508.14476,
-=======
-                "position_value": 12123.18042,
-                "size": -52377.0,
-                "unrealised_pnl": -131.55413,
->>>>>>> Stashed changes
+                "position_value": 12882.56904,
+                "size": -56824.0,
+                "unrealised_pnl": 108.65391,
                 "direction": "SHORT"
             },
             "TRX": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 12542.92656,
-                "size": -53094.0,
-                "unrealised_pnl": -546.49985,
-=======
-                "position_value": 12540.8028,
-                "size": -53094.0,
-                "unrealised_pnl": -544.37609,
->>>>>>> Stashed changes
+                "position_value": 13166.71866,
+                "size": -57474.0,
+                "unrealised_pnl": -170.63854,
                 "direction": "SHORT"
             },
             "kSHIB": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 12809.677167,
-                "size": -785051.0,
-                "unrealised_pnl": -810.41058,
-=======
-                "position_value": 12427.35733,
-                "size": -785051.0,
-                "unrealised_pnl": -428.090743,
->>>>>>> Stashed changes
+                "position_value": 13127.692018,
+                "size": -850129.0,
+                "unrealised_pnl": -128.241649,
                 "direction": "SHORT"
             },
             "UNI": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 12113.94219,
-                "size": -1308.3,
-                "unrealised_pnl": -121.43176,
-=======
-                "position_value": 11859.87033,
-                "size": -1308.3,
-                "unrealised_pnl": 132.6401,
->>>>>>> Stashed changes
+                "position_value": 12784.3102,
+                "size": -1420.4,
+                "unrealised_pnl": 207.30269,
                 "direction": "SHORT"
             },
             "SEI": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 11759.9883,
-                "size": -51215.0,
-                "unrealised_pnl": 238.1206,
-=======
-                "position_value": 11577.15075,
-                "size": -51215.0,
-                "unrealised_pnl": 420.95815,
->>>>>>> Stashed changes
+                "position_value": 12221.08857,
+                "size": -55827.0,
+                "unrealised_pnl": 776.71745,
                 "direction": "SHORT"
             },
             "RUNE": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 11916.41568,
-                "size": -9557.6,
-                "unrealised_pnl": 81.54607,
-=======
-                "position_value": 11709.01576,
-                "size": -9557.6,
-                "unrealised_pnl": 288.94599,
->>>>>>> Stashed changes
+                "position_value": 12891.40504,
+                "size": -10361.2,
+                "unrealised_pnl": 106.47619,
                 "direction": "SHORT"
             },
             "CYBER": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 12087.92968,
-                "size": -6807.8,
-                "unrealised_pnl": -93.98116,
-=======
-                "position_value": 11554.87894,
-                "size": -6807.8,
-                "unrealised_pnl": 439.06958,
->>>>>>> Stashed changes
+                "position_value": 12068.1249,
+                "size": -7433.4,
+                "unrealised_pnl": 924.48304,
                 "direction": "SHORT"
             },
             "ZRO": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 12267.93217,
-                "size": -4366.9,
-                "unrealised_pnl": -267.89023,
-=======
-                "position_value": 11859.62702,
-                "size": -4366.9,
-                "unrealised_pnl": 140.41492,
->>>>>>> Stashed changes
+                "position_value": 12813.5086,
+                "size": -4739.6,
+                "unrealised_pnl": 186.37563,
                 "direction": "SHORT"
             },
             "DOT": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 12073.74756,
-                "size": -2526.1,
-                "unrealised_pnl": -76.12768,
-=======
-                "position_value": 11967.39875,
-                "size": -2526.1,
-                "unrealised_pnl": 30.22113,
->>>>>>> Stashed changes
+                "position_value": 12787.23496,
+                "size": -2743.1,
+                "unrealised_pnl": 209.7252,
                 "direction": "SHORT"
             },
             "BANANA": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 10308.1979,
-                "size": -482.3,
-                "unrealised_pnl": 1676.6855,
-=======
-                "position_value": 9937.7915,
-                "size": -482.3,
-                "unrealised_pnl": 2047.0919,
->>>>>>> Stashed changes
+                "position_value": 10490.576,
+                "size": -533.6,
+                "unrealised_pnl": 2492.6254,
                 "direction": "SHORT"
             },
             "TRB": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 12372.566,
-                "size": -353.3,
-                "unrealised_pnl": -376.3817,
-=======
-                "position_value": 12078.6204,
-                "size": -353.3,
-                "unrealised_pnl": -82.4361,
->>>>>>> Stashed changes
+                "position_value": 12726.22992,
+                "size": -383.69,
+                "unrealised_pnl": 269.54226,
                 "direction": "SHORT"
             },
             "FTT": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 12266.5377,
-                "size": -6319.7,
-                "unrealised_pnl": -279.11638,
-=======
-                "position_value": 12126.24036,
-                "size": -6319.7,
-                "unrealised_pnl": -138.81904,
->>>>>>> Stashed changes
+                "position_value": 13049.54182,
+                "size": -6846.2,
+                "unrealised_pnl": -62.66555,
                 "direction": "SHORT"
             },
             "OGN": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 12755.136084,
-                "size": -164436.0,
-                "unrealised_pnl": -765.378326,
-=======
-                "position_value": 12398.4744,
-                "size": -164436.0,
-                "unrealised_pnl": -408.716642,
->>>>>>> Stashed changes
+                "position_value": 13085.945762,
+                "size": -178154.0,
+                "unrealised_pnl": -97.31273,
                 "direction": "SHORT"
             },
             "RDNT": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 12249.308054,
-                "size": -379447.0,
-                "unrealised_pnl": -249.224771,
-=======
-                "position_value": 11864.169349,
-                "size": -379447.0,
-                "unrealised_pnl": 135.913934,
->>>>>>> Stashed changes
+                "position_value": 12349.368174,
+                "size": -413202.0,
+                "unrealised_pnl": 649.998129,
                 "direction": "SHORT"
             },
             "ARK": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 12696.16033,
-                "size": -30967.0,
-                "unrealised_pnl": -701.99453,
-=======
-                "position_value": 12405.68987,
-                "size": -30967.0,
-                "unrealised_pnl": -411.52407,
->>>>>>> Stashed changes
+                "position_value": 13130.63068,
+                "size": -33541.0,
+                "unrealised_pnl": -136.74902,
                 "direction": "SHORT"
             },
             "REQ": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 12499.239324,
-                "size": -131836.0,
-                "unrealised_pnl": -525.175353,
-=======
-                "position_value": 12267.471636,
-                "size": -131836.0,
-                "unrealised_pnl": -293.407665,
->>>>>>> Stashed changes
+                "position_value": 13028.258473,
+                "size": -142777.0,
+                "unrealised_pnl": -54.394126,
                 "direction": "SHORT"
             },
             "BIGTIME": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 12612.845375,
-                "size": -189311.0,
-                "unrealised_pnl": -616.581793,
-=======
-                "position_value": 12263.945202,
-                "size": -189311.0,
-                "unrealised_pnl": -267.68162,
->>>>>>> Stashed changes
+                "position_value": 12695.514916,
+                "size": -205652.0,
+                "unrealised_pnl": 300.70002,
                 "direction": "SHORT"
             },
             "KAS": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 10861.219041,
-                "size": -124511.0,
-                "unrealised_pnl": 1135.914397,
-=======
-                "position_value": 10975.022095,
-                "size": -124511.0,
-                "unrealised_pnl": 1022.111343,
->>>>>>> Stashed changes
+                "position_value": 11583.85542,
+                "size": -136340.0,
+                "unrealised_pnl": 1413.195217,
                 "direction": "SHORT"
             },
             "ORBS": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 12442.74261,
-                "size": -554045.0,
-                "unrealised_pnl": -453.363586,
-=======
-                "position_value": 12159.625615,
-                "size": -554045.0,
-                "unrealised_pnl": -170.246591,
->>>>>>> Stashed changes
+                "position_value": 12978.784725,
+                "size": -600675.0,
+                "unrealised_pnl": 9.502159,
                 "direction": "SHORT"
             },
             "BLUR": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 12360.61407,
-                "size": -89047.0,
-                "unrealised_pnl": -362.38707,
-=======
-                "position_value": 11982.16432,
-                "size": -89047.0,
-                "unrealised_pnl": 16.06268,
->>>>>>> Stashed changes
+                "position_value": 12767.3863,
+                "size": -96686.0,
+                "unrealised_pnl": 230.86219,
                 "direction": "SHORT"
             },
             "TIA": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 12232.27707,
-                "size": -3911.7,
-                "unrealised_pnl": -232.47781,
-=======
-                "position_value": 11919.34107,
-                "size": -3911.7,
-                "unrealised_pnl": 80.45819,
->>>>>>> Stashed changes
+                "position_value": 12968.52391,
+                "size": -4242.1,
+                "unrealised_pnl": 30.60319,
                 "direction": "SHORT"
             },
             "BSV": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 11960.4168,
-                "size": -299.85,
-                "unrealised_pnl": 32.37569,
-=======
-                "position_value": 11745.7242,
-                "size": -299.85,
-                "unrealised_pnl": 247.06829,
->>>>>>> Stashed changes
+                "position_value": 12540.73528,
+                "size": -326.14,
+                "unrealised_pnl": 451.5281,
                 "direction": "SHORT"
             },
             "ADA": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 11531.01768,
-                "size": -16471.0,
-                "unrealised_pnl": 463.85517,
-=======
-                "position_value": 11255.29314,
-                "size": -16471.0,
-                "unrealised_pnl": 739.57971,
->>>>>>> Stashed changes
+                "position_value": 12037.08912,
+                "size": -17976.0,
+                "unrealised_pnl": 957.72078,
                 "direction": "SHORT"
             },
             "TON": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 11736.8593,
-                "size": -3105.4,
-                "unrealised_pnl": 258.13178,
-=======
-                "position_value": 11666.9878,
-                "size": -3105.4,
-                "unrealised_pnl": 328.00328,
->>>>>>> Stashed changes
+                "position_value": 12721.3438,
+                "size": -3371.5,
+                "unrealised_pnl": 273.57125,
                 "direction": "SHORT"
             },
             "MINA": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 12402.4402,
-                "size": -34966.0,
-                "unrealised_pnl": -406.67239,
-=======
-                "position_value": 12045.787,
-                "size": -34966.0,
-                "unrealised_pnl": -50.01919,
->>>>>>> Stashed changes
+                "position_value": 12935.5744,
+                "size": -37912.0,
+                "unrealised_pnl": 59.54825,
                 "direction": "SHORT"
             },
             "POLYX": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 12542.04306,
-                "size": -68954.0,
-                "unrealised_pnl": -546.85455,
-=======
-                "position_value": 12174.51824,
-                "size": -68954.0,
-                "unrealised_pnl": -179.32973,
->>>>>>> Stashed changes
+                "position_value": 13109.00675,
+                "size": -74725.0,
+                "unrealised_pnl": -113.81936,
                 "direction": "SHORT"
             },
             "GAS": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 12640.3398,
-                "size": -3179.0,
-                "unrealised_pnl": -646.59729,
-=======
-                "position_value": 12294.7825,
-                "size": -3179.0,
-                "unrealised_pnl": -301.03999,
->>>>>>> Stashed changes
+                "position_value": 13062.887,
+                "size": -3444.4,
+                "unrealised_pnl": -69.72771,
                 "direction": "SHORT"
             },
             "PENDLE": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 13335.9882,
-                "size": -4226.0,
-                "unrealised_pnl": -1353.8732,
-=======
-                "position_value": 13170.7516,
-                "size": -4226.0,
-                "unrealised_pnl": -1188.6366,
->>>>>>> Stashed changes
+                "position_value": 14295.3516,
+                "size": -4546.0,
+                "unrealised_pnl": -1314.019,
                 "direction": "SHORT"
             },
             "STG": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 12448.4579,
-                "size": -44827.0,
-                "unrealised_pnl": -455.91624,
-=======
-                "position_value": 12018.1187,
-                "size": -44827.0,
-                "unrealised_pnl": -25.57704,
->>>>>>> Stashed changes
+                "position_value": 12752.85034,
+                "size": -48662.0,
+                "unrealised_pnl": 239.51417,
                 "direction": "SHORT"
             },
             "FET": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 12188.61738,
-                "size": -15858.0,
-                "unrealised_pnl": -197.79301,
-=======
-                "position_value": 11914.74972,
-                "size": -15858.0,
-                "unrealised_pnl": 76.07465,
->>>>>>> Stashed changes
+                "position_value": 12882.82044,
+                "size": -17206.0,
+                "unrealised_pnl": 107.39765,
                 "direction": "SHORT"
             },
             "NEAR": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 12032.65525,
-                "size": -3527.5,
-                "unrealised_pnl": -35.92967,
-=======
-                "position_value": 11468.96075,
-                "size": -3527.5,
-                "unrealised_pnl": 527.76483,
->>>>>>> Stashed changes
+                "position_value": 11937.9678,
+                "size": -3852.2,
+                "unrealised_pnl": 1058.28503,
                 "direction": "SHORT"
             },
             "MEME": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11666.0416,
-                "size": -2536096.0,
-                "unrealised_pnl": 330.58546,
-=======
-                "position_value": 11361.71008,
-                "size": -2536096.0,
-                "unrealised_pnl": 634.91698,
->>>>>>> Stashed changes
+                "position_value": 11867.023741,
+                "size": -2770727.0,
+                "unrealised_pnl": 1129.131379,
                 "direction": "SHORT"
             },
             "ORDI": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11995.45875,
-                "size": -969.33,
-                "unrealised_pnl": 2.75972,
-=======
-                "position_value": 11658.13191,
-                "size": -969.33,
-                "unrealised_pnl": 340.08656,
->>>>>>> Stashed changes
+                "position_value": 12448.86016,
+                "size": -1054.72,
+                "unrealised_pnl": 549.3606,
                 "direction": "SHORT"
             },
             "NEO": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 12308.70825,
-                "size": -1122.75,
-                "unrealised_pnl": -309.929299,
-=======
-                "position_value": 11932.587,
-                "size": -1122.75,
-                "unrealised_pnl": 66.191951,
->>>>>>> Stashed changes
+                "position_value": 12600.217,
+                "size": -1220.36,
+                "unrealised_pnl": 397.893131,
                 "direction": "SHORT"
             },
             "ZEN": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11478.76995,
-                "size": -973.85,
-                "unrealised_pnl": 517.6178,
-=======
-                "position_value": 11154.4779,
-                "size": -973.85,
-                "unrealised_pnl": 841.90985,
->>>>>>> Stashed changes
+                "position_value": 11548.2456,
+                "size": -1066.32,
+                "unrealised_pnl": 1447.18803,
                 "direction": "SHORT"
             },
             "FIL": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 12255.67357,
-                "size": -3655.9,
-                "unrealised_pnl": -260.9309,
-=======
-                "position_value": 12075.07211,
-                "size": -3655.9,
-                "unrealised_pnl": -80.32944,
->>>>>>> Stashed changes
+                "position_value": 12832.32104,
+                "size": -3968.8,
+                "unrealised_pnl": 161.66778,
                 "direction": "SHORT"
             },
             "PYTH": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11913.93648,
-                "size": -60391.0,
-                "unrealised_pnl": 85.91979,
-=======
-                "position_value": 11598.09155,
-                "size": -60391.0,
-                "unrealised_pnl": 401.76472,
->>>>>>> Stashed changes
+                "position_value": 12528.333,
+                "size": -65700.0,
+                "unrealised_pnl": 471.89814,
                 "direction": "SHORT"
             },
             "SUSHI": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11976.732807,
-                "size": -13833.3,
-                "unrealised_pnl": 17.649345,
-=======
-                "position_value": 11691.628494,
-                "size": -13833.3,
-                "unrealised_pnl": 302.753658,
->>>>>>> Stashed changes
+                "position_value": 12373.84375,
+                "size": -15062.5,
+                "unrealised_pnl": 620.491862,
                 "direction": "SHORT"
             },
             "ILV": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 12168.111,
-                "size": -545.9,
-                "unrealised_pnl": -174.12091,
-=======
-                "position_value": 11836.2038,
-                "size": -545.9,
-                "unrealised_pnl": 157.78629,
->>>>>>> Stashed changes
+                "position_value": 12497.88144,
+                "size": -593.78,
+                "unrealised_pnl": 495.8376,
                 "direction": "SHORT"
             },
             "IMX": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 12548.280168,
-                "size": -14983.2,
-                "unrealised_pnl": -551.049397,
-=======
-                "position_value": 12080.055168,
-                "size": -14983.2,
-                "unrealised_pnl": -82.824397,
->>>>>>> Stashed changes
+                "position_value": 12888.140013,
+                "size": -16248.9,
+                "unrealised_pnl": 108.384084,
                 "direction": "SHORT"
             },
             "kBONK": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 12242.70321,
-                "size": -673935.0,
-                "unrealised_pnl": -243.323536,
-=======
-                "position_value": 11729.838675,
-                "size": -673935.0,
-                "unrealised_pnl": 269.540999,
->>>>>>> Stashed changes
+                "position_value": 12269.290046,
+                "size": -733897.0,
+                "unrealised_pnl": 730.135864,
                 "direction": "SHORT"
             },
             "GMT": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 12955.473124,
-                "size": -180806.0,
-                "unrealised_pnl": -954.626038,
-=======
-                "position_value": 12561.316044,
-                "size": -180806.0,
-                "unrealised_pnl": -560.468958,
->>>>>>> Stashed changes
+                "position_value": 13157.410224,
+                "size": -195856.0,
+                "unrealised_pnl": -156.174588,
                 "direction": "SHORT"
             },
             "SUPER": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 11888.679,
-                "size": -17265.0,
-                "unrealised_pnl": 101.59042,
-=======
-                "position_value": 11434.2642,
-                "size": -17265.0,
-                "unrealised_pnl": 556.00522,
->>>>>>> Stashed changes
+                "position_value": 12129.92835,
+                "size": -18835.0,
+                "unrealised_pnl": 859.34806,
                 "direction": "SHORT"
             },
             "USTC": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 13523.695479,
-                "size": -1075101.0,
-                "unrealised_pnl": -1532.61051,
-=======
-                "position_value": 14044.044363,
-                "size": -1075101.0,
-                "unrealised_pnl": -2052.959394,
->>>>>>> Stashed changes
+                "position_value": 14811.707437,
+                "size": -1154189.0,
+                "unrealised_pnl": -1820.712884,
                 "direction": "SHORT"
             },
             "JUP": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 11371.482,
-                "size": -13586.0,
-                "unrealised_pnl": 620.79266,
-=======
-                "position_value": 11196.2226,
-                "size": -13586.0,
-                "unrealised_pnl": 796.05206,
->>>>>>> Stashed changes
+                "position_value": 12022.4034,
+                "size": -14826.0,
+                "unrealised_pnl": 969.31126,
                 "direction": "SHORT"
             },
             "kLUNC": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 13413.47199,
-                "size": -192363.0,
-                "unrealised_pnl": -1419.978883,
-=======
-                "position_value": 13320.560661,
-                "size": -192363.0,
-                "unrealised_pnl": -1327.067554,
->>>>>>> Stashed changes
+                "position_value": 14011.9853,
+                "size": -207140.0,
+                "unrealised_pnl": -1018.706724,
                 "direction": "SHORT"
             },
             "RSR": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 12191.6184,
-                "size": -1377584.0,
-                "unrealised_pnl": -196.609218,
-=======
-                "position_value": 11821.048304,
-                "size": -1377584.0,
-                "unrealised_pnl": 173.960878,
->>>>>>> Stashed changes
+                "position_value": 12636.357048,
+                "size": -1496844.0,
+                "unrealised_pnl": 358.408714,
                 "direction": "SHORT"
             },
             "GALA": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 12134.307896,
-                "size": -543457.0,
-                "unrealised_pnl": -139.765894,
-=======
-                "position_value": 11831.05889,
-                "size": -543457.0,
-                "unrealised_pnl": 163.483112,
->>>>>>> Stashed changes
+                "position_value": 12589.486685,
+                "size": -590917.0,
+                "unrealised_pnl": 404.847677,
                 "direction": "SHORT"
             },
             "JTO": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11356.1404,
-                "size": -4427.0,
-                "unrealised_pnl": 633.1846,
-=======
-                "position_value": 11192.3414,
-                "size": -4427.0,
-                "unrealised_pnl": 796.9836,
->>>>>>> Stashed changes
+                "position_value": 11909.6172,
+                "size": -4836.0,
+                "unrealised_pnl": 1078.7721,
                 "direction": "SHORT"
             },
             "NTRN": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 12289.28246,
-                "size": -62111.0,
-                "unrealised_pnl": -296.51601,
-=======
-                "position_value": 11931.5231,
-                "size": -62111.0,
-                "unrealised_pnl": 61.24335,
->>>>>>> Stashed changes
+                "position_value": 12609.7472,
+                "size": -67504.0,
+                "unrealised_pnl": 382.55787,
                 "direction": "SHORT"
             },
             "ACE": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 11977.31832,
-                "size": -12873.3,
-                "unrealised_pnl": 8.026188,
-=======
-                "position_value": 11901.36585,
-                "size": -12873.3,
-                "unrealised_pnl": 83.978658,
->>>>>>> Stashed changes
+                "position_value": 12101.097708,
+                "size": -14035.14,
+                "unrealised_pnl": 883.661568,
                 "direction": "SHORT"
             },
             "MAV": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 12393.637188,
-                "size": -135222.0,
-                "unrealised_pnl": -395.969278,
-=======
-                "position_value": 11873.302932,
-                "size": -135222.0,
-                "unrealised_pnl": 124.364978,
->>>>>>> Stashed changes
+                "position_value": 12524.0592,
+                "size": -146996.0,
+                "unrealised_pnl": 472.723804,
                 "direction": "SHORT"
             },
             "WIF": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 11003.6736,
-                "size": -15648.0,
-                "unrealised_pnl": 989.31018,
-=======
-                "position_value": 10693.8432,
-                "size": -15648.0,
-                "unrealised_pnl": 1299.14058,
->>>>>>> Stashed changes
+                "position_value": 10794.96124,
+                "size": -17246.0,
+                "unrealised_pnl": 2197.39953,
                 "direction": "SHORT"
             },
             "CAKE": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 15924.91768,
-                "size": -8168.3,
-                "unrealised_pnl": -3929.34732,
-=======
-                "position_value": 14689.87072,
-                "size": -8168.3,
-                "unrealised_pnl": -2694.30036,
->>>>>>> Stashed changes
+                "position_value": 14370.174,
+                "size": -8773.0,
+                "unrealised_pnl": -1374.79266,
                 "direction": "SHORT"
             },
             "PEOPLE": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 12250.984178,
-                "size": -615071.0,
-                "unrealised_pnl": -254.479682,
-=======
-                "position_value": 11895.47314,
-                "size": -615071.0,
-                "unrealised_pnl": 101.031356,
->>>>>>> Stashed changes
+                "position_value": 12497.876073,
+                "size": -669087.0,
+                "unrealised_pnl": 498.194503,
                 "direction": "SHORT"
             },
             "ENS": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11595.96846,
-                "size": -457.02,
-                "unrealised_pnl": 402.29471,
-=======
-                "position_value": 11386.19628,
-                "size": -457.02,
-                "unrealised_pnl": 612.06689,
->>>>>>> Stashed changes
+                "position_value": 12139.36724,
+                "size": -498.68,
+                "unrealised_pnl": 858.48597,
                 "direction": "SHORT"
             },
             "ETC": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11960.3423,
-                "size": -588.31,
-                "unrealised_pnl": 36.49302,
-=======
-                "position_value": 11808.55832,
-                "size": -588.31,
-                "unrealised_pnl": 188.277,
->>>>>>> Stashed changes
+                "position_value": 12693.82934,
+                "size": -639.23,
+                "unrealised_pnl": 302.86242,
                 "direction": "SHORT"
             },
             "XAI": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 12014.356875,
-                "size": -113076.3,
-                "unrealised_pnl": -36.240598,
-=======
-                "position_value": 11595.974565,
-                "size": -113076.3,
-                "unrealised_pnl": 382.141712,
->>>>>>> Stashed changes
+                "position_value": 12232.691525,
+                "size": -123251.3,
+                "unrealised_pnl": 745.380144,
                 "direction": "SHORT"
             },
             "MANTA": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 11644.063927,
-                "size": -29078.9,
-                "unrealised_pnl": 352.810106,
-=======
-                "position_value": 11434.695847,
-                "size": -29078.9,
-                "unrealised_pnl": 562.178186,
->>>>>>> Stashed changes
+                "position_value": 12140.026225,
+                "size": -31717.9,
+                "unrealised_pnl": 857.129596,
                 "direction": "SHORT"
             },
             "UMA": {
                 "leverage": 3.0,
-                "position_value": 12737.32326,
-                "size": -7262.7,
-                "unrealised_pnl": -741.78269,
+                "position_value": 12791.55872,
+                "size": -7882.4,
+                "unrealised_pnl": 203.2705,
                 "direction": "SHORT"
             },
             "ONDO": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 12419.3184,
-                "size": -9264.0,
-                "unrealised_pnl": -425.4801,
-=======
-                "position_value": 12274.8,
-                "size": -9264.0,
-                "unrealised_pnl": -280.9617,
->>>>>>> Stashed changes
+                "position_value": 13101.2961,
+                "size": -10037.0,
+                "unrealised_pnl": -108.3553,
                 "direction": "SHORT"
             },
             "ALT": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 12033.548566,
-                "size": -238979.0,
-                "unrealised_pnl": -40.190394,
-=======
-                "position_value": 11781.425721,
-                "size": -238979.0,
-                "unrealised_pnl": 211.932451,
->>>>>>> Stashed changes
+                "position_value": 12235.958259,
+                "size": -260467.0,
+                "unrealised_pnl": 756.727585,
                 "direction": "SHORT"
             },
             "ZETA": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 12201.394695,
-                "size": -38605.9,
-                "unrealised_pnl": -204.121106,
-=======
-                "position_value": 11828.075642,
-                "size": -38605.9,
-                "unrealised_pnl": 169.197947,
->>>>>>> Stashed changes
+                "position_value": 12498.723033,
+                "size": -41985.7,
+                "unrealised_pnl": 498.295396,
                 "direction": "SHORT"
             },
             "DYM": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 11557.71904,
-                "size": -19916.8,
-                "unrealised_pnl": 436.664756,
-=======
-                "position_value": 11175.31648,
-                "size": -19916.8,
-                "unrealised_pnl": 819.067316,
->>>>>>> Stashed changes
+                "position_value": 11579.76786,
+                "size": -21819.8,
+                "unrealised_pnl": 1413.525742,
                 "direction": "SHORT"
             },
             "MAVIA": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 11987.378533,
-                "size": -40184.3,
-                "unrealised_pnl": 5.73236,
-=======
-                "position_value": 12243.352524,
-                "size": -40184.3,
-                "unrealised_pnl": -250.241631,
->>>>>>> Stashed changes
+                "position_value": 12420.365012,
+                "size": -43730.6,
+                "unrealised_pnl": 572.222539,
                 "direction": "SHORT"
             },
             "W": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11778.292944,
-                "size": -67598.1,
-                "unrealised_pnl": 220.543271,
-=======
-                "position_value": 11572.118739,
-                "size": -67598.1,
-                "unrealised_pnl": 426.717476,
->>>>>>> Stashed changes
+                "position_value": 12329.23853,
+                "size": -73603.0,
+                "unrealised_pnl": 669.11329,
                 "direction": "SHORT"
             },
             "STRK": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11984.58747,
-                "size": -49137.3,
-                "unrealised_pnl": 11.66385,
-=======
-                "position_value": 11651.436576,
-                "size": -49137.3,
-                "unrealised_pnl": 344.814744,
->>>>>>> Stashed changes
+                "position_value": 12290.300832,
+                "size": -53515.2,
+                "unrealised_pnl": 705.512616,
                 "direction": "SHORT"
             },
             "PIXEL": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 11670.730764,
-                "size": -169939.0,
-                "unrealised_pnl": 324.936488,
-=======
-                "position_value": 11020.54415,
-                "size": -169939.0,
-                "unrealised_pnl": 975.123102,
->>>>>>> Stashed changes
+                "position_value": 11696.681988,
+                "size": -186084.0,
+                "unrealised_pnl": 1298.138744,
                 "direction": "SHORT"
             },
             "AI": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 11670.207198,
-                "size": -39718.9,
-                "unrealised_pnl": 326.685342,
-=======
-                "position_value": 11243.229023,
-                "size": -39718.9,
-                "unrealised_pnl": 753.663517,
->>>>>>> Stashed changes
+                "position_value": 11985.158178,
+                "size": -43389.9,
+                "unrealised_pnl": 1011.538596,
                 "direction": "SHORT"
             },
             "TAO": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 12665.7069,
-                "size": -35.385,
-                "unrealised_pnl": -669.69974,
-=======
-                "position_value": 12649.4298,
-                "size": -35.385,
-                "unrealised_pnl": -653.42264,
->>>>>>> Stashed changes
+                "position_value": 13701.194,
+                "size": -38.2,
+                "unrealised_pnl": -706.03074,
                 "direction": "SHORT"
             },
             "AR": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 10809.64719,
-                "size": -1146.9,
-                "unrealised_pnl": 1189.754881,
-=======
-                "position_value": 10433.92275,
-                "size": -1146.9,
-                "unrealised_pnl": 1565.479321,
->>>>>>> Stashed changes
+                "position_value": 11001.255219,
+                "size": -1263.51,
+                "unrealised_pnl": 1998.229195,
                 "direction": "SHORT"
             },
             "MYRO": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 11633.794875,
-                "size": -608303.0,
-                "unrealised_pnl": 361.136366,
-=======
-                "position_value": 11314.4358,
-                "size": -608303.0,
-                "unrealised_pnl": 680.495441,
->>>>>>> Stashed changes
+                "position_value": 11684.6847,
+                "size": -665794.0,
+                "unrealised_pnl": 1309.74449,
                 "direction": "SHORT"
             },
             "kFLOKI": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 12960.75417,
-                "size": -129207.0,
-                "unrealised_pnl": -963.170864,
-=======
-                "position_value": 12191.97252,
-                "size": -129207.0,
-                "unrealised_pnl": -194.389214,
->>>>>>> Stashed changes
+                "position_value": 12801.614752,
+                "size": -140264.0,
+                "unrealised_pnl": 195.644346,
                 "direction": "SHORT"
             },
             "BOME": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 12028.759605,
-                "size": -5581791.0,
-                "unrealised_pnl": -35.69635,
-=======
-                "position_value": 11638.034235,
-                "size": -5581791.0,
-                "unrealised_pnl": 355.02902,
->>>>>>> Stashed changes
+                "position_value": 12115.86824,
+                "size": -6088376.0,
+                "unrealised_pnl": 876.68722,
                 "direction": "SHORT"
             },
             "ETHFI": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 12565.5885,
-                "size": -10855.8,
-                "unrealised_pnl": -570.383562,
-=======
-                "position_value": 12141.12672,
-                "size": -10855.8,
-                "unrealised_pnl": -145.921782,
->>>>>>> Stashed changes
+                "position_value": 12892.79,
+                "size": -11785.0,
+                "unrealised_pnl": 102.340478,
                 "direction": "SHORT"
             },
             "ENA": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 10673.08646,
-                "size": -21194.0,
-                "unrealised_pnl": 1326.19141,
-=======
-                "position_value": 10360.89884,
-                "size": -21194.0,
-                "unrealised_pnl": 1638.37903,
->>>>>>> Stashed changes
+                "position_value": 11013.49915,
+                "size": -23351.0,
+                "unrealised_pnl": 1985.34515,
                 "direction": "SHORT"
             },
             "MNT": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11561.0196,
-                "size": -11052.6,
-                "unrealised_pnl": 427.507092,
-=======
-                "position_value": 11367.5991,
-                "size": -11052.6,
-                "unrealised_pnl": 620.927592,
->>>>>>> Stashed changes
+                "position_value": 12095.89038,
+                "size": -12050.1,
+                "unrealised_pnl": 892.231062,
                 "direction": "SHORT"
             },
             "TNSR": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 14028.891987,
-                "size": -40448.9,
-                "unrealised_pnl": -2032.488471,
-=======
-                "position_value": 13612.672806,
-                "size": -40448.9,
-                "unrealised_pnl": -1616.26929,
->>>>>>> Stashed changes
+                "position_value": 14443.582025,
+                "size": -43482.5,
+                "unrealised_pnl": -1448.148077,
                 "direction": "SHORT"
             },
             "SAGA": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11528.82076,
-                "size": -15910.6,
-                "unrealised_pnl": 471.787538,
-=======
-                "position_value": 11146.489042,
-                "size": -15910.6,
-                "unrealised_pnl": 854.119256,
->>>>>>> Stashed changes
+                "position_value": 11764.108701,
+                "size": -17403.3,
+                "unrealised_pnl": 1236.354838,
                 "direction": "SHORT"
             },
             "MERL": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 11971.3791,
-                "size": -132794.0,
-                "unrealised_pnl": 18.067371,
-=======
-                "position_value": 11661.039522,
-                "size": -132794.0,
-                "unrealised_pnl": 328.406949,
->>>>>>> Stashed changes
+                "position_value": 12164.544,
+                "size": -144816.0,
+                "unrealised_pnl": 823.906627,
                 "direction": "SHORT"
             },
             "HBAR": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11901.26394,
-                "size": -49601.0,
-                "unrealised_pnl": 95.76764,
-=======
-                "position_value": 11459.81504,
-                "size": -49601.0,
-                "unrealised_pnl": 537.21654,
->>>>>>> Stashed changes
+                "position_value": 12220.66599,
+                "size": -54057.0,
+                "unrealised_pnl": 775.66815,
                 "direction": "SHORT"
             },
             "POPCAT": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 15971.56584,
-                "size": -53481.0,
-                "unrealised_pnl": -3979.41557,
-=======
-                "position_value": 16001.5152,
-                "size": -53481.0,
-                "unrealised_pnl": -4009.36493,
->>>>>>> Stashed changes
+                "position_value": 15921.95025,
+                "size": -57025.0,
+                "unrealised_pnl": -2930.10846,
                 "direction": "SHORT"
             },
             "OMNI": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 11668.3401,
-                "size": -2329.01,
-                "unrealised_pnl": 325.748994,
-=======
-                "position_value": 11487.608924,
-                "size": -2329.01,
-                "unrealised_pnl": 506.48017,
->>>>>>> Stashed changes
+                "position_value": 11977.161872,
+                "size": -2543.84,
+                "unrealised_pnl": 1015.275551,
                 "direction": "SHORT"
             },
             "EIGEN": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11064.043548,
-                "size": -6380.28,
-                "unrealised_pnl": 933.566769,
-=======
-                "position_value": 10668.466188,
-                "size": -6380.28,
-                "unrealised_pnl": 1329.144129,
->>>>>>> Stashed changes
+                "position_value": 11524.411696,
+                "size": -6987.88,
+                "unrealised_pnl": 1472.825179,
                 "direction": "SHORT"
             },
             "REZ": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 11618.324894,
-                "size": -724922.0,
-                "unrealised_pnl": 373.111013,
-=======
-                "position_value": 11229.04178,
-                "size": -724922.0,
-                "unrealised_pnl": 762.394127,
->>>>>>> Stashed changes
+                "position_value": 11739.06216,
+                "size": -792912.0,
+                "unrealised_pnl": 1251.409074,
                 "direction": "SHORT"
             },
             "NOT": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 12036.541692,
-                "size": -4277378.0,
-                "unrealised_pnl": -38.338204,
-=======
-                "position_value": 12070.760716,
-                "size": -4277378.0,
-                "unrealised_pnl": -72.557228,
->>>>>>> Stashed changes
+                "position_value": 12794.07123,
+                "size": -4643946.0,
+                "unrealised_pnl": 203.763194,
                 "direction": "SHORT"
             },
             "TURBO": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 12310.500447,
-                "size": -3101663.0,
-                "unrealised_pnl": -313.605764,
-=======
-                "position_value": 11956.910865,
-                "size": -3101663.0,
-                "unrealised_pnl": 39.983818,
->>>>>>> Stashed changes
+                "position_value": 12618.53424,
+                "size": -3370335.0,
+                "unrealised_pnl": 378.088955,
                 "direction": "SHORT"
             },
             "BRETT": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 10955.936496,
-                "size": -229742.0,
-                "unrealised_pnl": 1038.54304,
-=======
-                "position_value": 10564.226386,
-                "size": -229742.0,
-                "unrealised_pnl": 1430.25315,
->>>>>>> Stashed changes
+                "position_value": 10998.862812,
+                "size": -252987.0,
+                "unrealised_pnl": 1995.430664,
                 "direction": "SHORT"
             },
             "IO": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 10955.0985,
-                "size": -7882.5,
-                "unrealised_pnl": 1042.65981,
-=======
-                "position_value": 10599.59775,
-                "size": -7882.5,
-                "unrealised_pnl": 1398.16056,
->>>>>>> Stashed changes
+                "position_value": 11281.84887,
+                "size": -8657.7,
+                "unrealised_pnl": 1715.91744,
                 "direction": "SHORT"
             },
             "ZK": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11880.12579,
-                "size": -108663.0,
-                "unrealised_pnl": 115.900953,
-=======
-                "position_value": 11574.78276,
-                "size": -108663.0,
-                "unrealised_pnl": 421.243983,
->>>>>>> Stashed changes
+                "position_value": 12494.95994,
+                "size": -118178.0,
+                "unrealised_pnl": 500.427253,
                 "direction": "SHORT"
             },
             "BLAST": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 12346.12131,
-                "size": -2952205.0,
-                "unrealised_pnl": -352.614029,
-=======
-                "position_value": 11991.85671,
-                "size": -2952205.0,
-                "unrealised_pnl": 1.650571,
->>>>>>> Stashed changes
+                "position_value": 12760.18248,
+                "size": -3206076.0,
+                "unrealised_pnl": 232.561057,
                 "direction": "SHORT"
             },
             "LISTA": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 13310.948,
-                "size": -67312.0,
-                "unrealised_pnl": -1320.6056,
-=======
-                "position_value": 12567.82352,
-                "size": -67312.0,
-                "unrealised_pnl": -577.48112,
->>>>>>> Stashed changes
+                "position_value": 12600.30222,
+                "size": -73147.0,
+                "unrealised_pnl": 389.05053,
                 "direction": "SHORT"
             },
             "MEW": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 12078.25839,
-                "size": -3852714.0,
-                "unrealised_pnl": -81.950865,
-=======
-                "position_value": 11639.048994,
-                "size": -3852714.0,
-                "unrealised_pnl": 357.258531,
->>>>>>> Stashed changes
+                "position_value": 12319.461872,
+                "size": -4196002.0,
+                "unrealised_pnl": 676.157021,
                 "direction": "SHORT"
             },
             "RENDER": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11831.33354,
-                "size": -2699.8,
-                "unrealised_pnl": 164.78687,
-=======
-                "position_value": 11530.30584,
-                "size": -2699.8,
-                "unrealised_pnl": 465.81457,
->>>>>>> Stashed changes
+                "position_value": 12275.2008,
+                "size": -2942.0,
+                "unrealised_pnl": 720.57969,
                 "direction": "SHORT"
             },
             "kDOGS": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 11858.11858,
-                "size": -65219.0,
-                "unrealised_pnl": 132.93035,
-=======
-                "position_value": 11534.63234,
-                "size": -65219.0,
-                "unrealised_pnl": 456.41659,
->>>>>>> Stashed changes
+                "position_value": 12075.14718,
+                "size": -71202.0,
+                "unrealised_pnl": 914.6559,
                 "direction": "SHORT"
             },
             "POL": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 11965.12072,
-                "size": -38308.0,
-                "unrealised_pnl": 32.86989,
-=======
-                "position_value": 11758.6406,
-                "size": -38308.0,
-                "unrealised_pnl": 239.35001,
->>>>>>> Stashed changes
+                "position_value": 12400.98175,
+                "size": -41705.0,
+                "unrealised_pnl": 596.64405,
                 "direction": "SHORT"
             },
             "CATI": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 12674.1796,
-                "size": -78284.0,
-                "unrealised_pnl": -683.08082,
-=======
-                "position_value": 12259.2744,
-                "size": -78284.0,
-                "unrealised_pnl": -268.17562,
->>>>>>> Stashed changes
+                "position_value": 12929.52675,
+                "size": -84923.0,
+                "unrealised_pnl": 61.72031,
                 "direction": "SHORT"
             },
             "CELO": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 12316.48733,
-                "size": -28637.0,
-                "unrealised_pnl": -324.28913,
-=======
-                "position_value": 12105.14627,
-                "size": -28637.0,
-                "unrealised_pnl": -112.94807,
->>>>>>> Stashed changes
+                "position_value": 12865.67232,
+                "size": -31072.0,
+                "unrealised_pnl": 125.70378,
                 "direction": "SHORT"
             },
             "HMSTR": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 11727.54136,
-                "size": -6818338.0,
-                "unrealised_pnl": 266.641617,
-=======
-                "position_value": 11522.99122,
-                "size": -6818338.0,
-                "unrealised_pnl": 471.191757,
->>>>>>> Stashed changes
+                "position_value": 12095.30181,
+                "size": -7438685.0,
+                "unrealised_pnl": 899.500878,
                 "direction": "SHORT"
             },
             "SCR": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 12502.917855,
-                "size": -22127.1,
-                "unrealised_pnl": -505.990228,
-=======
-                "position_value": 12402.682092,
-                "size": -22127.1,
-                "unrealised_pnl": -405.754465,
->>>>>>> Stashed changes
+                "position_value": 13270.560534,
+                "size": -23946.3,
+                "unrealised_pnl": -274.146235,
                 "direction": "SHORT"
             },
             "NEIROETH": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 12723.75296,
-                "size": -694528.0,
-                "unrealised_pnl": -731.855379,
-=======
-                "position_value": 12216.052992,
-                "size": -694528.0,
-                "unrealised_pnl": -224.155411,
->>>>>>> Stashed changes
+                "position_value": 12373.176816,
+                "size": -755937.0,
+                "unrealised_pnl": 618.029422,
                 "direction": "SHORT"
             },
             "kNEIRO": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11275.88985,
-                "size": -33790.5,
-                "unrealised_pnl": 718.999723,
-=======
-                "position_value": 10780.183215,
-                "size": -33790.5,
-                "unrealised_pnl": 1214.706358,
->>>>>>> Stashed changes
+                "position_value": 11367.275556,
+                "size": -37066.8,
+                "unrealised_pnl": 1627.508014,
                 "direction": "SHORT"
             },
             "GOAT": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11737.85519,
-                "size": -94333.0,
-                "unrealised_pnl": 255.28397,
-=======
-                "position_value": 11486.92941,
-                "size": -94333.0,
-                "unrealised_pnl": 506.20975,
->>>>>>> Stashed changes
+                "position_value": 12081.85992,
+                "size": -102947.0,
+                "unrealised_pnl": 911.53692,
                 "direction": "SHORT"
             },
             "MOODENG": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11452.726865,
-                "size": -167303.0,
-                "unrealised_pnl": 543.401372,
-=======
-                "position_value": 11103.565504,
-                "size": -167303.0,
-                "unrealised_pnl": 892.562733,
->>>>>>> Stashed changes
+                "position_value": 11548.735344,
+                "size": -183523.0,
+                "unrealised_pnl": 1446.950393,
                 "direction": "SHORT"
             },
             "GRASS": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 13451.5368,
-                "size": -9441.0,
-                "unrealised_pnl": -1458.43098,
-=======
-                "position_value": 13370.3442,
-                "size": -9441.0,
-                "unrealised_pnl": -1377.23838,
->>>>>>> Stashed changes
+                "position_value": 14312.0614,
+                "size": -10146.8,
+                "unrealised_pnl": -1318.64404,
                 "direction": "SHORT"
             },
             "PNUT": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11953.773282,
-                "size": -68901.8,
-                "unrealised_pnl": 42.59119,
-=======
-                "position_value": 11632.690894,
-                "size": -68901.8,
-                "unrealised_pnl": 363.673578,
->>>>>>> Stashed changes
+                "position_value": 12121.733821,
+                "size": -75154.9,
+                "unrealised_pnl": 873.40505,
                 "direction": "SHORT"
             },
             "XLM": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11698.96064,
-                "size": -35648.0,
-                "unrealised_pnl": 298.5364,
-=======
-                "position_value": 11376.34624,
-                "size": -35648.0,
-                "unrealised_pnl": 621.1508,
->>>>>>> Stashed changes
+                "position_value": 11941.52976,
+                "size": -38933.0,
+                "unrealised_pnl": 1055.72418,
                 "direction": "SHORT"
             },
             "CHILLGUY": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 12255.428982,
-                "size": -363641.0,
-                "unrealised_pnl": -265.167739,
-=======
-                "position_value": 11967.061669,
-                "size": -363641.0,
-                "unrealised_pnl": 23.199574,
->>>>>>> Stashed changes
+                "position_value": 12500.181159,
+                "size": -395663.0,
+                "unrealised_pnl": 489.26255,
                 "direction": "SHORT"
             },
             "SAND": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 12066.46976,
-                "size": -30752.0,
-                "unrealised_pnl": -73.1856,
-=======
-                "position_value": 11760.79488,
-                "size": -30752.0,
-                "unrealised_pnl": 232.48928,
->>>>>>> Stashed changes
+                "position_value": 12279.83346,
+                "size": -33513.0,
+                "unrealised_pnl": 713.23641,
                 "direction": "SHORT"
             },
             "IOTA": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 12273.33,
-                "size": -53925.0,
-                "unrealised_pnl": -279.90916,
-=======
-                "position_value": 11867.27475,
-                "size": -53925.0,
-                "unrealised_pnl": 126.14609,
->>>>>>> Stashed changes
+                "position_value": 12659.88185,
+                "size": -58597.0,
+                "unrealised_pnl": 332.41259,
                 "direction": "SHORT"
             },
             "ALGO": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11741.07272,
-                "size": -42184.0,
-                "unrealised_pnl": 257.21452,
-=======
-                "position_value": 11485.85952,
-                "size": -42184.0,
-                "unrealised_pnl": 512.42772,
->>>>>>> Stashed changes
+                "position_value": 12478.01739,
+                "size": -45897.0,
+                "unrealised_pnl": 519.84658,
                 "direction": "SHORT"
             },
             "ME": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 15946.28992,
-                "size": -8844.8,
-                "unrealised_pnl": -3950.24379,
-=======
-                "position_value": 16851.11296,
-                "size": -8844.8,
-                "unrealised_pnl": -4855.06683,
->>>>>>> Stashed changes
+                "position_value": 15185.05224,
+                "size": -9466.4,
+                "unrealised_pnl": -2189.59763,
                 "direction": "SHORT"
             },
             "MOVE": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11028.50766,
-                "size": -20073.0,
-                "unrealised_pnl": 964.26341,
-=======
-                "position_value": 10764.14625,
-                "size": -20073.0,
-                "unrealised_pnl": 1228.62482,
->>>>>>> Stashed changes
+                "position_value": 11114.3739,
+                "size": -22083.0,
+                "unrealised_pnl": 1877.94983,
                 "direction": "SHORT"
             },
             "VIRTUAL": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 10578.36875,
-                "size": -8908.1,
-                "unrealised_pnl": 1418.97991,
-=======
-                "position_value": 10237.18852,
-                "size": -8908.1,
-                "unrealised_pnl": 1760.16014,
->>>>>>> Stashed changes
+                "position_value": 10754.88983,
+                "size": -9828.1,
+                "unrealised_pnl": 2242.13083,
                 "direction": "SHORT"
             },
             "PENGU": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 10989.62388,
-                "size": -1028991.0,
-                "unrealised_pnl": 1006.872701,
-=======
-                "position_value": 10552.302705,
-                "size": -1028991.0,
-                "unrealised_pnl": 1444.193876,
->>>>>>> Stashed changes
+                "position_value": 11024.588841,
+                "size": -1133867.0,
+                "unrealised_pnl": 1972.005276,
                 "direction": "SHORT"
             },
             "USUAL": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11680.0185,
-                "size": -44034.0,
-                "unrealised_pnl": 317.189051,
-=======
-                "position_value": 11263.8972,
-                "size": -44034.0,
-                "unrealised_pnl": 733.310351,
->>>>>>> Stashed changes
+                "position_value": 11758.30558,
+                "size": -48130.6,
+                "unrealised_pnl": 1238.390439,
                 "direction": "SHORT"
             },
             "FARTCOIN": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 10622.268812,
-                "size": -19970.8,
-                "unrealised_pnl": 1369.825917,
-=======
-                "position_value": 10256.603464,
-                "size": -19970.8,
-                "unrealised_pnl": 1735.491265,
->>>>>>> Stashed changes
+                "position_value": 11074.005468,
+                "size": -21995.8,
+                "unrealised_pnl": 1919.107511,
                 "direction": "SHORT"
             },
             "AI16Z": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11893.5504,
-                "size": -33597.6,
-                "unrealised_pnl": 104.794738,
-=======
-                "position_value": 11579.41284,
-                "size": -33597.6,
-                "unrealised_pnl": 418.932298,
->>>>>>> Stashed changes
+                "position_value": 13178.55196,
+                "size": -36344.6,
+                "unrealised_pnl": -179.639542,
                 "direction": "SHORT"
             },
             "AIXBT": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 10338.1992,
-                "size": -41328.0,
-                "unrealised_pnl": 1659.2425,
-=======
-                "position_value": 9584.37648,
-                "size": -41328.0,
-                "unrealised_pnl": 2413.06522,
->>>>>>> Stashed changes
+                "position_value": 10456.36075,
+                "size": -45811.0,
+                "unrealised_pnl": 2541.23825,
                 "direction": "SHORT"
             },
             "ZEREBRO": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 10640.52015,
-                "size": -224247.0,
-                "unrealised_pnl": 1346.930718,
-=======
-                "position_value": 10281.72495,
-                "size": -224247.0,
-                "unrealised_pnl": 1705.725918,
->>>>>>> Stashed changes
+                "position_value": 10969.315705,
+                "size": -246751.0,
+                "unrealised_pnl": 2017.425283,
                 "direction": "SHORT"
             },
             "BIO": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 12076.236,
-                "size": -83700.0,
-                "unrealised_pnl": -78.90463,
-=======
-                "position_value": 11433.42,
-                "size": -83700.0,
-                "unrealised_pnl": 563.91137,
->>>>>>> Stashed changes
+                "position_value": 11798.135,
+                "size": -91636.0,
+                "unrealised_pnl": 1197.70389,
                 "direction": "SHORT"
             },
             "GRIFFAIN": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 10612.272,
-                "size": -79600.0,
-                "unrealised_pnl": 1380.02524,
-=======
-                "position_value": 10367.9,
-                "size": -79600.0,
-                "unrealised_pnl": 1624.39724,
->>>>>>> Stashed changes
+                "position_value": 11300.30707,
+                "size": -87187.0,
+                "unrealised_pnl": 1691.27394,
                 "direction": "SHORT"
             },
             "SPX": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 9982.75626,
-                "size": -15976.5,
-                "unrealised_pnl": 2011.210214,
-=======
-                "position_value": 9611.78193,
-                "size": -15976.5,
-                "unrealised_pnl": 2382.184544,
->>>>>>> Stashed changes
+                "position_value": 10820.690312,
+                "size": -17640.8,
+                "unrealised_pnl": 2173.313623,
                 "direction": "SHORT"
             },
             "S": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11520.9666,
-                "size": -28314.0,
-                "unrealised_pnl": 473.0148,
-=======
-                "position_value": 11500.58052,
-                "size": -28314.0,
-                "unrealised_pnl": 493.40088,
->>>>>>> Stashed changes
+                "position_value": 12361.65238,
+                "size": -30814.0,
+                "unrealised_pnl": 632.15402,
                 "direction": "SHORT"
             },
             "MORPHO": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11439.06276,
-                "size": -5708.4,
-                "unrealised_pnl": 557.30644,
-=======
-                "position_value": 11706.21588,
-                "size": -5708.4,
-                "unrealised_pnl": 290.15332,
->>>>>>> Stashed changes
+                "position_value": 12264.88432,
+                "size": -6219.2,
+                "unrealised_pnl": 731.52912,
                 "direction": "SHORT"
             },
             "TRUMP": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 11301.8941,
-                "size": -664.7,
-                "unrealised_pnl": 684.544,
-=======
-                "position_value": 11073.902,
-                "size": -664.7,
-                "unrealised_pnl": 912.5361,
->>>>>>> Stashed changes
+                "position_value": 10886.9145,
+                "size": -731.5,
+                "unrealised_pnl": 2097.048,
                 "direction": "SHORT"
             },
             "MELANIA": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11701.2203,
-                "size": -8046.5,
-                "unrealised_pnl": 297.18876,
-=======
-                "position_value": 11669.0343,
-                "size": -8046.5,
-                "unrealised_pnl": 329.37476,
->>>>>>> Stashed changes
+                "position_value": 12620.38428,
+                "size": -8742.3,
+                "unrealised_pnl": 377.40232,
                 "direction": "SHORT"
             },
             "ANIME": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 11473.2591,
-                "size": -403278.0,
-                "unrealised_pnl": 518.131866,
-=======
-                "position_value": 11201.04645,
-                "size": -403278.0,
-                "unrealised_pnl": 790.344516,
->>>>>>> Stashed changes
+                "position_value": 12110.168994,
+                "size": -440546.0,
+                "unrealised_pnl": 880.406702,
                 "direction": "SHORT"
             },
             "VINE": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 10318.9101,
-                "size": -91887.0,
-                "unrealised_pnl": 1679.16425,
-=======
-                "position_value": 10050.60006,
-                "size": -91887.0,
-                "unrealised_pnl": 1947.47429,
->>>>>>> Stashed changes
+                "position_value": 9823.689045,
+                "size": -102059.0,
+                "unrealised_pnl": 3174.923569,
                 "direction": "SHORT"
             },
             "VVV": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 19839.528228,
-                "size": -2950.73,
-                "unrealised_pnl": -7846.836569,
-=======
-                "position_value": 19457.11362,
-                "size": -2950.73,
-                "unrealised_pnl": -7464.421961,
->>>>>>> Stashed changes
+                "position_value": 21747.5159,
+                "size": -3093.53,
+                "unrealised_pnl": -8755.709761,
                 "direction": "SHORT"
             },
             "JELLY": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 6462.87096,
-                "size": -490280.0,
-                "unrealised_pnl": 5520.115623,
-=======
-                "position_value": 5975.53264,
-                "size": -490280.0,
-                "unrealised_pnl": 6007.453943,
->>>>>>> Stashed changes
+                "position_value": 5704.90277,
+                "size": -592102.0,
+                "unrealised_pnl": 7277.329118,
                 "direction": "SHORT"
             },
             "BERA": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 7383.6878,
-                "size": -1259.8,
-                "unrealised_pnl": 4665.4788,
-=======
-                "position_value": 7019.6056,
-                "size": -1259.8,
-                "unrealised_pnl": 5029.561,
+                "position_value": 7013.2262,
+                "size": -1469.2,
+                "unrealised_pnl": 6035.59506,
                 "direction": "SHORT"
             },
             "TST": {
                 "leverage": 3.0,
-                "position_value": 11270.49182,
-                "size": -35891.0,
-                "unrealised_pnl": 718.17842,
->>>>>>> Stashed changes
+                "position_value": 7737.74694,
+                "size": -41354.0,
+                "unrealised_pnl": 5254.69492,
+                "direction": "SHORT"
+            }
+        }
+    },
+    "0x07fd993f0fa3a185f7207adccd29f7a87404689d": {
+        "vault_name": "[ Systemic Strategies ] L/S Grids",
+        "vault_tvl": 1157853.111226,
+        "positions": {
+            "BTC": {
+                "leverage": 20.0,
+                "position_value": 206410.09083,
+                "size": 2.15071,
+                "unrealised_pnl": -5304.963329,
+                "direction": "LONG"
+            },
+            "ETH": {
+                "leverage": 20.0,
+                "position_value": 211758.5961,
+                "size": 81.5554,
+                "unrealised_pnl": -15505.366405,
+                "direction": "LONG"
+            },
+            "ATOM": {
+                "leverage": 10.0,
+                "position_value": 26893.172202,
+                "size": -6013.41,
+                "unrealised_pnl": 1663.206486,
+                "direction": "SHORT"
+            },
+            "AVAX": {
+                "leverage": 10.0,
+                "position_value": 24436.46464,
+                "size": -1007.44,
+                "unrealised_pnl": 2631.436377,
+                "direction": "SHORT"
+            },
+            "BNB": {
+                "leverage": 20.0,
+                "position_value": 108385.82524,
+                "size": 180.631,
+                "unrealised_pnl": -294.025481,
+                "direction": "LONG"
+            },
+            "APE": {
+                "leverage": 10.0,
+                "position_value": 28209.88592,
+                "size": -41974.0,
+                "unrealised_pnl": 1406.379522,
+                "direction": "SHORT"
+            },
+            "OP": {
+                "leverage": 10.0,
+                "position_value": 26649.43997,
+                "size": -25281.7,
+                "unrealised_pnl": 1614.260815,
+                "direction": "SHORT"
+            },
+            "ARB": {
+                "leverage": 10.0,
+                "position_value": 25585.26624,
+                "size": -58042.8,
+                "unrealised_pnl": 2204.00951,
+                "direction": "SHORT"
+            },
+            "DOGE": {
+                "leverage": 20.0,
+                "position_value": 62518.04568,
+                "size": 256232.0,
+                "unrealised_pnl": -5383.059549,
+                "direction": "LONG"
+            },
+            "SUI": {
+                "leverage": 20.0,
+                "position_value": 22747.18338,
+                "size": -7618.2,
+                "unrealised_pnl": 2670.975142,
+                "direction": "SHORT"
+            },
+            "APT": {
+                "leverage": 10.0,
+                "position_value": 26557.580322,
+                "size": -4602.78,
+                "unrealised_pnl": 1477.588468,
+                "direction": "SHORT"
+            },
+            "AAVE": {
+                "leverage": 10.0,
+                "position_value": 106281.934,
+                "size": 445.72,
+                "unrealised_pnl": -8065.586844,
+                "direction": "LONG"
+            },
+            "WLD": {
+                "leverage": 10.0,
+                "position_value": 13816.68897,
+                "size": -11594.1,
+                "unrealised_pnl": 1304.627138,
+                "direction": "SHORT"
+            },
+            "DOT": {
+                "leverage": 10.0,
+                "position_value": 27839.73015,
+                "size": -5971.5,
+                "unrealised_pnl": 1241.282279,
+                "direction": "SHORT"
+            },
+            "BLUR": {
+                "leverage": 5.0,
+                "position_value": 29024.43489,
+                "size": -219699.0,
+                "unrealised_pnl": 1602.344546,
+                "direction": "SHORT"
+            },
+            "TIA": {
+                "leverage": 10.0,
+                "position_value": 30934.2782,
+                "size": -10118.5,
+                "unrealised_pnl": 546.299665,
+                "direction": "SHORT"
+            },
+            "PENDLE": {
+                "leverage": 10.0,
+                "position_value": 104873.5894,
+                "size": 33326.0,
+                "unrealised_pnl": 1298.043696,
+                "direction": "LONG"
+            },
+            "NEAR": {
+                "leverage": 10.0,
+                "position_value": 25635.65264,
+                "size": -8271.7,
+                "unrealised_pnl": 2959.701584,
+                "direction": "SHORT"
+            },
+            "MEME": {
+                "leverage": 5.0,
+                "position_value": 25146.56535,
+                "size": -5868510.0,
+                "unrealised_pnl": 2999.513206,
+                "direction": "SHORT"
+            },
+            "FIL": {
+                "leverage": 10.0,
+                "position_value": 28628.81498,
+                "size": -8851.9,
+                "unrealised_pnl": 1402.52539,
+                "direction": "SHORT"
+            },
+            "kBONK": {
+                "leverage": 10.0,
+                "position_value": 13252.86488,
+                "size": -792920.0,
+                "unrealised_pnl": 1109.789456,
+                "direction": "SHORT"
+            },
+            "XAI": {
+                "leverage": 3.0,
+                "position_value": 25668.222433,
+                "size": -258517.7,
+                "unrealised_pnl": 1982.85335,
+                "direction": "SHORT"
+            },
+            "ALT": {
+                "leverage": 5.0,
+                "position_value": 26654.583535,
+                "size": -567155.0,
+                "unrealised_pnl": 2508.698564,
+                "direction": "SHORT"
+            },
+            "ZETA": {
+                "leverage": 3.0,
+                "position_value": 29162.975548,
+                "size": -97980.7,
+                "unrealised_pnl": 2086.466881,
+                "direction": "SHORT"
+            },
+            "DYM": {
+                "leverage": 3.0,
+                "position_value": 24814.025888,
+                "size": -46755.4,
+                "unrealised_pnl": 3366.227231,
+                "direction": "SHORT"
+            },
+            "W": {
+                "leverage": 5.0,
+                "position_value": 30302.505492,
+                "size": -180845.7,
+                "unrealised_pnl": 1601.526744,
+                "direction": "SHORT"
+            },
+            "STRK": {
+                "leverage": 5.0,
+                "position_value": 25205.996848,
+                "size": -109739.2,
+                "unrealised_pnl": 3041.868211,
+                "direction": "SHORT"
+            },
+            "PIXEL": {
+                "leverage": 3.0,
+                "position_value": 25285.701504,
+                "size": -402024.0,
+                "unrealised_pnl": 2982.017087,
+                "direction": "SHORT"
+            },
+            "SAGA": {
+                "leverage": 5.0,
+                "position_value": 25767.399808,
+                "size": -38115.2,
+                "unrealised_pnl": 2829.872014,
+                "direction": "SHORT"
+            },
+            "IO": {
+                "leverage": 5.0,
+                "position_value": 24150.17724,
+                "size": -18528.6,
+                "unrealised_pnl": 3259.99447,
+                "direction": "SHORT"
+            },
+            "LISTA": {
+                "leverage": 3.0,
+                "position_value": 30332.94696,
+                "size": -175986.0,
+                "unrealised_pnl": 2359.451997,
+                "direction": "SHORT"
+            },
+            "POL": {
+                "leverage": 10.0,
+                "position_value": 109621.69309,
+                "size": 368563.0,
+                "unrealised_pnl": -7795.469977,
+                "direction": "LONG"
+            },
+            "XLM": {
+                "leverage": 5.0,
+                "position_value": 65392.25616,
+                "size": 213136.0,
+                "unrealised_pnl": -6474.28863,
+                "direction": "LONG"
+            },
+            "S": {
+                "leverage": 5.0,
+                "position_value": 101596.90125,
+                "size": 253201.0,
+                "unrealised_pnl": -10513.639835,
+                "direction": "LONG"
+            },
+            "TRUMP": {
+                "leverage": 10.0,
+                "position_value": 9090.6128,
+                "size": -610.6,
+                "unrealised_pnl": 2159.902761,
+                "direction": "SHORT"
+            },
+            "MELANIA": {
+                "leverage": 5.0,
+                "position_value": 13200.1816,
+                "size": -9141.4,
+                "unrealised_pnl": 1408.768062,
                 "direction": "SHORT"
             }
         }
     },
     "0x87c02ac42668c4d877c1eb9263eb96c2ecb83345": {
         "vault_name": "Chicken Genius",
-<<<<<<< Updated upstream
-        "vault_tvl": 912086.960945,
+        "vault_tvl": 892242.631376,
         "positions": {
             "BTC": {
                 "leverage": 1.0,
-                "position_value": 120518.68073,
+                "position_value": 119364.49929,
                 "size": 1.24373,
-                "unrealised_pnl": 869.97693,
-=======
-        "vault_tvl": 901386.371232,
-        "positions": {
-            "BTC": {
-                "leverage": 1.0,
-                "position_value": 119465.24142,
-                "size": 1.24373,
-                "unrealised_pnl": -183.46238,
->>>>>>> Stashed changes
+                "unrealised_pnl": -284.20451,
                 "direction": "LONG"
             },
             "ETH": {
                 "leverage": 1.0,
-<<<<<<< Updated upstream
-                "position_value": 265630.0,
+                "position_value": 259650.0,
                 "size": 100.0,
-                "unrealised_pnl": -11570.0,
-=======
-                "position_value": 262620.0,
-                "size": 100.0,
-                "unrealised_pnl": -14580.0,
->>>>>>> Stashed changes
+                "unrealised_pnl": -17550.0,
                 "direction": "LONG"
             },
             "HYPE": {
                 "leverage": 1.0,
-<<<<<<< Updated upstream
-                "position_value": 141966.0,
+                "position_value": 135888.0,
                 "size": 6000.0,
-                "unrealised_pnl": 6366.0,
-=======
-                "position_value": 137928.0,
-                "size": 6000.0,
-                "unrealised_pnl": 2328.0,
->>>>>>> Stashed changes
+                "unrealised_pnl": 588.0,
                 "direction": "LONG"
             }
         }
     },
     "0x164e90af0d04112d15894e051b722e0d9d3f233e": {
         "vault_name": "ah mierda",
-<<<<<<< Updated upstream
-        "vault_tvl": 711607.807958,
+        "vault_tvl": 686204.320451,
         "positions": {
             "BTC": {
                 "leverage": 20.0,
-                "position_value": 687997.1,
-                "size": 7.1,
-                "unrealised_pnl": -7791.78137,
-=======
-        "vault_tvl": 703585.499665,
-        "positions": {
-            "BTC": {
-                "leverage": 20.0,
-                "position_value": 705996.9,
-                "size": 7.35,
-                "unrealised_pnl": -13841.98137,
->>>>>>> Stashed changes
+                "position_value": 743790.75,
+                "size": 7.75,
+                "unrealised_pnl": -14038.13137,
                 "direction": "LONG"
             },
             "ETH": {
                 "leverage": 50.0,
-<<<<<<< Updated upstream
-                "position_value": 39817.937,
+                "position_value": 38921.535,
                 "size": 14.99,
-                "unrealised_pnl": 4841.937,
-=======
-                "position_value": 39366.738,
-                "size": 14.99,
-                "unrealised_pnl": 4390.738,
->>>>>>> Stashed changes
+                "unrealised_pnl": 3945.535,
                 "direction": "LONG"
             },
             "SOL": {
                 "leverage": 20.0,
-<<<<<<< Updated upstream
-                "position_value": 38.2774,
+                "position_value": 37.8689,
                 "size": -0.19,
-                "unrealised_pnl": 14.874398,
-=======
-                "position_value": 37.7226,
-                "size": -0.19,
-                "unrealised_pnl": 15.429198,
->>>>>>> Stashed changes
+                "unrealised_pnl": 15.282898,
                 "direction": "SHORT"
             },
             "AVAX": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 1.26145,
+                "position_value": 1.2128,
                 "size": -0.05,
-                "unrealised_pnl": 1.326297,
-=======
-                "position_value": 1.236,
-                "size": -0.05,
-                "unrealised_pnl": 1.351747,
->>>>>>> Stashed changes
+                "unrealised_pnl": 1.374947,
                 "direction": "SHORT"
             },
             "APE": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 0.69716,
+                "position_value": 0.67208,
                 "size": -1.0,
-                "unrealised_pnl": 1.094546,
-=======
-                "position_value": 0.68017,
-                "size": -1.0,
-                "unrealised_pnl": 1.111536,
->>>>>>> Stashed changes
+                "unrealised_pnl": 1.119626,
                 "direction": "SHORT"
             },
             "OP": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 1.0771,
+                "position_value": 1.0541,
                 "size": -1.0,
-                "unrealised_pnl": 1.586539,
-=======
-                "position_value": 1.0597,
-                "size": -1.0,
-                "unrealised_pnl": 1.603939,
->>>>>>> Stashed changes
+                "unrealised_pnl": 1.609539,
                 "direction": "SHORT"
             },
             "LTC": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 73.1469,
+                "position_value": 75.4032,
                 "size": -0.69,
-                "unrealised_pnl": 18.512557,
-=======
-                "position_value": 73.2987,
-                "size": -0.69,
-                "unrealised_pnl": 18.360757,
->>>>>>> Stashed changes
+                "unrealised_pnl": 16.256257,
                 "direction": "SHORT"
             },
             "ARB": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 5.49744,
+                "position_value": 5.2896,
                 "size": -12.0,
-                "unrealised_pnl": 7.960658,
-=======
-                "position_value": 5.3982,
-                "size": -12.0,
-                "unrealised_pnl": 8.059898,
->>>>>>> Stashed changes
+                "unrealised_pnl": 8.168498,
                 "direction": "SHORT"
             },
             "DOGE": {
                 "leverage": 20.0,
-<<<<<<< Updated upstream
-                "position_value": 12.56115,
+                "position_value": 11.95551,
                 "size": -49.0,
-                "unrealised_pnl": 10.358731,
-=======
-                "position_value": 12.28479,
-                "size": -49.0,
-                "unrealised_pnl": 10.635091,
->>>>>>> Stashed changes
+                "unrealised_pnl": 10.964371,
                 "direction": "SHORT"
             },
             "SUI": {
                 "leverage": 20.0,
-<<<<<<< Updated upstream
-                "position_value": 15.512,
+                "position_value": 14.9295,
                 "size": -5.0,
-                "unrealised_pnl": 10.466135,
-=======
-                "position_value": 15.1535,
-                "size": -5.0,
-                "unrealised_pnl": 10.824635,
->>>>>>> Stashed changes
+                "unrealised_pnl": 11.048635,
                 "direction": "SHORT"
             },
             "kPEPE": {
                 "leverage": 20.0,
-<<<<<<< Updated upstream
-                "position_value": 9.708,
+                "position_value": 9.258,
                 "size": -1000.0,
-                "unrealised_pnl": 15.116479,
-=======
-                "position_value": 9.399,
-                "size": -1000.0,
-                "unrealised_pnl": 15.425479,
->>>>>>> Stashed changes
+                "unrealised_pnl": 15.566479,
                 "direction": "SHORT"
             },
             "CRV": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 0.51143,
+                "position_value": 0.5104,
                 "size": -1.0,
-                "unrealised_pnl": 0.48857,
-=======
-                "position_value": 0.50573,
-                "size": -1.0,
-                "unrealised_pnl": 0.49427,
->>>>>>> Stashed changes
+                "unrealised_pnl": 0.4896,
                 "direction": "SHORT"
             },
             "LDO": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 1.5102,
+                "position_value": 1.4792,
                 "size": -1.0,
-                "unrealised_pnl": 0.892595,
-=======
-                "position_value": 1.4715,
-                "size": -1.0,
-                "unrealised_pnl": 0.931295,
->>>>>>> Stashed changes
+                "unrealised_pnl": 0.923595,
                 "direction": "SHORT"
             },
             "LINK": {
                 "leverage": 20.0,
-<<<<<<< Updated upstream
-                "position_value": 18.766,
+                "position_value": 17.912,
                 "size": -1.0,
-                "unrealised_pnl": 10.261202,
-=======
-                "position_value": 18.332,
-                "size": -1.0,
-                "unrealised_pnl": 10.695202,
->>>>>>> Stashed changes
+                "unrealised_pnl": 11.115202,
                 "direction": "SHORT"
             },
             "XRP": {
                 "leverage": 20.0,
-<<<<<<< Updated upstream
-                "position_value": 9.8632,
+                "position_value": 9.4068,
                 "size": -4.0,
-                "unrealised_pnl": 2.930361,
-=======
-                "position_value": 9.6192,
-                "size": -4.0,
-                "unrealised_pnl": 3.174361,
->>>>>>> Stashed changes
+                "unrealised_pnl": 3.386761,
                 "direction": "SHORT"
             },
             "AAVE": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 24.652,
+                "position_value": 23.845,
                 "size": -0.1,
-                "unrealised_pnl": 13.530844,
-=======
-                "position_value": 24.113,
-                "size": -0.1,
-                "unrealised_pnl": 14.069844,
->>>>>>> Stashed changes
+                "unrealised_pnl": 14.337844,
                 "direction": "SHORT"
             },
             "kSHIB": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 0.016317,
+                "position_value": 0.015442,
                 "size": -1.0,
-                "unrealised_pnl": 0.013879,
-=======
-                "position_value": 0.01583,
-                "size": -1.0,
-                "unrealised_pnl": 0.014366,
->>>>>>> Stashed changes
+                "unrealised_pnl": 0.014754,
                 "direction": "SHORT"
             },
             "SEI": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 15.84378,
+                "position_value": 15.111,
                 "size": -69.0,
-                "unrealised_pnl": 28.45347,
-=======
-                "position_value": 15.59745,
-                "size": -69.0,
-                "unrealised_pnl": 28.6998,
->>>>>>> Stashed changes
+                "unrealised_pnl": 29.18625,
                 "direction": "SHORT"
             },
             "RUNE": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 1.2468,
+                "position_value": 1.2442,
                 "size": -1.0,
-                "unrealised_pnl": 6.182533,
-=======
-                "position_value": 1.2251,
-                "size": -1.0,
-                "unrealised_pnl": 6.204233,
->>>>>>> Stashed changes
+                "unrealised_pnl": 6.185133,
                 "direction": "SHORT"
             },
             "ZRO": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 2.8093,
+                "position_value": 2.7037,
                 "size": -1.0,
-                "unrealised_pnl": 4.196136,
-=======
-                "position_value": 2.7158,
-                "size": -1.0,
-                "unrealised_pnl": 4.289636,
->>>>>>> Stashed changes
+                "unrealised_pnl": 4.301736,
                 "direction": "SHORT"
             },
             "DOT": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 4.7796,
+                "position_value": 4.6621,
                 "size": -1.0,
-                "unrealised_pnl": 4.757965,
-=======
-                "position_value": 4.7375,
-                "size": -1.0,
-                "unrealised_pnl": 4.800065,
->>>>>>> Stashed changes
+                "unrealised_pnl": 4.875465,
                 "direction": "SHORT"
             },
             "BLUR": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 9.57789,
+                "position_value": 9.11559,
                 "size": -69.0,
-                "unrealised_pnl": 18.848084,
-=======
-                "position_value": 9.28464,
-                "size": -69.0,
-                "unrealised_pnl": 19.141334,
->>>>>>> Stashed changes
+                "unrealised_pnl": 19.310384,
                 "direction": "SHORT"
             },
             "TIA": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 3.1271,
+                "position_value": 3.0572,
                 "size": -1.0,
-                "unrealised_pnl": 5.207768,
-=======
-                "position_value": 3.0471,
-                "size": -1.0,
-                "unrealised_pnl": 5.287768,
->>>>>>> Stashed changes
+                "unrealised_pnl": 5.277668,
                 "direction": "SHORT"
             },
             "ADA": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 13.30152,
+                "position_value": 12.72392,
                 "size": -19.0,
-                "unrealised_pnl": 8.654187,
-=======
-                "position_value": 12.98346,
-                "size": -19.0,
-                "unrealised_pnl": 8.972247,
->>>>>>> Stashed changes
+                "unrealised_pnl": 9.231787,
                 "direction": "SHORT"
             },
             "TON": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 3.7795,
+                "position_value": 3.7733,
                 "size": -1.0,
-                "unrealised_pnl": 2.621497,
-=======
-                "position_value": 3.757,
-                "size": -1.0,
-                "unrealised_pnl": 2.643997,
->>>>>>> Stashed changes
+                "unrealised_pnl": 2.627697,
                 "direction": "SHORT"
             },
             "PENDLE": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 99404.55,
+                "position_value": 99127.35,
                 "size": 31500.0,
-                "unrealised_pnl": 10488.845466,
-=======
-                "position_value": 98172.9,
-                "size": 31500.0,
-                "unrealised_pnl": 9257.195466,
->>>>>>> Stashed changes
+                "unrealised_pnl": 10211.645466,
                 "direction": "LONG"
             },
             "NEAR": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 6.8222,
+                "position_value": 6.1984,
                 "size": -2.0,
-                "unrealised_pnl": 8.986311,
-=======
-                "position_value": 6.5026,
-                "size": -2.0,
-                "unrealised_pnl": 9.305911,
->>>>>>> Stashed changes
+                "unrealised_pnl": 9.610111,
                 "direction": "SHORT"
             },
             "IMX": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 0.83749,
+                "position_value": 0.79324,
                 "size": -1.0,
-                "unrealised_pnl": 1.292459,
-=======
-                "position_value": 0.80624,
-                "size": -1.0,
-                "unrealised_pnl": 1.323709,
->>>>>>> Stashed changes
+                "unrealised_pnl": 1.336709,
                 "direction": "SHORT"
             },
             "kBONK": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 18.166,
+                "position_value": 16.714,
                 "size": -1000.0,
-                "unrealised_pnl": 32.696267,
-=======
-                "position_value": 17.405,
-                "size": -1000.0,
-                "unrealised_pnl": 33.457267,
->>>>>>> Stashed changes
+                "unrealised_pnl": 34.148267,
                 "direction": "SHORT"
             },
             "WIF": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 0.7032,
+                "position_value": 0.62568,
                 "size": -1.0,
-                "unrealised_pnl": 3.202958,
-=======
-                "position_value": 0.6834,
-                "size": -1.0,
-                "unrealised_pnl": 3.222758,
->>>>>>> Stashed changes
+                "unrealised_pnl": 3.280478,
                 "direction": "SHORT"
             },
             "MANTA": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 3.60387,
+                "position_value": 3.44475,
                 "size": -9.0,
-                "unrealised_pnl": 6.780499,
-=======
-                "position_value": 3.53907,
-                "size": -9.0,
-                "unrealised_pnl": 6.845299,
->>>>>>> Stashed changes
+                "unrealised_pnl": 6.939619,
                 "direction": "SHORT"
             },
             "W": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 17.424,
+                "position_value": 16.756,
                 "size": -100.0,
-                "unrealised_pnl": 17.810261,
-=======
-                "position_value": 17.119,
-                "size": -100.0,
-                "unrealised_pnl": 18.115261,
->>>>>>> Stashed changes
+                "unrealised_pnl": 18.478261,
                 "direction": "SHORT"
             },
             "STRK": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 0.9756,
+                "position_value": 0.91876,
                 "size": -4.0,
-                "unrealised_pnl": 1.759713,
-=======
-                "position_value": 0.94848,
-                "size": -4.0,
-                "unrealised_pnl": 1.786833,
->>>>>>> Stashed changes
+                "unrealised_pnl": 1.816553,
                 "direction": "SHORT"
             },
             "AI": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 7.3455,
+                "position_value": 6.9055,
                 "size": -25.0,
-                "unrealised_pnl": 10.166249,
-=======
-                "position_value": 7.07675,
-                "size": -25.0,
-                "unrealised_pnl": 10.434999,
->>>>>>> Stashed changes
+                "unrealised_pnl": 10.606249,
                 "direction": "SHORT"
             },
             "kFLOKI": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 10.031,
+                "position_value": 9.1271,
                 "size": -100.0,
-                "unrealised_pnl": 17.156887,
-=======
-                "position_value": 9.436,
-                "size": -100.0,
-                "unrealised_pnl": 17.751887,
->>>>>>> Stashed changes
+                "unrealised_pnl": 18.060787,
                 "direction": "SHORT"
             },
             "TNSR": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 3.12147,
+                "position_value": 2.99025,
                 "size": -9.0,
-                "unrealised_pnl": 4.090491,
-=======
-                "position_value": 3.02886,
-                "size": -9.0,
-                "unrealised_pnl": 4.183101,
->>>>>>> Stashed changes
+                "unrealised_pnl": 4.221711,
                 "direction": "SHORT"
             },
             "HBAR": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 46.54836,
+                "position_value": 43.86728,
                 "size": -194.0,
-                "unrealised_pnl": 4.32232,
-=======
-                "position_value": 44.82176,
-                "size": -194.0,
-                "unrealised_pnl": 6.04892,
->>>>>>> Stashed changes
+                "unrealised_pnl": 7.0034,
                 "direction": "SHORT"
             },
             "POPCAT": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 5.9728,
+                "position_value": 5.5916,
                 "size": -20.0,
-                "unrealised_pnl": 31.193935,
-=======
-                "position_value": 5.984,
-                "size": -20.0,
-                "unrealised_pnl": 31.182735,
->>>>>>> Stashed changes
+                "unrealised_pnl": 31.575135,
                 "direction": "SHORT"
             },
             "BRETT": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 0.143064,
+                "position_value": 0.130446,
                 "size": -3.0,
-                "unrealised_pnl": 0.468153,
-=======
-                "position_value": 0.137949,
-                "size": -3.0,
-                "unrealised_pnl": 0.473268,
->>>>>>> Stashed changes
+                "unrealised_pnl": 0.480771,
                 "direction": "SHORT"
             },
             "ZK": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 18.47677,
+                "position_value": 17.86837,
                 "size": -169.0,
-                "unrealised_pnl": 20.594744,
-=======
-                "position_value": 18.00188,
-                "size": -169.0,
-                "unrealised_pnl": 21.069634,
->>>>>>> Stashed changes
+                "unrealised_pnl": 21.203144,
                 "direction": "SHORT"
             },
             "BLAST": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 4.650384,
+                "position_value": 4.430208,
                 "size": -1112.0,
-                "unrealised_pnl": 8.720151,
-=======
-                "position_value": 4.516944,
-                "size": -1112.0,
-                "unrealised_pnl": 8.853591,
->>>>>>> Stashed changes
+                "unrealised_pnl": 8.940327,
                 "direction": "SHORT"
             },
             "MEW": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 0.097185,
+                "position_value": 0.091047,
                 "size": -31.0,
-                "unrealised_pnl": 0.266849,
-=======
-                "position_value": 0.093651,
-                "size": -31.0,
-                "unrealised_pnl": 0.270383,
->>>>>>> Stashed changes
+                "unrealised_pnl": 0.272987,
                 "direction": "SHORT"
             },
             "SCR": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 42.37875,
+                "position_value": 41.5755,
                 "size": -75.0,
-                "unrealised_pnl": 13.809832,
-=======
-                "position_value": 42.039,
-                "size": -75.0,
-                "unrealised_pnl": 14.149582,
->>>>>>> Stashed changes
+                "unrealised_pnl": 14.613082,
                 "direction": "SHORT"
             },
             "NEIROETH": {
                 "leverage": 5.0,
-                "position_value": 42.371901,
+                "position_value": 39.457011,
                 "size": -2409.0,
-                "unrealised_pnl": 18.729099,
+                "unrealised_pnl": 21.643989,
                 "direction": "SHORT"
             },
             "kNEIRO": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 0.3337,
+                "position_value": 0.30685,
                 "size": -1.0,
-                "unrealised_pnl": 1.841993,
-=======
-                "position_value": 0.31903,
-                "size": -1.0,
-                "unrealised_pnl": 1.856663,
->>>>>>> Stashed changes
+                "unrealised_pnl": 1.868843,
                 "direction": "SHORT"
             },
             "GOAT": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 8.58567,
+                "position_value": 8.1006,
                 "size": -69.0,
-                "unrealised_pnl": 76.757943,
-=======
-                "position_value": 8.40213,
-                "size": -69.0,
-                "unrealised_pnl": 76.941483,
->>>>>>> Stashed changes
+                "unrealised_pnl": 77.243013,
                 "direction": "SHORT"
             },
             "MOODENG": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 11.568895,
+                "position_value": 10.633311,
                 "size": -169.0,
-                "unrealised_pnl": 91.138321,
-=======
-                "position_value": 11.216192,
-                "size": -169.0,
-                "unrealised_pnl": 91.491024,
->>>>>>> Stashed changes
+                "unrealised_pnl": 92.073905,
                 "direction": "SHORT"
             },
             "GRASS": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 1.4248,
+                "position_value": 1.4105,
                 "size": -1.0,
-                "unrealised_pnl": 2.236983,
-=======
-                "position_value": 1.4162,
-                "size": -1.0,
-                "unrealised_pnl": 2.245583,
->>>>>>> Stashed changes
+                "unrealised_pnl": 2.251283,
                 "direction": "SHORT"
             },
             "PNUT": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 0.17349,
+                "position_value": 0.16125,
                 "size": -1.0,
-                "unrealised_pnl": 1.860955,
-=======
-                "position_value": 0.16883,
-                "size": -1.0,
-                "unrealised_pnl": 1.865615,
->>>>>>> Stashed changes
+                "unrealised_pnl": 1.873195,
                 "direction": "SHORT"
             },
             "CHILLGUY": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 0.033702,
+                "position_value": 0.031593,
                 "size": -1.0,
-                "unrealised_pnl": 0.44587,
-=======
-                "position_value": 0.032909,
-                "size": -1.0,
-                "unrealised_pnl": 0.446663,
->>>>>>> Stashed changes
+                "unrealised_pnl": 0.447979,
                 "direction": "SHORT"
             },
             "ALGO": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 27.833,
+                "position_value": 27.19,
                 "size": -100.0,
-                "unrealised_pnl": 18.453385,
-=======
-                "position_value": 27.228,
-                "size": -100.0,
-                "unrealised_pnl": 19.058385,
->>>>>>> Stashed changes
+                "unrealised_pnl": 19.096385,
                 "direction": "SHORT"
             },
             "HYPE": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 23.661,
+                "position_value": 22.648,
                 "size": -1.0,
-                "unrealised_pnl": 4.746407,
-=======
-                "position_value": 22.988,
-                "size": -1.0,
-                "unrealised_pnl": 5.419407,
->>>>>>> Stashed changes
+                "unrealised_pnl": 5.759407,
                 "direction": "SHORT"
             },
             "VIRTUAL": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 3.5625,
+                "position_value": 3.2868,
                 "size": -3.0,
-                "unrealised_pnl": 8.129117,
-=======
-                "position_value": 3.4476,
-                "size": -3.0,
-                "unrealised_pnl": 8.244017,
->>>>>>> Stashed changes
+                "unrealised_pnl": 8.404817,
                 "direction": "SHORT"
             },
             "FARTCOIN": {
                 "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 0.53189,
+                "position_value": 0.50387,
                 "size": -1.0,
-                "unrealised_pnl": 1.989228,
-=======
-                "position_value": 0.51358,
-                "size": -1.0,
-                "unrealised_pnl": 2.007538,
->>>>>>> Stashed changes
+                "unrealised_pnl": 2.017248,
                 "direction": "SHORT"
             },
             "AI16Z": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 3.54,
+                "position_value": 3.6288,
                 "size": -10.0,
-                "unrealised_pnl": 19.783707,
-=======
-                "position_value": 3.4465,
-                "size": -10.0,
-                "unrealised_pnl": 19.877207,
->>>>>>> Stashed changes
+                "unrealised_pnl": 19.694907,
                 "direction": "SHORT"
             },
             "AIXBT": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 15.009,
+                "position_value": 13.707,
                 "size": -60.0,
-                "unrealised_pnl": 35.618347,
-=======
-                "position_value": 13.9146,
-                "size": -60.0,
-                "unrealised_pnl": 36.712747,
->>>>>>> Stashed changes
+                "unrealised_pnl": 36.920347,
                 "direction": "SHORT"
             },
             "ZEREBRO": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 0.0949,
+                "position_value": 0.088914,
                 "size": -2.0,
-                "unrealised_pnl": 1.095056,
-=======
-                "position_value": 0.0917,
-                "size": -2.0,
-                "unrealised_pnl": 1.098256,
->>>>>>> Stashed changes
+                "unrealised_pnl": 1.101042,
                 "direction": "SHORT"
             },
             "BIO": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 0.28856,
+                "position_value": 0.2573,
                 "size": -2.0,
-                "unrealised_pnl": 1.317074,
-=======
-                "position_value": 0.2732,
-                "size": -2.0,
-                "unrealised_pnl": 1.332434,
->>>>>>> Stashed changes
+                "unrealised_pnl": 1.348334,
                 "direction": "SHORT"
             },
             "GRIFFAIN": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 0.13332,
+                "position_value": 0.12967,
                 "size": -1.0,
-                "unrealised_pnl": 0.465389,
-=======
-                "position_value": 0.13025,
-                "size": -1.0,
-                "unrealised_pnl": 0.468459,
->>>>>>> Stashed changes
+                "unrealised_pnl": 0.469039,
                 "direction": "SHORT"
             },
             "SPX": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 1.87452,
+                "position_value": 1.84137,
                 "size": -3.0,
-                "unrealised_pnl": 3.09318,
-=======
-                "position_value": 1.80486,
-                "size": -3.0,
-                "unrealised_pnl": 3.16284,
->>>>>>> Stashed changes
+                "unrealised_pnl": 3.12633,
                 "direction": "SHORT"
             },
             "S": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 6.5104,
+                "position_value": 6.42,
                 "size": -16.0,
-                "unrealised_pnl": 4.6248,
-=======
-                "position_value": 6.49888,
-                "size": -16.0,
-                "unrealised_pnl": 4.63632,
->>>>>>> Stashed changes
+                "unrealised_pnl": 4.7152,
                 "direction": "SHORT"
             },
             "MORPHO": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 2.0039,
+                "position_value": 1.9726,
                 "size": -1.0,
-                "unrealised_pnl": 2.0612,
-=======
-                "position_value": 2.0507,
-                "size": -1.0,
-                "unrealised_pnl": 2.0144,
->>>>>>> Stashed changes
+                "unrealised_pnl": 2.0925,
                 "direction": "SHORT"
             },
             "TRUMP": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 17.003,
+                "position_value": 14.888,
                 "size": -1.0,
-                "unrealised_pnl": 49.644285,
-=======
-                "position_value": 16.66,
-                "size": -1.0,
-                "unrealised_pnl": 49.987285,
->>>>>>> Stashed changes
+                "unrealised_pnl": 51.759285,
                 "direction": "SHORT"
             },
             "MELANIA": {
                 "leverage": 5.0,
-<<<<<<< Updated upstream
-                "position_value": 21.813,
+                "position_value": 21.66,
                 "size": -15.0,
-                "unrealised_pnl": 145.504713,
-=======
-                "position_value": 21.753,
-                "size": -15.0,
-                "unrealised_pnl": 145.564713,
->>>>>>> Stashed changes
+                "unrealised_pnl": 145.657713,
                 "direction": "SHORT"
-            }
-        }
-    },
-    "0xd232274b0807c561cbee970a716edea97381c38c": {
-        "vault_name": "HuskyXBT",
-<<<<<<< Updated upstream
-        "vault_tvl": 567666.276905,
-        "positions": {
-            "BTC": {
-                "leverage": 10.0,
-                "position_value": 96901.0,
-                "size": 1.0,
-                "unrealised_pnl": 940.45769,
-=======
-        "vault_tvl": 564953.965696,
-        "positions": {
-            "BTC": {
-                "leverage": 10.0,
-                "position_value": 96054.0,
-                "size": 1.0,
-                "unrealised_pnl": 93.45769,
->>>>>>> Stashed changes
-                "direction": "LONG"
-            },
-            "XRP": {
-                "leverage": 1.0,
-<<<<<<< Updated upstream
-                "position_value": 20628.8828,
-                "size": 8366.0,
-                "unrealised_pnl": 636.2825,
-=======
-                "position_value": 20118.5568,
-                "size": 8366.0,
-                "unrealised_pnl": 125.9565,
->>>>>>> Stashed changes
-                "direction": "LONG"
-            },
-            "WIF": {
-                "leverage": 1.0,
-<<<<<<< Updated upstream
-                "position_value": 20759.8704,
-                "size": 29522.0,
-                "unrealised_pnl": 760.63456,
-=======
-                "position_value": 20175.3348,
-                "size": 29522.0,
-                "unrealised_pnl": 176.09896,
->>>>>>> Stashed changes
-                "direction": "LONG"
-            },
-            "PURR": {
-                "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 22359.71298,
-                "size": 156482.0,
-                "unrealised_pnl": 2294.22791,
-=======
-                "position_value": 21680.5811,
-                "size": 156482.0,
-                "unrealised_pnl": 1615.09603,
->>>>>>> Stashed changes
-                "direction": "LONG"
-            },
-            "HYPE": {
-                "leverage": 3.0,
-<<<<<<< Updated upstream
-                "position_value": 28746.69534,
-                "size": 1214.94,
-                "unrealised_pnl": 1165.221,
-=======
-                "position_value": 27929.04072,
-                "size": 1214.94,
-                "unrealised_pnl": 347.56638,
->>>>>>> Stashed changes
-                "direction": "LONG"
             }
         }
     },
     "0x8d599f4a77eaa7d4569735a0be656aab8efbf101": {
         "vault_name": "Stabilizer",
-<<<<<<< Updated upstream
-        "vault_tvl": 554823.771735,
-        "positions": {
-            "kPEPE": {
-                "leverage": 10.0,
-                "position_value": 231794.236668,
-                "size": 23876621.0,
-                "unrealised_pnl": -42650.610707,
-=======
-        "vault_tvl": 547458.700768,
+        "vault_tvl": 541185.368846,
         "positions": {
             "SOL": {
                 "leverage": 10.0,
-                "position_value": 1631.9988,
-                "size": 8.22,
-                "unrealised_pnl": 8.7132,
+                "position_value": 1606.4386,
+                "size": 8.06,
+                "unrealised_pnl": -16.7648,
                 "direction": "LONG"
             },
             "SUI": {
                 "leverage": 10.0,
-                "position_value": 1591.42057,
-                "size": 525.1,
-                "unrealised_pnl": -32.50369,
+                "position_value": 3230.7438,
+                "size": 1082.0,
+                "unrealised_pnl": -15.66278,
                 "direction": "LONG"
             },
             "kPEPE": {
                 "leverage": 10.0,
-                "position_value": 224416.360779,
-                "size": 23876621.0,
-                "unrealised_pnl": -50028.486596,
->>>>>>> Stashed changes
+                "position_value": 221035.703574,
+                "size": 23875103.0,
+                "unrealised_pnl": -53335.822648,
                 "direction": "LONG"
             },
-            "LDO": {
+            "TAO": {
+                "leverage": 5.0,
+                "position_value": 1614.60112,
+                "size": 4.499,
+                "unrealised_pnl": -8.95301,
+                "direction": "LONG"
+            },
+            "ENA": {
                 "leverage": 10.0,
-<<<<<<< Updated upstream
-                "position_value": 1582.84062,
-                "size": 1048.1,
-                "unrealised_pnl": -41.08552,
-=======
-                "position_value": 5630.98905,
-                "size": 3826.7,
-                "unrealised_pnl": -73.04587,
->>>>>>> Stashed changes
+                "position_value": 5995.12608,
+                "size": 12708.0,
+                "unrealised_pnl": -35.30366,
                 "direction": "LONG"
             }
         }
