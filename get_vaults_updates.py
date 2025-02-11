@@ -70,6 +70,7 @@ def get_vaults_updates(chat_id, send_to_tg=True):
         return
 
     count = 1
+    valid_vaults_count = 0
     total_curr_top_tvl_vaults = len(curr_top_tvl_vaults)
     updated_top_tvl_vaults = {}
     long_short_counter = {"LONG": {}, "SHORT": {}}
@@ -150,6 +151,7 @@ def get_vaults_updates(chat_id, send_to_tg=True):
                     "positions": positions_dict,
                 }
 
+                valid_vaults_count += 1
                 break_flag = True
                 time.sleep(0.5)
                 break
@@ -286,19 +288,23 @@ def get_vaults_updates(chat_id, send_to_tg=True):
             terminal_output += terminal_msg
             tg_msg_list.append(f"{'_'*32}\n")
 
-        summary_msg = f"\n📊 **Summary of Long/Short Positions (Count >= {MIN_POSITION_COUNTS}):**\n"
-        tg_summary_msg = f"\n📊 *Summary of Long/Short Positions (Count >= {MIN_POSITION_COUNTS}):*\n"
+        summary_msg = f"\n📊 **Summary of Long/Short Positions (Count >= {MIN_POSITION_COUNTS}):**\n\nTotal No. of Vaults: {valid_vaults_count}"
+        tg_summary_msg = f"\n📊 *Summary of Long/Short Positions (Count >= {MIN_POSITION_COUNTS}):*\n\n*Total No. of Vaults:* {valid_vaults_count}"
 
         print(summary_msg)
         terminal_output += summary_msg
         tg_msg_list.append(tg_summary_msg)
+        count = 1
 
         for direction, coins in long_short_counter.items():
             direction_icon = "🟢" if direction == "LONG" else "🔴"
             direction_msg = f"\n{direction} Positions:"
             print(direction_msg)
             terminal_output += direction_msg
-            tg_msg_list.append(f"\n*{direction} Positions:*")
+            if count == 1:
+                tg_msg_list.append(f"*{direction} Positions:*")
+            else:
+                tg_msg_list.append(f"\n*{direction} Positions:*")
 
             sorted_coins = sorted(coins.items(),
                                   key=lambda x: x[1],
@@ -311,6 +317,8 @@ def get_vaults_updates(chat_id, send_to_tg=True):
                     terminal_output += f"\n{coin_msg}"
                     tg_msg_list.append(
                         f"{direction_icon} {coin}: {count} time(s)")
+
+            count += 1
 
         print("\n" + "-" * 40)
         terminal_output += "\n" + "-" * 40
