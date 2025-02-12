@@ -223,7 +223,7 @@ def get_vaults_updates(chat_id, send_to_tg=True):
         terminal_msg = "\nNo vault updates found.\n"
         print(terminal_msg)
     else:
-        terminal_msg = f"\n{'='*40}\nHyperliquid Vaults Updates (TVL >= {MIN_VAULT_TVL:,}):\n{'='*40}"
+        terminal_msg = f"\n{'='*40}\nHyperliquid Vaults Updates (TVL >= {MIN_VAULT_TVL:,.2f} USD):\n{'='*40}"
         print(terminal_msg)
 
         sorted_differences = sorted(differences.items(),
@@ -233,7 +233,7 @@ def get_vaults_updates(chat_id, send_to_tg=True):
         terminal_output = terminal_msg
         tg_msg_list = []
         tg_msg_title_list = [
-            f"**Hyperliquid Vaults Updates (TVL >= {MIN_VAULT_TVL:,}):**\n"
+            f"**Hyperliquid Vaults Updates (TVL >= {MIN_VAULT_TVL:,.2f} USD):**\n"
         ]
 
         for vault_address, vault_updates in sorted_differences:
@@ -242,7 +242,7 @@ def get_vaults_updates(chat_id, send_to_tg=True):
             vault_tvl = vault_updates["vault_tvl"]
             positions_updates = vault_updates["positions"]
 
-            terminal_msg = f"\n📌 Vault: {vault_name}\n🔗 Vault Address: {vault_address}\n💰 TVL: {vault_tvl:,}\n{'-'*40}"
+            terminal_msg = f"\n📌 Vault: {vault_name}\n🔗 Vault Address: {vault_address}\n💰 TVL: {vault_tvl:,.2f} USD\n{'-'*40}"
             print(terminal_msg)
             terminal_output += terminal_msg
 
@@ -250,7 +250,7 @@ def get_vaults_updates(chat_id, send_to_tg=True):
             escaped_vault_name = escaped_vault_name.replace(r'\ ', ' ')
             tg_msg_list.append(f"*_**📌 Vault: {escaped_vault_name}**_*\n"
                                f"_**🔗 Address: `{vault_address}`**_\n"
-                               f"💰 TVL: {vault_tvl:,}")
+                               f"💰 TVL: {vault_tvl:,} USD")
 
             for coin, updates in positions_updates.items():
                 before = updates.get('before', {})
@@ -303,16 +303,16 @@ def get_vaults_updates(chat_id, send_to_tg=True):
         for direction, coins in long_short_counter.items():
             direction_icon = "🟢" if direction == "LONG" else "🔴"
             total_positions_value = total_long_positions_value if direction == "LONG" else total_short_positions_value
-            direction_msg = f"\n{direction} Positions (Total Positions Value = {total_positions_value}):"
+            direction_msg = f"\n{direction} Positions (Total Positions Value = {total_positions_value:,.2f} USD):"
             print(direction_msg)
             terminal_output += direction_msg
             if count == 1:
                 tg_msg_list.append(
-                    f"*{direction} Positions (Total Positions Value = {total_positions_value}):*"
+                    f"*{direction} Positions (Total Positions Value = {total_positions_value:,.2f} USD):*"
                 )
             else:
                 tg_msg_list.append(
-                    f"\n*{direction} Positions (Total Positions Value = {total_positions_value}):*"
+                    f"\n*{direction} Positions (Total Positions Value = {total_positions_value:,.2f} USD):*"
                 )
 
             sorted_coins = sorted(coins.items(),
