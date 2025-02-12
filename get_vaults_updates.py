@@ -71,6 +71,8 @@ def get_vaults_updates(chat_id, send_to_tg=True):
 
     count = 1
     valid_vaults_count = 0
+    total_long_positions_value = 0
+    total_short_positions_value = 0
     total_curr_top_tvl_vaults = len(curr_top_tvl_vaults)
     updated_top_tvl_vaults = {}
     long_short_counter = {"LONG": {}, "SHORT": {}}
@@ -129,8 +131,10 @@ def get_vaults_updates(chat_id, send_to_tg=True):
 
                     if size >= 0:
                         direction = "LONG"
+                        total_long_positions_value += position_value
                     else:
                         direction = "SHORT"
+                        total_short_positions_value += position_value
 
                     positions_dict[coin] = {
                         "leverage": leverage,
@@ -298,13 +302,18 @@ def get_vaults_updates(chat_id, send_to_tg=True):
 
         for direction, coins in long_short_counter.items():
             direction_icon = "🟢" if direction == "LONG" else "🔴"
-            direction_msg = f"\n{direction} Positions:"
+            total_positions_value = total_long_positions_value if direction == "LONG" else total_short_positions_value
+            direction_msg = f"\n{direction} Positions (Total Positions Value = {total_positions_value}):"
             print(direction_msg)
             terminal_output += direction_msg
             if count == 1:
-                tg_msg_list.append(f"*{direction} Positions:*")
+                tg_msg_list.append(
+                    f"*{direction} Positions (Total Positions Value = {total_positions_value}):*"
+                )
             else:
-                tg_msg_list.append(f"\n*{direction} Positions:*")
+                tg_msg_list.append(
+                    f"\n*{direction} Positions (Total Positions Value = {total_positions_value}):*"
+                )
 
             sorted_coins = sorted(coins.items(),
                                   key=lambda x: x[1],
