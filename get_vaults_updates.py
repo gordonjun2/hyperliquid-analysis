@@ -4,9 +4,9 @@ import re
 import argparse
 import telebot
 from utils import *
-from config import (MIN_VAULT_TVL, EXCLUDED_VAULT_ADDRESSES, MAX_RETRIES,
-                    RETRY_AFTER, MIN_POSITION_COUNTS, USER_ID, TEST_TG_CHAT_ID,
-                    TELEGRAM_BOT_TOKEN)
+from config import (MIN_VAULT_TVL, MIN_VAULT_APR, EXCLUDED_VAULT_ADDRESSES,
+                    MAX_RETRIES, RETRY_AFTER, MIN_POSITION_COUNTS, USER_ID,
+                    TEST_TG_CHAT_ID, TELEGRAM_BOT_TOKEN)
 
 
 def get_top_tvl_vaults():
@@ -40,7 +40,7 @@ def get_vault_details(vault_address):
 
     url = "https://api.hyperliquid.xyz/info"
     headers = {"Content-Type": "application/json"}
-    payload = {"type": "clearinghouseState", "user": vault_address}
+    payload = {"type": "vaultDetails", "vaultAddress": vault_address}
 
     response = requests.post(url, headers=headers, json=payload, verify=False)
 
@@ -97,6 +97,15 @@ def get_vaults_updates(chat_id, send_to_tg=True):
             print("Retrieving vault details for {} ({}/{})...".format(
                 vault_name, count, total_curr_top_tvl_vaults))
 
+            vault_details = get_vault_details(vault_address)
+
+            if not vault_details:
+                print('No vault details found. Skipping...')
+                break_flag = True
+                break
+            else:
+                vault_apr = float(vault_details.get('apr', 0)) * 100
+
             payload = {"type": "clearinghouseState", "user": vault_address}
             response = requests.post(url,
                                      headers=headers,
@@ -144,18 +153,22 @@ def get_vaults_updates(chat_id, send_to_tg=True):
                         "direction": direction
                     }
 
-                    if coin in long_short_counter[direction]:
-                        long_short_counter[direction][coin] += 1
-                    else:
-                        long_short_counter[direction][coin] = 1
+                    if vault_apr >= MIN_VAULT_APR:
+                        if coin in long_short_counter[direction]:
+                            long_short_counter[direction][coin] += 1
+                        else:
+                            long_short_counter[direction][coin] = 1
 
                 updated_top_tvl_vaults[vault_address] = {
                     "vault_name": vault_name,
                     "vault_tvl": vault_tvl,
+                    "vault_apr": vault_apr,
                     "positions": positions_dict,
                 }
 
-                valid_vaults_count += 1
+                if vault_apr >= MIN_VAULT_APR:
+                    valid_vaults_count += 1
+
                 break_flag = True
                 time.sleep(0.5)
                 break
@@ -216,6 +229,7 @@ def get_vaults_updates(chat_id, send_to_tg=True):
             differences[vault_address] = {
                 "vault_name": updated_vault["vault_name"],
                 "vault_tvl": updated_vault["vault_tvl"],
+                "vault_apr": updated_vault["vault_apr"],
                 "positions": changed_positions
             }
 
@@ -223,26 +237,33 @@ def get_vaults_updates(chat_id, send_to_tg=True):
         terminal_msg = "\nNo vault updates found.\n"
         print(terminal_msg)
     else:
-        terminal_msg = f"\n{'='*40}\nHyperliquid Vaults Updates (TVL >= {MIN_VAULT_TVL:,.2f} USD):\n{'='*40}"
+        terminal_msg = f"\n{'='*40}\nHyperliquid Vaults Updates (TVL >= {MIN_VAULT_TVL:,.2f} USD & APR >= {MIN_VAULT_APR:,.2f}%):\n{'='*40}"
         print(terminal_msg)
 
-        sorted_differences = sorted(differences.items(),
+        filtered_differences = {
+            vault_address: data
+            for vault_address, data in differences.items()
+            if data["vault_apr"] >= MIN_VAULT_APR
+        }
+
+        sorted_differences = sorted(filtered_differences.items(),
                                     key=lambda x: x[1]["vault_tvl"],
                                     reverse=True)
 
         terminal_output = terminal_msg
         tg_msg_list = []
         tg_msg_title_list = [
-            f"**Hyperliquid Vaults Updates (TVL >= {MIN_VAULT_TVL:,.2f} USD):**\n"
+            f"**Hyperliquid Vaults Updates (TVL >= {MIN_VAULT_TVL:,.2f} USD & APR >= {MIN_VAULT_APR:,.2f}%):**\n"
         ]
 
         for vault_address, vault_updates in sorted_differences:
 
             vault_name = vault_updates["vault_name"]
             vault_tvl = vault_updates["vault_tvl"]
+            vault_apr = vault_updates["vault_apr"]
             positions_updates = vault_updates["positions"]
 
-            terminal_msg = f"\n📌 Vault: {vault_name}\n🔗 Vault Address: {vault_address}\n💰 TVL: {vault_tvl:,.2f} USD\n{'-'*40}"
+            terminal_msg = f"\n📌 Vault: {vault_name}\n🔗 Address: {vault_address}\n💰 TVL: {vault_tvl:,.2f} USD\n📈 APR: {vault_apr:,.2f}%\n{'-'*40}"
             print(terminal_msg)
             terminal_output += terminal_msg
 
@@ -250,7 +271,8 @@ def get_vaults_updates(chat_id, send_to_tg=True):
             escaped_vault_name = escaped_vault_name.replace(r'\ ', ' ')
             tg_msg_list.append(f"*_**📌 Vault: {escaped_vault_name}**_*\n"
                                f"_**🔗 Address: `{vault_address}`**_\n"
-                               f"💰 TVL: {vault_tvl:,} USD")
+                               f"💰 TVL: {vault_tvl:,.2f} USD\n"
+                               f"📈 APR: {vault_apr:,.2f}%")
 
             for coin, updates in positions_updates.items():
                 before = updates.get('before', {})
