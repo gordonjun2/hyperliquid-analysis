@@ -233,18 +233,18 @@ def get_vaults_updates(chat_id, send_to_tg=True):
                 "positions": changed_positions
             }
 
-    if not differences:
+    filtered_differences = {
+        vault_address: data
+        for vault_address, data in differences.items()
+        if data["vault_apr"] >= MIN_VAULT_APR
+    }
+
+    if not filtered_differences:
         terminal_msg = "\nNo vault updates found.\n"
         print(terminal_msg)
     else:
         terminal_msg = f"\n{'='*40}\nHyperliquid Vaults Updates (TVL >= {MIN_VAULT_TVL:,.2f} USD & APR >= {MIN_VAULT_APR:,.2f}%):\n{'='*40}"
         print(terminal_msg)
-
-        filtered_differences = {
-            vault_address: data
-            for vault_address, data in differences.items()
-            if data["vault_apr"] >= MIN_VAULT_APR
-        }
 
         sorted_differences = sorted(filtered_differences.items(),
                                     key=lambda x: x[1]["vault_tvl"],
