@@ -15,16 +15,35 @@ if cfg:
         telegram = dict(cfg.items('telegram'))
         TELEGRAM_BOT_TOKEN = telegram.get('telegram_bot_token', '')
         TEST_TG_CHAT_ID = telegram.get('test_tg_chat_id', '')
+        TEST_TG_CHAT_ID_2 = telegram.get('test_tg_chat_id_2', '')
         USER_ID = telegram.get('user_id', '')
     else:
         TELEGRAM_BOT_TOKEN = ''
         TEST_TG_CHAT_ID = ''
+        TEST_TG_CHAT_ID_2 = ''
         USER_ID = ''
+    if cfg.has_section('general'):
+        general = dict(cfg.items('general'))
+        TIMEZONE = general.get('timezone', 'Asia/Singapore')
+    else:
+        TIMEZONE = 'Asia/Singapore'
+    if cfg.has_section('hyperliquid'):
+        hyperliquid = dict(cfg.items('hyperliquid'))
+        cleaned_addresses = hyperliquid.get('addresses_to_track',
+                                            '').replace("\\\n", "")
+        ADDRESSES_TO_TRACK = [
+            item.strip() for item in cleaned_addresses.split(",")
+        ]
+    else:
+        ADDRESSES_TO_TRACK = ['']
 
 else:
     TELEGRAM_BOT_TOKEN = ''
     TEST_TG_CHAT_ID = ''
+    TEST_TG_CHAT_ID_2 = ''
     USER_ID = ''
+    TIMEZONE = 'Asia/Singapore'
+    ADDRESSES_TO_TRACK = ['']
 
 MIN_VAULT_TVL = 1e5
 MIN_VAULT_APR = 10  # in %

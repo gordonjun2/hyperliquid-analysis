@@ -366,24 +366,8 @@ def get_vaults_updates(chat_id, send_to_tg=True):
                 print("Sending vault updates to Telegram...\n")
                 bot = telebot.TeleBot(token=TELEGRAM_BOT_TOKEN, threaded=False)
                 tg_msg_title_list.extend(tg_msg_list)
-                chunks = chunk_message(tg_msg_title_list)
-                for chunk in chunks:
-                    retry_count = 0
-                    while retry_count < MAX_RETRIES:
-                        try:
-                            bot.send_message(chat_id,
-                                             chunk,
-                                             parse_mode='MarkdownV2')
-                            time.sleep(3)
-                            break
-                        except:
-                            retry_count += 1
-                            time.sleep(60)
-                    else:
-                        print(
-                            "Max retries reached. No new message will be sent.\n"
-                        )
-                        break
+                send_telegram_message(tg_msg_title_list, bot, chat_id,
+                                      MAX_RETRIES)
 
                 print('Vault updates sent to Telegram.\n')
 

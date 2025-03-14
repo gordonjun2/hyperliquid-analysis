@@ -1,6 +1,7 @@
 import os
 import json
 import sys
+import time
 from datetime import datetime
 import pytz
 from tzlocal import get_localzone
@@ -95,3 +96,26 @@ def chunk_message(messages, max_length=4096):
         chunks.append(current_chunk.strip())
 
     return chunks
+
+
+def send_to_telegram(msg_list,
+                     bot,
+                     chat_id,
+                     max_retries,
+                     try_sleep=3,
+                     except_sleep=60):
+
+    chunks = chunk_message(msg_list)
+    for chunk in chunks:
+        retry_count = 0
+        while retry_count < max_retries:
+            try:
+                bot.send_message(chat_id, chunk, parse_mode='MarkdownV2')
+                time.sleep(try_sleep)
+                break
+            except:
+                retry_count += 1
+                time.sleep(except_sleep)
+        else:
+            print("Max retries reached. No new message will be sent.\n")
+            break
