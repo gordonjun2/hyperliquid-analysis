@@ -1,6 +1,4 @@
-import time
 import signal
-import aiohttp
 import telebot
 from datetime import datetime
 import pytz
