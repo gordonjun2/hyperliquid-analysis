@@ -19,11 +19,11 @@ except:
 
 
 def get_direction_icon(direction):
-    if direction in ["Open Long", "Long"]:
+    if direction.lower() in ["open long", "long"]:
         return "🟢"
-    elif direction == ["Open Short", 'Short']:
+    elif direction.lower() in ["open short", 'short']:
         return "🔴"
-    elif direction in ["Close Long", "Close Short"]:
+    elif direction.lower() in ["close long", "close short"]:
         return "🔵"
     else:
         return "⚪"
@@ -59,6 +59,7 @@ def on_user_fills_message(ws_msg):
             sz_usd = px * sz
             timestamp = fill.get("time")
             direction = fill.get("dir")
+            hash = fill.get("hash")
 
             dt_utc = datetime.utcfromtimestamp(timestamp / 1000)
             dt_sg = pytz.utc.localize(dt_utc).astimezone(timezone)
@@ -66,11 +67,12 @@ def on_user_fills_message(ws_msg):
 
             msg = msg + (
                 f"🔗 *Tracked Address*: {ADDRESSES_TO_TRACK[0]}\n"
+                f"#️⃣ *Hash*: {hash}\n"
                 f"⏰ **Time**: {dt_str}\n"
                 f"💰 **Coin**: {coin}\n"
                 f"📊 **Price**: ${px:,.2f}\n"
                 f"💵 **Size (in USD)**: ${sz_usd:,.2f}\n"
-                f"{get_direction_icon(direction)} **Direction**: {direction}\n"
+                f"{get_direction_icon(direction)} **Direction**: {direction}\n\n"
             )
 
             print(msg)
@@ -118,6 +120,9 @@ def on_order_updates_message(ws_msg):
             limit_px = float(basic_order.get("limitPx", 0))
             sz = float(basic_order.get("sz", 0))
             timestamp = basic_order.get("timestamp", 0)
+            oid = basic_order.get("oid", '')
+            cloid = basic_order.get("cloid", '')
+            origSz = float(basic_order.get("origSz", 0))
 
             if side.upper() == 'A':
                 direction = 'Short'
@@ -127,6 +132,7 @@ def on_order_updates_message(ws_msg):
                 direction = 'Unknown'
 
             sz_usd = limit_px * sz
+            orig_sz_usd = limit_px * origSz
 
             dt_utc = datetime.utcfromtimestamp(timestamp / 1000)
             dt_sg = pytz.utc.localize(dt_utc).astimezone(timezone)
@@ -134,12 +140,15 @@ def on_order_updates_message(ws_msg):
 
             msg = msg + (
                 f"🔗 *Tracked Address*: {ADDRESSES_TO_TRACK[0]}\n"
+                f"#️⃣ *Order ID*: {oid}\n"
+                f"#️⃣ *Close Order ID*: {cloid}\n"
                 f"⏰ **Time**: {dt_str}\n"
                 f"💰 **Coin**: {coin}\n"
                 f"📊 **Limit Price**: ${limit_px:,.2f}\n"
                 f"💵 **Size (in USD)**: ${sz_usd:,.2f}\n"
+                f"💵 **Original Size (in USD)**: ${orig_sz_usd:,.2f}\n"
                 f"{get_direction_icon(direction)} **Direction**: {direction}\n"
-                f"🛒 **Order Status**: {status.capitalize()}\n")
+                f"🛒 **Order Status**: {status.capitalize()}\n\n")
 
             print(msg)
 
