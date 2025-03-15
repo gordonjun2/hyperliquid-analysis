@@ -191,7 +191,6 @@ async def create_ws_manager_and_subscribe():
         subscription = {
             "type": "userFills",
             "user": ADDRESSES_TO_TRACK[0],
-            "aggregateByTime": True
         }
         ws_manager.subscribe(subscription, on_user_fills_message)
     else:
