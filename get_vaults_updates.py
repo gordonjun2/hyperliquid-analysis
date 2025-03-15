@@ -366,8 +366,7 @@ def get_vaults_updates(chat_id, send_to_tg=True):
                 print("Sending vault updates to Telegram...\n")
                 bot = telebot.TeleBot(token=TELEGRAM_BOT_TOKEN, threaded=False)
                 tg_msg_title_list.extend(tg_msg_list)
-                send_telegram_message(tg_msg_title_list, bot, chat_id,
-                                      MAX_RETRIES)
+                send_to_telegram(tg_msg_title_list, bot, chat_id, MAX_RETRIES)
 
                 print('Vault updates sent to Telegram.\n')
 
