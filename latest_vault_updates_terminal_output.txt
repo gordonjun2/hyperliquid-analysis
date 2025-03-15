@@ -2,49 +2,47 @@
 ========================================
 Hyperliquid Vaults Updates (TVL >= 100,000.00 USD & APR >= 10.00%):
 ========================================
-📌 Vault: TopCryp - MEME
-🔗 Address: 0xbee2f4609e1ca13801c552083de24c1e90ae4e07
-💰 TVL: 393,863.95 USD
-📈 APR: 178.88%
+📌 Vault: Growi HF
+🔗 Address: 0x1e37a337ed460039d1b15bd3bc489de789768d5e
+💰 TVL: 592,269.45 USD
+📈 APR: 20.68%
 ----------------------------------------
-🔹 Coin: MELANIA
-   - Leverage: 5.0 → CLOSED
-   - Direction: SHORT → CLOSED
+🔴 Coin: XRP
+   - Leverage: 20.0 → 20.0
+   - Direction: LONG → SHORT
 ----------------------------------------
-🔹 Coin: MELANIA
-   - Leverage: 5.0 → CLOSED
-   - Direction: SHORT → CLOSED
+🔴 Coin: XRP
+   - Leverage: 20.0 → 20.0
+   - Direction: LONG → SHORT
 ----------------------------------------
-📌 Vault: Makrochronios
-🔗 Address: 0x99c2cec0cd98df74fb14a8b7e6b71f0ebcc02600
-💰 TVL: 118,815.10 USD
-📈 APR: 48.25%
+📌 Vault: Satori Quantum HF Vault
+🔗 Address: 0xbbf7d7a9d0eaeab4115f022a6863450296112422
+💰 TVL: 102,150.41 USD
+📈 APR: 34.49%
 ----------------------------------------
-🟢 Coin: XRP
-   - Leverage: OPENED → 10.0
-   - Direction: OPENED → LONG
+🔴 Coin: XRP
+   - Leverage: 20.0 → 20.0
+   - Direction: LONG → SHORT
 ----------------------------------------
-🟢 Coin: HBAR
-   - Leverage: OPENED → 5.0
-   - Direction: OPENED → LONG
-----------------------------------------
-🟢 Coin: HBAR
-   - Leverage: OPENED → 5.0
-   - Direction: OPENED → LONG
+🔴 Coin: XRP
+   - Leverage: 20.0 → 20.0
+   - Direction: LONG → SHORT
 ----------------------------------------
 📊 **Summary of Long/Short Positions (Count >= 3):**
 
-Total No. of Vaults: 11
-LONG Positions (Total Positions Value = 23,177,778.07 USD):
-🟢 BTC: 7 time(s)
-🟢 ETH: 4 time(s)
-🟢 SOL: 3 time(s)
+Total No. of Vaults: 14
+LONG Positions (Total Positions Value = 26,840,441.73 USD):
+🟢 BTC: 8 time(s)
+🟢 SOL: 4 time(s)
+🟢 HYPE: 4 time(s)
+🟢 ETH: 3 time(s)
 🟢 LTC: 3 time(s)
-🟢 XRP: 3 time(s)
 🟢 WLD: 3 time(s)
 🟢 TIA: 3 time(s)
-SHORT Positions (Total Positions Value = 10,037,631.37 USD):
+SHORT Positions (Total Positions Value = 11,526,964.14 USD):
 🔴 ADA: 3 time(s)
+🔴 XRP: 3 time(s)
 🔴 APE: 3 time(s)
 🔴 DOGE: 3 time(s)
+🔴 LINK: 3 time(s)
 ----------------------------------------

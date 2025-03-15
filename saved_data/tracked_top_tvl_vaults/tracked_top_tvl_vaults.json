@@ -1,2332 +1,2458 @@
 {
     "0xf967239debef10dbc78e9bbbb2d8a16b72a614eb": {
         "vault_name": "Sifu",
-        "vault_tvl": 4906123.998403,
-        "vault_apr": -6.252584787571158,
+        "vault_tvl": 4806511.584968,
+        "vault_apr": -11.886717930892074,
         "positions": {
             "BTC": {
                 "leverage": 15.0,
-                "position_value": 7094610.0,
-                "size": -85.0,
-                "unrealised_pnl": -66787.68633,
+                "position_value": 8470123.78915,
+                "size": -100.12085,
+                "unrealised_pnl": -171146.81218,
                 "direction": "SHORT"
             },
-            "ETH": {
-                "leverage": 25.0,
-                "position_value": 998182.5,
-                "size": 525.0,
-                "unrealised_pnl": 2441.07203,
-                "direction": "LONG"
-            },
-            "HYPE": {
-                "leverage": 3.0,
-                "position_value": 159852.49664,
-                "size": -11596.96,
-                "unrealised_pnl": -14049.214882,
-                "direction": "SHORT"
-            }
-        }
-    },
-    "0x5a733b25a17dc0f26b862ca9e32b439801b1a8c7": {
-        "vault_name": "Hyperliquidity Trader (HLT)",
-        "vault_tvl": 1543528.353191,
-        "vault_apr": 207.10050761908127,
-        "positions": {
-            "MKR": {
+            "CRV": {
                 "leverage": 10.0,
-                "position_value": 217596.08676,
-                "size": -188.9511,
-                "unrealised_pnl": -17384.2385,
-                "direction": "SHORT"
-            },
-            "ADA": {
-                "leverage": 10.0,
-                "position_value": 200399.65155,
-                "size": -278159.0,
-                "unrealised_pnl": -382.67965,
+                "position_value": 431388.871375,
+                "size": -1056212.5,
+                "unrealised_pnl": -180.899949,
                 "direction": "SHORT"
             }
         }
     },
     "0x8fc7c0442e582bca195978c5a4fdec2e7c5bb0f7": {
         "vault_name": "Elsewhere",
-        "vault_tvl": 1434598.006015,
-        "vault_apr": 49.43652709531107,
+        "vault_tvl": 1482353.049007,
+        "vault_apr": 97.46669517264233,
         "positions": {
             "BTC": {
                 "leverage": 40.0,
-                "position_value": 3170375.41891,
+                "position_value": 3213603.83969,
                 "size": 37.98631,
-                "unrealised_pnl": 37771.827994,
+                "unrealised_pnl": 81000.248774,
+                "direction": "LONG"
+            },
+            "SOL": {
+                "leverage": 20.0,
+                "position_value": 80868.0,
+                "size": 600.0,
+                "unrealised_pnl": 1860.0993,
+                "direction": "LONG"
+            }
+        }
+    },
+    "0x5a733b25a17dc0f26b862ca9e32b439801b1a8c7": {
+        "vault_name": "Hyperliquidity Trader (HLT)",
+        "vault_tvl": 1469062.36179,
+        "vault_apr": 198.77805959390713,
+        "positions": {
+            "BTC": {
+                "leverage": 30.0,
+                "position_value": 998000.86716,
+                "size": 11.79684,
+                "unrealised_pnl": -1999.05497,
+                "direction": "LONG"
+            },
+            "MKR": {
+                "leverage": 10.0,
+                "position_value": 221564.05986,
+                "size": -188.9511,
+                "unrealised_pnl": -21352.2116,
+                "direction": "SHORT"
+            },
+            "ADA": {
+                "leverage": 10.0,
+                "position_value": 208736.07678,
+                "size": -278159.0,
+                "unrealised_pnl": -8719.10488,
+                "direction": "SHORT"
+            },
+            "HYPE": {
+                "leverage": 3.0,
+                "position_value": 201241.13751,
+                "size": 14131.11,
+                "unrealised_pnl": -475.93192,
                 "direction": "LONG"
             }
         }
     },
     "0x5e45ea5c8f03f428cbda82aa43189bd828624d26": {
         "vault_name": "SMH",
-        "vault_tvl": 1316557.59767,
-        "vault_apr": -5.0757245619170455,
+        "vault_tvl": 1322894.225683,
+        "vault_apr": -5.021113270890017,
         "positions": {
             "PURR": {
                 "leverage": 3.0,
-                "position_value": 126611.755574,
+                "position_value": 133174.17956,
                 "size": 1504453.0,
-                "unrealised_pnl": -218992.936047,
+                "unrealised_pnl": -212430.512061,
                 "direction": "LONG"
             }
         }
     },
     "0x27d33e77c8e6335089f56e399bf706ae9ad402b9": {
         "vault_name": "Martyrbit",
-        "vault_tvl": 1112182.713391,
-        "vault_apr": 113.99075133283132,
+        "vault_tvl": 1109350.966052,
+        "vault_apr": 114.77942081215869,
         "positions": {
             "XRP": {
                 "leverage": 3.0,
-                "position_value": 40333.1318,
+                "position_value": 42360.1069,
                 "size": -17489.0,
-                "unrealised_pnl": -335.1844,
+                "unrealised_pnl": -2362.1595,
                 "direction": "SHORT"
             },
             "ADA": {
                 "leverage": 10.0,
-                "position_value": 14850.52686,
+                "position_value": 15472.15956,
                 "size": -20618.0,
-                "unrealised_pnl": 5148.93314,
+                "unrealised_pnl": 4527.30044,
                 "direction": "SHORT"
             },
             "SPX": {
                 "leverage": 3.0,
-                "position_value": 11394.724472,
+                "position_value": 11413.08508,
                 "size": -32786.8,
-                "unrealised_pnl": 8605.223528,
+                "unrealised_pnl": 8586.86292,
                 "direction": "SHORT"
             },
             "OM": {
                 "leverage": 3.0,
-                "position_value": 30297.68544,
+                "position_value": 30851.5504,
                 "size": -4892.8,
-                "unrealised_pnl": 9700.58456,
+                "unrealised_pnl": 9146.7196,
+                "direction": "SHORT"
+            }
+        }
+    },
+    "0x7c4844c37b9d382f7f8c72c23af64e6050804e85": {
+        "vault_name": "Treasury Manager",
+        "vault_tvl": 1005270.485295,
+        "vault_apr": 6.446556657971178,
+        "positions": {
+            "BTC": {
+                "leverage": 20.0,
+                "position_value": 30223.83874,
+                "size": -0.35726,
+                "unrealised_pnl": -128.14655,
+                "direction": "SHORT"
+            },
+            "ETH": {
+                "leverage": 20.0,
+                "position_value": 15069.42806,
+                "size": -7.8458,
+                "unrealised_pnl": -74.12395,
+                "direction": "SHORT"
+            },
+            "SOL": {
+                "leverage": 20.0,
+                "position_value": 20187.3484,
+                "size": -149.78,
+                "unrealised_pnl": -173.6802,
+                "direction": "SHORT"
+            },
+            "XRP": {
+                "leverage": 20.0,
+                "position_value": 10282.9628,
+                "size": -4246.0,
+                "unrealised_pnl": -167.5226,
                 "direction": "SHORT"
             }
         }
     },
     "0xca230e816bdb34a46960c2f978a30a563d1ae9e0": {
         "vault_name": "Hyperrr",
-        "vault_tvl": 875467.106787,
-        "vault_apr": -5.0144567606172625,
+        "vault_tvl": 836581.956231,
+        "vault_apr": 22.630729081876318,
         "positions": {
             "HYPE": {
                 "leverage": 3.0,
-                "position_value": 1961160.60371,
-                "size": 142288.37,
-                "unrealised_pnl": -114081.386134,
+                "position_value": 1530857.37168,
+                "size": 107496.48,
+                "unrealised_pnl": -31771.863477,
                 "direction": "LONG"
             }
         }
     },
     "0x808f70806f5aaa90990aefc39833fe0775f2733d": {
         "vault_name": "Asgard Finance",
-        "vault_tvl": 705592.030021,
-        "vault_apr": -19.042140265698812,
+        "vault_tvl": 707662.957849,
+        "vault_apr": -19.587546080282312,
         "positions": {
             "ETH": {
                 "leverage": 25.0,
-                "position_value": 285180.0,
+                "position_value": 288105.0,
                 "size": 150.0,
-                "unrealised_pnl": 7350.0,
+                "unrealised_pnl": 10275.0,
                 "direction": "LONG"
             }
         }
     },
     "0x07fd993f0fa3a185f7207adccd29f7a87404689d": {
         "vault_name": "[ Systemic Strategies ] L/S Grids",
-        "vault_tvl": 648435.356508,
-        "vault_apr": -10.112584841432499,
+        "vault_tvl": 662705.452072,
+        "vault_apr": -10.078433023286093,
         "positions": {
             "BTC": {
                 "leverage": 20.0,
-                "position_value": 176080.52298,
-                "size": 2.10981,
-                "unrealised_pnl": -14972.973532,
+                "position_value": 176820.3699,
+                "size": 2.0901,
+                "unrealised_pnl": -12448.290813,
                 "direction": "LONG"
             },
             "ETH": {
                 "leverage": 20.0,
-                "position_value": 175594.832,
-                "size": 92.36,
-                "unrealised_pnl": -34245.949965,
+                "position_value": 175748.27554,
+                "size": 91.5022,
+                "unrealised_pnl": -31827.849781,
                 "direction": "LONG"
             },
             "ATOM": {
                 "leverage": 5.0,
-                "position_value": 25291.154344,
-                "size": -6253.84,
-                "unrealised_pnl": 2083.879399,
+                "position_value": 28917.878704,
+                "size": -6652.07,
+                "unrealised_pnl": 133.930899,
                 "direction": "SHORT"
             },
             "AVAX": {
                 "leverage": 10.0,
-                "position_value": 24362.29954,
-                "size": -1306.78,
-                "unrealised_pnl": 2693.513235,
+                "position_value": 24118.9663,
+                "size": -1294.7,
+                "unrealised_pnl": 2633.829962,
                 "direction": "SHORT"
             },
             "BNB": {
                 "leverage": 10.0,
-                "position_value": 88409.1387,
-                "size": 152.706,
-                "unrealised_pnl": -5665.288639,
+                "position_value": 88003.7838,
+                "size": 148.492,
+                "unrealised_pnl": -3474.611707,
                 "direction": "LONG"
             },
             "APE": {
                 "leverage": 5.0,
-                "position_value": 24134.561112,
+                "position_value": 24294.887718,
                 "size": -47016.6,
-                "unrealised_pnl": 2473.497135,
+                "unrealised_pnl": 2264.497759,
                 "direction": "SHORT"
             },
             "OP": {
                 "leverage": 10.0,
-                "position_value": 24562.289211,
+                "position_value": 24872.550907,
                 "size": -28516.7,
-                "unrealised_pnl": 3620.022702,
+                "unrealised_pnl": 3256.553152,
                 "direction": "SHORT"
             },
             "ARB": {
                 "leverage": 10.0,
-                "position_value": 25002.697566,
-                "size": -71275.4,
-                "unrealised_pnl": 3766.984816,
+                "position_value": 26188.97743,
+                "size": -72575.8,
+                "unrealised_pnl": 3023.935954,
                 "direction": "SHORT"
             },
             "DOGE": {
                 "leverage": 10.0,
-                "position_value": 53657.07784,
-                "size": 314852.0,
-                "unrealised_pnl": -9904.900538,
+                "position_value": 52978.43016,
+                "size": 306216.0,
+                "unrealised_pnl": -8665.724597,
                 "direction": "LONG"
             },
             "SUI": {
                 "leverage": 10.0,
-                "position_value": 22231.68132,
-                "size": -9922.2,
-                "unrealised_pnl": 3904.839043,
+                "position_value": 24699.97988,
+                "size": -10442.2,
+                "unrealised_pnl": 2588.106791,
                 "direction": "SHORT"
             },
             "LDO": {
                 "leverage": 10.0,
-                "position_value": 87674.975661,
-                "size": 95757.9,
-                "unrealised_pnl": -23203.915212,
+                "position_value": 87454.779939,
+                "size": 91392.9,
+                "unrealised_pnl": -18183.621756,
                 "direction": "LONG"
             },
             "APT": {
                 "leverage": 10.0,
-                "position_value": 22854.320957,
+                "position_value": 23296.371464,
                 "size": -4424.93,
-                "unrealised_pnl": 3193.31864,
+                "unrealised_pnl": 2725.257412,
                 "direction": "SHORT"
             },
             "AAVE": {
                 "leverage": 10.0,
-                "position_value": 88410.3275,
-                "size": 525.47,
-                "unrealised_pnl": -14244.220409,
+                "position_value": 88350.1955,
+                "size": 505.87,
+                "unrealised_pnl": -10367.457678,
                 "direction": "LONG"
             },
             "WLD": {
                 "leverage": 10.0,
-                "position_value": 12557.16714,
-                "size": -14771.4,
-                "unrealised_pnl": 1695.758874,
+                "position_value": 12950.21903,
+                "size": -14812.1,
+                "unrealised_pnl": 1304.508173,
                 "direction": "SHORT"
             },
             "DOT": {
                 "leverage": 10.0,
-                "position_value": 25597.49384,
-                "size": -6152.8,
-                "unrealised_pnl": 2383.446629,
+                "position_value": 26572.1492,
+                "size": -6264.8,
+                "unrealised_pnl": 1880.871269,
                 "direction": "SHORT"
             },
             "BLUR": {
                 "leverage": 5.0,
-                "position_value": 24149.25149,
-                "size": -231959.0,
-                "unrealised_pnl": 4413.036602,
+                "position_value": 24622.4192,
+                "size": -233920.0,
+                "unrealised_pnl": 4149.303692,
                 "direction": "SHORT"
             },
             "TIA": {
                 "leverage": 10.0,
-                "position_value": 24423.75815,
-                "size": -6744.1,
-                "unrealised_pnl": -1087.600291,
+                "position_value": 22787.7969,
+                "size": -6494.1,
+                "unrealised_pnl": -292.020169,
                 "direction": "SHORT"
             },
             "PENDLE": {
                 "leverage": 5.0,
-                "position_value": 87573.42,
-                "size": 42306.0,
-                "unrealised_pnl": -20897.538471,
+                "position_value": 88366.7004,
+                "size": 41514.0,
+                "unrealised_pnl": -17549.500543,
                 "direction": "LONG"
             },
             "NEAR": {
                 "leverage": 10.0,
-                "position_value": 24563.34926,
-                "size": -9296.2,
-                "unrealised_pnl": 2184.896706,
+                "position_value": 24260.7204,
+                "size": -9210.6,
+                "unrealised_pnl": 2225.735202,
                 "direction": "SHORT"
             },
             "MEME": {
                 "leverage": 5.0,
-                "position_value": 20995.559314,
-                "size": -8527847.0,
-                "unrealised_pnl": 4573.182926,
+                "position_value": 20625.70215,
+                "size": -8435870.0,
+                "unrealised_pnl": 4543.45957,
                 "direction": "SHORT"
             },
             "FIL": {
                 "leverage": 5.0,
-                "position_value": 24619.9618,
-                "size": -8662.9,
-                "unrealised_pnl": 2211.412441,
+                "position_value": 25270.75999,
+                "size": -8743.3,
+                "unrealised_pnl": 1793.203411,
                 "direction": "SHORT"
             },
             "kBONK": {
                 "leverage": 10.0,
-                "position_value": 12033.27792,
-                "size": -1117296.0,
-                "unrealised_pnl": 1616.528643,
+                "position_value": 12372.019851,
+                "size": -1129143.0,
+                "unrealised_pnl": 1365.203008,
                 "direction": "SHORT"
             },
             "XAI": {
                 "leverage": 3.0,
-                "position_value": 24190.73586,
-                "size": -368536.5,
-                "unrealised_pnl": 4897.771781,
+                "position_value": 24755.794745,
+                "size": -371987.9,
+                "unrealised_pnl": 4524.154796,
                 "direction": "SHORT"
             },
             "ONDO": {
                 "leverage": 10.0,
-                "position_value": 24547.51518,
-                "size": -28398.0,
-                "unrealised_pnl": 3024.648267,
+                "position_value": 25592.41234,
+                "size": -28934.0,
+                "unrealised_pnl": 2407.576974,
                 "direction": "SHORT"
             },
             "ALT": {
                 "leverage": 5.0,
-                "position_value": 24250.04148,
-                "size": -719159.0,
-                "unrealised_pnl": 4343.491209,
+                "position_value": 24844.88706,
+                "size": -725822.0,
+                "unrealised_pnl": 3942.923015,
                 "direction": "SHORT"
             },
             "ZETA": {
                 "leverage": 3.0,
-                "position_value": 22927.086172,
-                "size": -108979.4,
-                "unrealised_pnl": 5685.519501,
+                "position_value": 22739.048064,
+                "size": -107911.2,
+                "unrealised_pnl": 5593.101069,
                 "direction": "SHORT"
             },
             "DYM": {
                 "leverage": 3.0,
-                "position_value": 23412.345,
-                "size": -75475.0,
-                "unrealised_pnl": 5244.997466,
+                "position_value": 23233.72968,
+                "size": -74754.6,
+                "unrealised_pnl": 5102.85141,
                 "direction": "SHORT"
             },
             "W": {
                 "leverage": 5.0,
-                "position_value": 20763.59658,
-                "size": -234723.0,
-                "unrealised_pnl": 5639.562741,
+                "position_value": 20402.475652,
+                "size": -232162.9,
+                "unrealised_pnl": 5653.539062,
                 "direction": "SHORT"
             },
             "STRK": {
                 "leverage": 5.0,
-                "position_value": 23925.400544,
+                "position_value": 24254.01216,
                 "size": -137494.4,
-                "unrealised_pnl": 2066.498783,
+                "unrealised_pnl": 1710.706699,
                 "direction": "SHORT"
             },
             "PIXEL": {
                 "leverage": 3.0,
-                "position_value": 22893.65141,
+                "position_value": 22921.78637,
                 "size": -586145.0,
-                "unrealised_pnl": 5660.292172,
+                "unrealised_pnl": 5482.626125,
                 "direction": "SHORT"
             },
             "SAGA": {
                 "leverage": 5.0,
-                "position_value": 21133.73898,
-                "size": -60427.0,
-                "unrealised_pnl": 5528.153716,
+                "position_value": 22642.2333,
+                "size": -62938.8,
+                "unrealised_pnl": 4869.191645,
                 "direction": "SHORT"
             },
             "IO": {
                 "leverage": 5.0,
-                "position_value": 21122.742762,
-                "size": -25799.4,
-                "unrealised_pnl": 5530.866919,
+                "position_value": 21619.94324,
+                "size": -26076.4,
+                "unrealised_pnl": 5162.783443,
                 "direction": "SHORT"
             },
             "LISTA": {
                 "leverage": 3.0,
-                "position_value": 24150.47868,
-                "size": -132201.0,
-                "unrealised_pnl": 2798.614863,
+                "position_value": 24190.74048,
+                "size": -132096.0,
+                "unrealised_pnl": 2716.084397,
                 "direction": "SHORT"
             },
             "POL": {
                 "leverage": 5.0,
-                "position_value": 87122.71913,
-                "size": 409469.0,
-                "unrealised_pnl": -20185.178963,
+                "position_value": 88179.03952,
+                "size": 405682.0,
+                "unrealised_pnl": -18136.414672,
                 "direction": "LONG"
             },
             "PURR": {
                 "leverage": 3.0,
-                "position_value": 51831.84492,
-                "size": 615880.0,
-                "unrealised_pnl": 1521.882402,
+                "position_value": 52440.31024,
+                "size": 592412.0,
+                "unrealised_pnl": 3958.57307,
                 "direction": "LONG"
             },
             "XLM": {
                 "leverage": 5.0,
-                "position_value": 52956.75063,
-                "size": 192563.0,
-                "unrealised_pnl": -3475.558835,
+                "position_value": 53000.94305,
+                "size": 190795.0,
+                "unrealised_pnl": -2814.50969,
                 "direction": "LONG"
             },
             "S": {
                 "leverage": 5.0,
-                "position_value": 87943.4325,
-                "size": 169939.0,
-                "unrealised_pnl": -9831.334302,
+                "position_value": 85830.1101,
+                "size": 161910.0,
+                "unrealised_pnl": -7119.275804,
                 "direction": "LONG"
             },
             "TRUMP": {
                 "leverage": 10.0,
-                "position_value": 12167.6828,
-                "size": -1049.3,
-                "unrealised_pnl": 1185.657601,
+                "position_value": 13184.5184,
+                "size": -1078.4,
+                "unrealised_pnl": 476.904014,
                 "direction": "SHORT"
             },
             "MELANIA": {
                 "leverage": 5.0,
-                "position_value": 10511.367,
-                "size": -14962.8,
-                "unrealised_pnl": -512.939781,
+                "position_value": 10424.291342,
+                "size": -14964.1,
+                "unrealised_pnl": -403.66428,
                 "direction": "SHORT"
             },
             "ANIME": {
                 "leverage": 3.0,
-                "position_value": 23264.602296,
-                "size": -1247298.0,
-                "unrealised_pnl": 3172.339622,
+                "position_value": 22881.320475,
+                "size": -1235159.0,
+                "unrealised_pnl": 3298.330853,
                 "direction": "SHORT"
             },
             "BERA": {
                 "leverage": 5.0,
-                "position_value": 25038.3952,
-                "size": -4085.9,
-                "unrealised_pnl": 3479.270549,
+                "position_value": 25980.24456,
+                "size": -4161.9,
+                "unrealised_pnl": 2952.956443,
                 "direction": "SHORT"
             },
             "IP": {
                 "leverage": 3.0,
-                "position_value": 24469.14768,
-                "size": -4255.8,
-                "unrealised_pnl": -1236.792519,
+                "position_value": 24116.00784,
+                "size": -4176.8,
+                "unrealised_pnl": -982.224622,
                 "direction": "SHORT"
             }
         }
     },
     "0xc0ee908e7bf8c8f11b039154f9f7a6230f9883f9": {
         "vault_name": "test09876",
-        "vault_tvl": 640392.909597,
-        "vault_apr": -1.3380741178187403,
+        "vault_tvl": 641554.7312,
+        "vault_apr": -0.6117198761904762,
         "positions": {
             "BTC": {
                 "leverage": 20.0,
-                "position_value": 45693.255,
-                "size": -0.5475,
-                "unrealised_pnl": -533.65474,
+                "position_value": 56633.10857,
+                "size": -0.66943,
+                "unrealised_pnl": -1161.64435,
                 "direction": "SHORT"
             },
             "ETH": {
                 "leverage": 20.0,
-                "position_value": 650937.41888,
-                "size": 342.3824,
-                "unrealised_pnl": 7478.749101,
+                "position_value": 624679.44071,
+                "size": 325.2353,
+                "unrealised_pnl": 13446.288825,
                 "direction": "LONG"
             },
             "SOL": {
                 "leverage": 20.0,
-                "position_value": 2524.7324,
-                "size": -19.93,
-                "unrealised_pnl": -81.7795,
+                "position_value": 17773.4386,
+                "size": -131.87,
+                "unrealised_pnl": -711.5196,
                 "direction": "SHORT"
             },
             "AVAX": {
                 "leverage": 10.0,
-                "position_value": 9677.20844,
-                "size": -519.08,
-                "unrealised_pnl": 105.89232,
-                "direction": "SHORT"
+                "position_value": 223244.16101,
+                "size": 11983.69,
+                "unrealised_pnl": -1340.07192,
+                "direction": "LONG"
             },
             "OP": {
                 "leverage": 10.0,
-                "position_value": 3328.609785,
-                "size": -3864.5,
-                "unrealised_pnl": 49.025956,
-                "direction": "SHORT"
+                "position_value": 20512.722001,
+                "size": 23518.1,
+                "unrealised_pnl": 73.004438,
+                "direction": "LONG"
             },
             "ARB": {
                 "leverage": 10.0,
-                "position_value": 9704.60535,
+                "position_value": 9982.91525,
                 "size": -27665.0,
-                "unrealised_pnl": -302.708158,
+                "unrealised_pnl": -581.018058,
                 "direction": "SHORT"
             },
             "LINK": {
                 "leverage": 10.0,
-                "position_value": 32012.2648,
-                "size": 2267.8,
-                "unrealised_pnl": 2257.0939,
+                "position_value": 231279.934,
+                "size": 16591.1,
+                "unrealised_pnl": 3448.3975,
                 "direction": "LONG"
             },
             "POPCAT": {
                 "leverage": 10.0,
-                "position_value": 139656.6123,
-                "size": -739785.0,
-                "unrealised_pnl": -6486.545462,
+                "position_value": 241941.48264,
+                "size": -1244043.0,
+                "unrealised_pnl": -4584.964553,
                 "direction": "SHORT"
             },
             "GOAT": {
                 "leverage": 5.0,
-                "position_value": 5612.02668,
-                "size": 100412.0,
-                "unrealised_pnl": 102.453497,
+                "position_value": 7582.416699,
+                "size": 133991.0,
+                "unrealised_pnl": 191.927466,
                 "direction": "LONG"
             },
             "VIRTUAL": {
                 "leverage": 5.0,
-                "position_value": 216.265665,
+                "position_value": 235.736844,
                 "size": 338.1,
-                "unrealised_pnl": -32.976644,
+                "unrealised_pnl": -13.505465,
                 "direction": "LONG"
             },
             "PENGU": {
                 "leverage": 5.0,
-                "position_value": 343.71696,
+                "position_value": 368.565288,
                 "size": -54732.0,
-                "unrealised_pnl": 8.861881,
+                "unrealised_pnl": -15.986447,
                 "direction": "SHORT"
             },
             "FARTCOIN": {
                 "leverage": 3.0,
-                "position_value": 8298.878784,
-                "size": -32251.2,
-                "unrealised_pnl": 68.389615,
+                "position_value": 13943.494708,
+                "size": -46809.1,
+                "unrealised_pnl": -1286.633514,
                 "direction": "SHORT"
             },
             "AI16Z": {
                 "leverage": 5.0,
-                "position_value": 131.915212,
+                "position_value": 131.51359,
                 "size": -704.6,
-                "unrealised_pnl": 18.312554,
+                "unrealised_pnl": 18.714176,
                 "direction": "SHORT"
             },
             "AIXBT": {
                 "leverage": 5.0,
-                "position_value": 5986.73274,
+                "position_value": 5818.2949,
                 "size": -51353.0,
-                "unrealised_pnl": -241.14677,
+                "unrealised_pnl": -72.70893,
                 "direction": "SHORT"
             },
             "TRUMP": {
                 "leverage": 10.0,
-                "position_value": 28816.06,
-                "size": -2485.0,
-                "unrealised_pnl": 120.376015,
-                "direction": "SHORT"
+                "position_value": 1139.4632,
+                "size": 93.2,
+                "unrealised_pnl": -12.9328,
+                "direction": "LONG"
             },
             "VINE": {
                 "leverage": 5.0,
-                "position_value": 15833.534775,
+                "position_value": 16087.185375,
                 "size": 503275.0,
-                "unrealised_pnl": -2788.397331,
+                "unrealised_pnl": -2534.746731,
                 "direction": "LONG"
-            }
-        }
-    },
-    "0x1e37a337ed460039d1b15bd3bc489de789768d5e": {
-        "vault_name": "Growi HF",
-        "vault_tvl": 585787.076834,
-        "vault_apr": 19.45690224478811,
-        "positions": {
-            "BTC": {
-                "leverage": 40.0,
-                "position_value": 974.78944,
-                "size": 0.01168,
-                "unrealised_pnl": 9.641748,
-                "direction": "LONG"
-            },
-            "ETH": {
-                "leverage": 25.0,
-                "position_value": 2561.48676,
-                "size": 1.3473,
-                "unrealised_pnl": -89.24931,
-                "direction": "LONG"
-            },
-            "ATOM": {
-                "leverage": 5.0,
-                "position_value": 3300.713538,
-                "size": -816.18,
-                "unrealised_pnl": -199.245398,
-                "direction": "SHORT"
-            },
-            "DYDX": {
-                "leverage": 5.0,
-                "position_value": 556.4559,
-                "size": 910.0,
-                "unrealised_pnl": -5.757102,
-                "direction": "LONG"
-            },
-            "SOL": {
-                "leverage": 20.0,
-                "position_value": 1540.4288,
-                "size": 12.16,
-                "unrealised_pnl": -3.541501,
-                "direction": "LONG"
-            },
-            "AVAX": {
-                "leverage": 10.0,
-                "position_value": 1252.99603,
-                "size": -67.21,
-                "unrealised_pnl": 6.093367,
-                "direction": "SHORT"
-            },
-            "BNB": {
-                "leverage": 10.0,
-                "position_value": 1260.37415,
-                "size": 2.177,
-                "unrealised_pnl": -21.065135,
-                "direction": "LONG"
-            },
-            "APE": {
-                "leverage": 5.0,
-                "position_value": 696.883232,
-                "size": -1357.6,
-                "unrealised_pnl": -6.762729,
-                "direction": "SHORT"
-            },
-            "OP": {
-                "leverage": 10.0,
-                "position_value": 1232.993895,
-                "size": 1431.5,
-                "unrealised_pnl": -0.049068,
-                "direction": "LONG"
-            },
-            "LTC": {
-                "leverage": 10.0,
-                "position_value": 959.58108,
-                "size": 10.59,
-                "unrealised_pnl": 38.94737,
-                "direction": "LONG"
-            },
-            "ARB": {
-                "leverage": 10.0,
-                "position_value": 673.5168,
-                "size": -1920.0,
-                "unrealised_pnl": -10.108828,
-                "direction": "SHORT"
-            },
-            "DOGE": {
-                "leverage": 10.0,
-                "position_value": 993.03734,
-                "size": -5827.0,
-                "unrealised_pnl": -4.269224,
-                "direction": "SHORT"
-            },
-            "INJ": {
-                "leverage": 10.0,
-                "position_value": 1794.63,
-                "size": 183.5,
-                "unrealised_pnl": 21.728371,
-                "direction": "LONG"
-            },
-            "SUI": {
-                "leverage": 10.0,
-                "position_value": 1769.40182,
-                "size": 789.7,
-                "unrealised_pnl": -48.395278,
-                "direction": "LONG"
-            },
-            "kPEPE": {
-                "leverage": 10.0,
-                "position_value": 1345.038552,
-                "size": 193336.0,
-                "unrealised_pnl": -74.376941,
-                "direction": "LONG"
-            },
-            "LDO": {
-                "leverage": 10.0,
-                "position_value": 957.066227,
-                "size": -1045.3,
-                "unrealised_pnl": -13.538938,
-                "direction": "SHORT"
-            },
-            "LINK": {
-                "leverage": 10.0,
-                "position_value": 105.87,
-                "size": -7.5,
-                "unrealised_pnl": 0.23521,
-                "direction": "SHORT"
-            },
-            "STX": {
-                "leverage": 5.0,
-                "position_value": 17.704178,
-                "size": -27.7,
-                "unrealised_pnl": 0.168609,
-                "direction": "SHORT"
-            },
-            "CFX": {
-                "leverage": 5.0,
-                "position_value": 1713.774524,
-                "size": 20524.0,
-                "unrealised_pnl": 5.830539,
-                "direction": "LONG"
-            },
-            "GMX": {
-                "leverage": 5.0,
-                "position_value": 11814.53364,
-                "size": 822.51,
-                "unrealised_pnl": -21.849791,
-                "direction": "LONG"
-            },
-            "SNX": {
-                "leverage": 3.0,
-                "position_value": 1547.86688,
-                "size": 1867.6,
-                "unrealised_pnl": 9.792931,
-                "direction": "LONG"
-            },
-            "XRP": {
-                "leverage": 20.0,
-                "position_value": 848.7552,
-                "size": 368.0,
-                "unrealised_pnl": -4.705805,
-                "direction": "LONG"
-            },
-            "BCH": {
-                "leverage": 10.0,
-                "position_value": 1197.24339,
-                "size": 3.629,
-                "unrealised_pnl": -88.453015,
-                "direction": "LONG"
-            },
-            "APT": {
-                "leverage": 10.0,
-                "position_value": 1000.95762,
-                "size": 193.8,
-                "unrealised_pnl": -3.288585,
-                "direction": "LONG"
-            },
-            "AAVE": {
-                "leverage": 10.0,
-                "position_value": 3622.4225,
-                "size": 21.53,
-                "unrealised_pnl": -122.183214,
-                "direction": "LONG"
-            },
-            "COMP": {
-                "leverage": 5.0,
-                "position_value": 1341.912,
-                "size": 33.15,
-                "unrealised_pnl": -18.436279,
-                "direction": "LONG"
-            },
-            "MKR": {
-                "leverage": 10.0,
-                "position_value": 7313.28363,
-                "size": 6.3533,
-                "unrealised_pnl": -75.104676,
-                "direction": "LONG"
-            },
-            "WLD": {
-                "leverage": 10.0,
-                "position_value": 2449.22311,
-                "size": 2881.1,
-                "unrealised_pnl": 44.31716,
-                "direction": "LONG"
-            },
-            "TRX": {
-                "leverage": 10.0,
-                "position_value": 3378.61381,
-                "size": 15301.0,
-                "unrealised_pnl": -183.365721,
-                "direction": "LONG"
-            },
-            "kSHIB": {
-                "leverage": 10.0,
-                "position_value": 308.393029,
-                "size": 24709.0,
-                "unrealised_pnl": -3.737038,
-                "direction": "LONG"
-            },
-            "UNI": {
-                "leverage": 10.0,
-                "position_value": 1711.8801,
-                "size": 290.1,
-                "unrealised_pnl": -63.468622,
-                "direction": "LONG"
-            },
-            "DOT": {
-                "leverage": 10.0,
-                "position_value": 1163.21988,
-                "size": -279.6,
-                "unrealised_pnl": -74.440643,
-                "direction": "SHORT"
-            },
-            "TIA": {
-                "leverage": 10.0,
-                "position_value": 1370.73775,
-                "size": 378.5,
-                "unrealised_pnl": -43.0088,
-                "direction": "LONG"
-            },
-            "NEAR": {
-                "leverage": 10.0,
-                "position_value": 1388.00019,
-                "size": 525.3,
-                "unrealised_pnl": -23.737462,
-                "direction": "LONG"
-            },
-            "NEO": {
-                "leverage": 5.0,
-                "position_value": 645.04924,
-                "size": -81.22,
-                "unrealised_pnl": -1.004003,
-                "direction": "SHORT"
             }
         }
     },
     "0x164e90af0d04112d15894e051b722e0d9d3f233e": {
         "vault_name": "ah mierda",
-        "vault_tvl": 584311.132361,
-        "vault_apr": -22.629142068063306,
+        "vault_tvl": 602112.856513,
+        "vault_apr": -21.318843925273477,
         "positions": {
             "BTC": {
                 "leverage": 20.0,
-                "position_value": 959767.0,
+                "position_value": 972888.5,
                 "size": 11.5,
-                "unrealised_pnl": -130505.05213,
+                "unrealised_pnl": -117383.55213,
                 "direction": "LONG"
             },
             "ETH": {
                 "leverage": 25.0,
-                "position_value": 152096.0,
+                "position_value": 153656.0,
                 "size": 80.0,
-                "unrealised_pnl": -10402.296121,
+                "unrealised_pnl": -8842.296121,
                 "direction": "LONG"
             },
             "SOL": {
                 "leverage": 20.0,
-                "position_value": 1.2668,
+                "position_value": 1.3479,
                 "size": -0.01,
-                "unrealised_pnl": 0.46848,
+                "unrealised_pnl": 0.38738,
                 "direction": "SHORT"
             },
             "AVAX": {
                 "leverage": 10.0,
-                "position_value": 0.93215,
+                "position_value": 0.9314,
                 "size": -0.05,
-                "unrealised_pnl": 1.655597,
+                "unrealised_pnl": 1.656347,
                 "direction": "SHORT"
             },
             "APE": {
                 "leverage": 5.0,
-                "position_value": 0.51332,
+                "position_value": 0.51683,
                 "size": -1.0,
-                "unrealised_pnl": 1.278386,
+                "unrealised_pnl": 1.274876,
                 "direction": "SHORT"
             },
             "OP": {
                 "leverage": 10.0,
-                "position_value": 0.86133,
+                "position_value": 0.8721,
                 "size": -1.0,
-                "unrealised_pnl": 1.802309,
+                "unrealised_pnl": 1.791539,
                 "direction": "SHORT"
             },
             "LTC": {
                 "leverage": 10.0,
-                "position_value": 0.90612,
+                "position_value": 0.91889,
                 "size": -0.01,
-                "unrealised_pnl": 0.481883,
+                "unrealised_pnl": 0.469113,
                 "direction": "SHORT"
             },
             "ARB": {
                 "leverage": 10.0,
-                "position_value": 4.20948,
+                "position_value": 4.3302,
                 "size": -12.0,
-                "unrealised_pnl": 9.248618,
+                "unrealised_pnl": 9.127898,
                 "direction": "SHORT"
             },
             "DOGE": {
                 "leverage": 10.0,
-                "position_value": 8.35058,
+                "position_value": 8.47798,
                 "size": -49.0,
-                "unrealised_pnl": 14.569301,
+                "unrealised_pnl": 14.441901,
                 "direction": "SHORT"
             },
             "SUI": {
                 "leverage": 10.0,
-                "position_value": 11.203,
+                "position_value": 11.823,
                 "size": -5.0,
-                "unrealised_pnl": 14.775135,
+                "unrealised_pnl": 14.155135,
                 "direction": "SHORT"
             },
             "kPEPE": {
                 "leverage": 10.0,
-                "position_value": 6.957,
+                "position_value": 7.063,
                 "size": -1000.0,
-                "unrealised_pnl": 17.867479,
+                "unrealised_pnl": 17.761479,
                 "direction": "SHORT"
             },
             "CRV": {
                 "leverage": 10.0,
-                "position_value": 0.40169,
+                "position_value": 0.40843,
                 "size": -1.0,
-                "unrealised_pnl": 0.59831,
+                "unrealised_pnl": 0.59157,
                 "direction": "SHORT"
             },
             "LDO": {
                 "leverage": 10.0,
-                "position_value": 0.91559,
+                "position_value": 0.95648,
                 "size": -1.0,
-                "unrealised_pnl": 1.487205,
+                "unrealised_pnl": 1.446315,
                 "direction": "SHORT"
             },
             "LINK": {
                 "leverage": 10.0,
-                "position_value": 1.4116,
+                "position_value": 1.3938,
                 "size": -0.1,
-                "unrealised_pnl": 1.49112,
+                "unrealised_pnl": 1.50892,
                 "direction": "SHORT"
             },
             "XRP": {
                 "leverage": 20.0,
-                "position_value": 2.3064,
+                "position_value": 2.4215,
                 "size": -1.0,
-                "unrealised_pnl": 0.48772,
+                "unrealised_pnl": 0.37262,
                 "direction": "SHORT"
             },
             "AAVE": {
                 "leverage": 10.0,
-                "position_value": 1.6825,
+                "position_value": 1.7464,
                 "size": -0.01,
-                "unrealised_pnl": 0.445899,
+                "unrealised_pnl": 0.381999,
                 "direction": "SHORT"
             },
             "MKR": {
                 "leverage": 10.0,
-                "position_value": 11.511,
+                "position_value": 11.727,
                 "size": -0.01,
-                "unrealised_pnl": 5.889929,
+                "unrealised_pnl": 5.673929,
                 "direction": "SHORT"
             },
             "kSHIB": {
                 "leverage": 10.0,
-                "position_value": 0.012481,
+                "position_value": 0.012737,
                 "size": -1.0,
-                "unrealised_pnl": 0.017715,
+                "unrealised_pnl": 0.017459,
                 "direction": "SHORT"
             },
             "SEI": {
                 "leverage": 5.0,
-                "position_value": 0.20018,
+                "position_value": 0.20407,
                 "size": -1.0,
-                "unrealised_pnl": 0.441809,
+                "unrealised_pnl": 0.437919,
                 "direction": "SHORT"
             },
             "RUNE": {
                 "leverage": 5.0,
-                "position_value": 1.2109,
+                "position_value": 1.1786,
                 "size": -1.0,
-                "unrealised_pnl": 6.218433,
+                "unrealised_pnl": 6.250733,
                 "direction": "SHORT"
             },
             "ZRO": {
                 "leverage": 5.0,
-                "position_value": 1.7574,
+                "position_value": 1.9555,
                 "size": -1.0,
-                "unrealised_pnl": 5.248036,
+                "unrealised_pnl": 5.049936,
                 "direction": "SHORT"
             },
             "DOT": {
                 "leverage": 10.0,
-                "position_value": 4.1603,
+                "position_value": 4.2415,
                 "size": -1.0,
-                "unrealised_pnl": 5.377265,
+                "unrealised_pnl": 5.296065,
                 "direction": "SHORT"
             },
             "BLUR": {
                 "leverage": 5.0,
-                "position_value": 0.10411,
+                "position_value": 0.10526,
                 "size": -1.0,
-                "unrealised_pnl": 0.108283,
+                "unrealised_pnl": 0.107133,
                 "direction": "SHORT"
             },
             "TIA": {
                 "leverage": 10.0,
-                "position_value": 3.6215,
+                "position_value": 3.5091,
                 "size": -1.0,
-                "unrealised_pnl": 4.713368,
+                "unrealised_pnl": 4.825768,
                 "direction": "SHORT"
             },
             "ADA": {
                 "leverage": 10.0,
-                "position_value": 9.36416,
+                "position_value": 9.75013,
                 "size": -13.0,
-                "unrealised_pnl": 4.071512,
+                "unrealised_pnl": 3.685542,
                 "direction": "SHORT"
             },
             "TON": {
                 "leverage": 10.0,
-                "position_value": 2.8379,
+                "position_value": 2.9197,
                 "size": -1.0,
-                "unrealised_pnl": 3.563097,
+                "unrealised_pnl": 3.481297,
                 "direction": "SHORT"
             },
             "PENDLE": {
                 "leverage": 5.0,
-                "position_value": 111780.0,
+                "position_value": 114960.6,
                 "size": 54000.0,
-                "unrealised_pnl": -30788.453041,
+                "unrealised_pnl": -27607.853041,
                 "direction": "LONG"
             },
             "NEAR": {
                 "leverage": 10.0,
-                "position_value": 5.2846,
+                "position_value": 5.268,
                 "size": -2.0,
-                "unrealised_pnl": 10.523911,
+                "unrealised_pnl": 10.540511,
                 "direction": "SHORT"
             },
             "IMX": {
                 "leverage": 5.0,
-                "position_value": 0.5269,
+                "position_value": 0.54595,
                 "size": -1.0,
-                "unrealised_pnl": 1.603049,
+                "unrealised_pnl": 1.583999,
                 "direction": "SHORT"
             },
             "kBONK": {
                 "leverage": 10.0,
-                "position_value": 10.77,
+                "position_value": 10.957,
                 "size": -1000.0,
-                "unrealised_pnl": 40.092267,
+                "unrealised_pnl": 39.905267,
                 "direction": "SHORT"
             },
             "WIF": {
                 "leverage": 5.0,
-                "position_value": 0.48989,
+                "position_value": 0.50575,
                 "size": -1.0,
-                "unrealised_pnl": 3.416268,
+                "unrealised_pnl": 3.400408,
                 "direction": "SHORT"
             },
             "MANTA": {
                 "leverage": 3.0,
-                "position_value": 2.33082,
+                "position_value": 2.30715,
                 "size": -9.0,
-                "unrealised_pnl": 8.053549,
+                "unrealised_pnl": 8.077219,
                 "direction": "SHORT"
             },
             "W": {
                 "leverage": 5.0,
-                "position_value": 8.846,
+                "position_value": 8.787,
                 "size": -100.0,
-                "unrealised_pnl": 26.388261,
+                "unrealised_pnl": 26.447261,
                 "direction": "SHORT"
             },
             "STRK": {
                 "leverage": 5.0,
-                "position_value": 0.69604,
+                "position_value": 0.7054,
                 "size": -4.0,
-                "unrealised_pnl": 2.039273,
+                "unrealised_pnl": 2.029913,
                 "direction": "SHORT"
             },
             "AI": {
                 "leverage": 3.0,
-                "position_value": 4.65875,
+                "position_value": 4.6745,
                 "size": -25.0,
-                "unrealised_pnl": 12.852999,
+                "unrealised_pnl": 12.837249,
                 "direction": "SHORT"
             },
             "kFLOKI": {
                 "leverage": 5.0,
-                "position_value": 6.0732,
+                "position_value": 6.1881,
                 "size": -100.0,
-                "unrealised_pnl": 21.114687,
+                "unrealised_pnl": 20.999787,
                 "direction": "SHORT"
             },
             "TNSR": {
                 "leverage": 3.0,
-                "position_value": 2.28681,
+                "position_value": 2.27547,
                 "size": -9.0,
-                "unrealised_pnl": 4.925151,
+                "unrealised_pnl": 4.936491,
                 "direction": "SHORT"
             },
             "HBAR": {
                 "leverage": 5.0,
-                "position_value": 0.19243,
+                "position_value": 0.19484,
                 "size": -1.0,
-                "unrealised_pnl": 0.06979,
+                "unrealised_pnl": 0.06738,
                 "direction": "SHORT"
             },
             "POPCAT": {
                 "leverage": 5.0,
-                "position_value": 3.7756,
+                "position_value": 3.889,
                 "size": -20.0,
-                "unrealised_pnl": 33.391135,
+                "unrealised_pnl": 33.277735,
                 "direction": "SHORT"
             },
             "BRETT": {
                 "leverage": 5.0,
-                "position_value": 0.094134,
+                "position_value": 0.097086,
                 "size": -3.0,
-                "unrealised_pnl": 0.517083,
+                "unrealised_pnl": 0.514131,
                 "direction": "SHORT"
             },
             "ZK": {
                 "leverage": 5.0,
-                "position_value": 0.06941,
+                "position_value": 0.06956,
                 "size": -1.0,
-                "unrealised_pnl": 0.161782,
+                "unrealised_pnl": 0.161632,
                 "direction": "SHORT"
             },
             "BLAST": {
                 "leverage": 3.0,
-                "position_value": 3.46388,
+                "position_value": 3.456096,
                 "size": -1112.0,
-                "unrealised_pnl": 9.906655,
+                "unrealised_pnl": 9.914439,
                 "direction": "SHORT"
             },
             "MEW": {
                 "leverage": 5.0,
-                "position_value": 0.058063,
+                "position_value": 0.0589,
                 "size": -31.0,
-                "unrealised_pnl": 0.305971,
+                "unrealised_pnl": 0.305134,
                 "direction": "SHORT"
             },
             "SCR": {
                 "leverage": 5.0,
-                "position_value": 0.34518,
+                "position_value": 0.35038,
                 "size": -1.0,
-                "unrealised_pnl": 0.404001,
+                "unrealised_pnl": 0.398801,
                 "direction": "SHORT"
             },
             "NEIROETH": {
                 "leverage": 5.0,
-                "position_value": 0.029345,
+                "position_value": 0.028779,
                 "size": -1.0,
-                "unrealised_pnl": 0.012139,
+                "unrealised_pnl": 0.012705,
                 "direction": "SHORT"
             },
             "kNEIRO": {
                 "leverage": 5.0,
-                "position_value": 0.2668,
+                "position_value": 0.26827,
                 "size": -1.0,
-                "unrealised_pnl": 1.908893,
+                "unrealised_pnl": 1.907423,
                 "direction": "SHORT"
             },
             "GOAT": {
                 "leverage": 5.0,
-                "position_value": 3.85641,
+                "position_value": 3.903813,
                 "size": -69.0,
-                "unrealised_pnl": 81.487203,
+                "unrealised_pnl": 81.4398,
                 "direction": "SHORT"
             },
             "MOODENG": {
                 "leverage": 5.0,
-                "position_value": 6.78197,
+                "position_value": 6.830642,
                 "size": -169.0,
-                "unrealised_pnl": 95.925246,
+                "unrealised_pnl": 95.876574,
                 "direction": "SHORT"
             },
             "GRASS": {
                 "leverage": 3.0,
-                "position_value": 1.5238,
+                "position_value": 1.512,
                 "size": -1.0,
-                "unrealised_pnl": 1.020162,
+                "unrealised_pnl": 1.031962,
                 "direction": "SHORT"
             },
             "PNUT": {
                 "leverage": 5.0,
-                "position_value": 0.18241,
+                "position_value": 0.19744,
                 "size": -1.0,
-                "unrealised_pnl": 1.852035,
+                "unrealised_pnl": 1.837005,
                 "direction": "SHORT"
             },
             "CHILLGUY": {
                 "leverage": 3.0,
-                "position_value": 0.02735,
+                "position_value": 0.029055,
                 "size": -1.0,
-                "unrealised_pnl": 0.452222,
+                "unrealised_pnl": 0.450517,
                 "direction": "SHORT"
             },
             "ALGO": {
                 "leverage": 5.0,
-                "position_value": 0.1978,
+                "position_value": 0.20049,
                 "size": -1.0,
-                "unrealised_pnl": 0.265063,
+                "unrealised_pnl": 0.262373,
                 "direction": "SHORT"
             },
             "HYPE": {
                 "leverage": 3.0,
-                "position_value": 0.13782,
+                "position_value": 0.14242,
                 "size": -0.01,
-                "unrealised_pnl": 0.139358,
+                "unrealised_pnl": 0.134758,
                 "direction": "SHORT"
             },
             "VIRTUAL": {
                 "leverage": 5.0,
-                "position_value": 1.91895,
+                "position_value": 2.09118,
                 "size": -3.0,
-                "unrealised_pnl": 9.772667,
+                "unrealised_pnl": 9.600437,
                 "direction": "SHORT"
             },
             "FARTCOIN": {
                 "leverage": 3.0,
-                "position_value": 0.51464,
-                "size": -2.0,
-                "unrealised_pnl": 0.262973,
+                "position_value": 298.68618,
+                "size": -1002.0,
+                "unrealised_pnl": 4.531433,
                 "direction": "SHORT"
             },
             "AI16Z": {
                 "leverage": 5.0,
-                "position_value": 1.8722,
+                "position_value": 1.8667,
                 "size": -10.0,
-                "unrealised_pnl": 21.451507,
+                "unrealised_pnl": 21.457007,
                 "direction": "SHORT"
             },
             "AIXBT": {
                 "leverage": 5.0,
-                "position_value": 6.9948,
+                "position_value": 6.795,
                 "size": -60.0,
-                "unrealised_pnl": 43.632547,
+                "unrealised_pnl": 43.832347,
                 "direction": "SHORT"
             },
             "ZEREBRO": {
                 "leverage": 5.0,
-                "position_value": 0.0595,
+                "position_value": 0.057126,
                 "size": -2.0,
-                "unrealised_pnl": 1.130456,
+                "unrealised_pnl": 1.13283,
                 "direction": "SHORT"
             },
             "BIO": {
                 "leverage": 5.0,
-                "position_value": 0.1727,
+                "position_value": 0.171598,
                 "size": -2.0,
-                "unrealised_pnl": 1.432934,
+                "unrealised_pnl": 1.434036,
                 "direction": "SHORT"
             },
             "GRIFFAIN": {
                 "leverage": 5.0,
-                "position_value": 0.040813,
+                "position_value": 0.041448,
                 "size": -1.0,
-                "unrealised_pnl": 0.557896,
+                "unrealised_pnl": 0.557261,
                 "direction": "SHORT"
             },
             "SPX": {
                 "leverage": 5.0,
-                "position_value": 1.04175,
+                "position_value": 1.04463,
                 "size": -3.0,
-                "unrealised_pnl": 3.92595,
+                "unrealised_pnl": 3.92307,
                 "direction": "SHORT"
             },
             "S": {
                 "leverage": 5.0,
-                "position_value": 0.5175,
+                "position_value": 0.52999,
                 "size": -1.0,
-                "unrealised_pnl": 0.355944,
+                "unrealised_pnl": 0.343454,
                 "direction": "SHORT"
             },
             "MORPHO": {
                 "leverage": 5.0,
-                "position_value": 1.2912,
+                "position_value": 1.307,
                 "size": -1.0,
-                "unrealised_pnl": 2.7739,
+                "unrealised_pnl": 2.7581,
                 "direction": "SHORT"
             },
             "TRUMP": {
                 "leverage": 10.0,
-                "position_value": 11.596,
+                "position_value": 12.227,
                 "size": -1.0,
-                "unrealised_pnl": 55.051285,
+                "unrealised_pnl": 54.420285,
                 "direction": "SHORT"
             }
         }
     },
-    "0xb5f3cd71d689f964ed36ec287834093952c5da9f": {
-        "vault_name": "BLOCKCHAINREBELLEN",
-        "vault_tvl": 508825.113179,
-        "vault_apr": 11.043604629935375,
+    "0x1e37a337ed460039d1b15bd3bc489de789768d5e": {
+        "vault_name": "Growi HF",
+        "vault_tvl": 592269.452797,
+        "vault_apr": 20.68071965264884,
         "positions": {
             "BTC": {
-                "leverage": 7.0,
-                "position_value": 179490.70227,
-                "size": 2.15013,
-                "unrealised_pnl": 4526.771716,
+                "leverage": 40.0,
+                "position_value": 1014.34201,
+                "size": 0.01199,
+                "unrealised_pnl": 14.76739,
+                "direction": "LONG"
+            },
+            "ETH": {
+                "leverage": 25.0,
+                "position_value": 2587.75911,
+                "size": 1.3473,
+                "unrealised_pnl": -62.97696,
+                "direction": "LONG"
+            },
+            "ATOM": {
+                "leverage": 5.0,
+                "position_value": 7895.606682,
+                "size": -1816.46,
+                "unrealised_pnl": -562.3483,
+                "direction": "SHORT"
+            },
+            "DYDX": {
+                "leverage": 5.0,
+                "position_value": 542.182795,
+                "size": 874.7,
+                "unrealised_pnl": -6.179746,
                 "direction": "LONG"
             },
             "SOL": {
-                "leverage": 4.0,
-                "position_value": 17370.57,
-                "size": 137.1,
-                "unrealised_pnl": 1371.0,
+                "leverage": 20.0,
+                "position_value": 1285.8966,
+                "size": 9.54,
+                "unrealised_pnl": 3.6698,
                 "direction": "LONG"
             },
-            "KAS": {
-                "leverage": 1.0,
-                "position_value": 148200.0,
-                "size": 2000000.0,
-                "unrealised_pnl": 28149.242563,
-                "direction": "LONG"
-            }
-        }
-    },
-    "0x8d599f4a77eaa7d4569735a0be656aab8efbf101": {
-        "vault_name": "Stabilizer",
-        "vault_tvl": 424239.053304,
-        "vault_apr": -1.93587868126948,
-        "positions": {
             "AVAX": {
                 "leverage": 10.0,
-                "position_value": 479.2022,
-                "size": 25.7,
-                "unrealised_pnl": -1.028,
-                "direction": "LONG"
+                "position_value": 1251.98788,
+                "size": -67.21,
+                "unrealised_pnl": 7.101517,
+                "direction": "SHORT"
             },
-            "XRP": {
+            "BNB": {
                 "leverage": 10.0,
-                "position_value": 479.8352,
-                "size": 208.0,
-                "unrealised_pnl": 1.8928,
-                "direction": "LONG"
-            },
-            "BCH": {
-                "leverage": 10.0,
-                "position_value": 473.4639,
-                "size": 1.435,
-                "unrealised_pnl": -3.42965,
-                "direction": "LONG"
-            },
-            "AAVE": {
-                "leverage": 10.0,
-                "position_value": 481.195,
-                "size": 2.86,
-                "unrealised_pnl": 2.6026,
-                "direction": "LONG"
-            },
-            "ADA": {
-                "leverage": 10.0,
-                "position_value": 482.7015,
-                "size": 670.0,
-                "unrealised_pnl": 3.1289,
-                "direction": "LONG"
-            },
-            "ENA": {
-                "leverage": 10.0,
-                "position_value": 476.35395,
-                "size": 1371.0,
-                "unrealised_pnl": -0.64437,
-                "direction": "LONG"
-            }
-        }
-    },
-    "0xbee2f4609e1ca13801c552083de24c1e90ae4e07": {
-        "vault_name": "TopCryp - MEME",
-        "vault_tvl": 393863.954913,
-        "vault_apr": 178.88374154170026,
-        "positions": {
-            "BTC": {
-                "leverage": 20.0,
-                "position_value": 67516.14562,
-                "size": 0.80878,
-                "unrealised_pnl": -5646.55929,
+                "position_value": 1281.90195,
+                "size": 2.163,
+                "unrealised_pnl": 5.56665,
                 "direction": "LONG"
             },
             "APE": {
                 "leverage": 5.0,
-                "position_value": 12862.90828,
-                "size": -25056.8,
-                "unrealised_pnl": 5937.179351,
+                "position_value": 703.095532,
+                "size": -1360.4,
+                "unrealised_pnl": 0.058485,
                 "direction": "SHORT"
+            },
+            "OP": {
+                "leverage": 10.0,
+                "position_value": 1021.83957,
+                "size": 1171.7,
+                "unrealised_pnl": -4.415798,
+                "direction": "LONG"
             },
             "LTC": {
                 "leverage": 10.0,
-                "position_value": 17963.37588,
-                "size": 198.21,
-                "unrealised_pnl": -2554.866216,
+                "position_value": 973.10451,
+                "size": 10.59,
+                "unrealised_pnl": 52.4708,
                 "direction": "LONG"
             },
-            "RLB": {
-                "leverage": 2.0,
-                "position_value": 28070.971488,
-                "size": 349524.0,
-                "unrealised_pnl": 1151.12433,
-                "direction": "LONG"
-            },
-            "WIF": {
+            "ARB": {
                 "leverage": 10.0,
-                "position_value": 14333.1947,
-                "size": -29255.0,
-                "unrealised_pnl": 5722.28531,
+                "position_value": 1547.54131,
+                "size": -4288.6,
+                "unrealised_pnl": -5.925791,
                 "direction": "SHORT"
             },
-            "SAND": {
+            "DOGE": {
+                "leverage": 10.0,
+                "position_value": 1131.03174,
+                "size": -6537.0,
+                "unrealised_pnl": -12.241558,
+                "direction": "SHORT"
+            },
+            "INJ": {
+                "leverage": 10.0,
+                "position_value": 1359.7064,
+                "size": 135.2,
+                "unrealised_pnl": -18.654559,
+                "direction": "LONG"
+            },
+            "SUI": {
+                "leverage": 10.0,
+                "position_value": 1772.74062,
+                "size": 749.7,
+                "unrealised_pnl": 14.284536,
+                "direction": "LONG"
+            },
+            "kPEPE": {
+                "leverage": 10.0,
+                "position_value": 1365.532168,
+                "size": 193336.0,
+                "unrealised_pnl": -53.883325,
+                "direction": "LONG"
+            },
+            "LDO": {
+                "leverage": 10.0,
+                "position_value": 999.808544,
+                "size": -1045.3,
+                "unrealised_pnl": -56.281255,
+                "direction": "SHORT"
+            },
+            "LINK": {
+                "leverage": 10.0,
+                "position_value": 420.9276,
+                "size": -30.2,
+                "unrealised_pnl": 18.25615,
+                "direction": "SHORT"
+            },
+            "STX": {
                 "leverage": 5.0,
-                "position_value": 3119.1901,
-                "size": -11206.0,
-                "unrealised_pnl": 1403.145765,
+                "position_value": 101.24884,
+                "size": -156.2,
+                "unrealised_pnl": 0.153277,
                 "direction": "SHORT"
             },
-            "HYPE": {
+            "CFX": {
+                "leverage": 5.0,
+                "position_value": 1620.32442,
+                "size": 19331.0,
+                "unrealised_pnl": -6.497992,
+                "direction": "LONG"
+            },
+            "GMX": {
+                "leverage": 5.0,
+                "position_value": 1503.5006,
+                "size": 96.95,
+                "unrealised_pnl": -4.283303,
+                "direction": "LONG"
+            },
+            "SNX": {
                 "leverage": 3.0,
-                "position_value": 7402.008,
-                "size": 537.0,
-                "unrealised_pnl": 697.13453,
+                "position_value": 1546.618437,
+                "size": 1862.7,
+                "unrealised_pnl": -3.385707,
                 "direction": "LONG"
             },
-            "SPX": {
-                "leverage": 5.0,
-                "position_value": 14723.295825,
-                "size": -42399.7,
-                "unrealised_pnl": 11127.016838,
+            "XRP": {
+                "leverage": 20.0,
+                "position_value": 319.638,
+                "size": -132.0,
+                "unrealised_pnl": 0.162344,
                 "direction": "SHORT"
             },
-            "TRUMP": {
+            "BCH": {
                 "leverage": 10.0,
-                "position_value": 73200.9096,
-                "size": -6312.6,
-                "unrealised_pnl": 39129.963282,
+                "position_value": 1206.2796,
+                "size": 3.629,
+                "unrealised_pnl": -79.416805,
+                "direction": "LONG"
+            },
+            "APT": {
+                "leverage": 10.0,
+                "position_value": 1020.27948,
+                "size": 193.8,
+                "unrealised_pnl": 16.033275,
+                "direction": "LONG"
+            },
+            "AAVE": {
+                "leverage": 10.0,
+                "position_value": 2593.404,
+                "size": 14.85,
+                "unrealised_pnl": 8.994082,
+                "direction": "LONG"
+            },
+            "COMP": {
+                "leverage": 5.0,
+                "position_value": 1370.6199,
+                "size": 33.15,
+                "unrealised_pnl": 10.271621,
+                "direction": "LONG"
+            },
+            "MKR": {
+                "leverage": 10.0,
+                "position_value": 3014.30808,
+                "size": 2.5704,
+                "unrealised_pnl": -17.068649,
+                "direction": "LONG"
+            },
+            "WLD": {
+                "leverage": 10.0,
+                "position_value": 1425.68972,
+                "size": 1631.0,
+                "unrealised_pnl": -14.676369,
+                "direction": "LONG"
+            },
+            "TRX": {
+                "leverage": 10.0,
+                "position_value": 3405.54357,
+                "size": 15301.0,
+                "unrealised_pnl": -156.435961,
+                "direction": "LONG"
+            },
+            "kSHIB": {
+                "leverage": 10.0,
+                "position_value": 303.892083,
+                "size": 23859.0,
+                "unrealised_pnl": -3.208539,
+                "direction": "LONG"
+            },
+            "UNI": {
+                "leverage": 10.0,
+                "position_value": 1760.907,
+                "size": 290.1,
+                "unrealised_pnl": -14.441722,
+                "direction": "LONG"
+            },
+            "DOT": {
+                "leverage": 10.0,
+                "position_value": 1228.76255,
+                "size": -289.7,
+                "unrealised_pnl": -81.871761,
                 "direction": "SHORT"
             },
-            "OM": {
+            "TIA": {
+                "leverage": 10.0,
+                "position_value": 1328.19435,
+                "size": 378.5,
+                "unrealised_pnl": -85.5522,
+                "direction": "LONG"
+            },
+            "NEAR": {
+                "leverage": 10.0,
+                "position_value": 1385.2206,
+                "size": 525.9,
+                "unrealised_pnl": -26.548078,
+                "direction": "LONG"
+            },
+            "NEO": {
                 "leverage": 5.0,
-                "position_value": 39062.25526,
-                "size": -6308.3,
-                "unrealised_pnl": 5942.252847,
+                "position_value": 785.236683,
+                "size": -98.07,
+                "unrealised_pnl": -1.289443,
                 "direction": "SHORT"
             }
         }
     },
     "0x832fe0bd18360d4da4206ea7c1d22acebb45ef69": {
         "vault_name": "Joseph",
-        "vault_tvl": 389580.550519,
-        "vault_apr": -75.82900630338125,
+        "vault_tvl": 486904.889703,
+        "vault_apr": -70.78333254400572,
         "positions": {
             "SOL": {
                 "leverage": 20.0,
-                "position_value": 1393796.292,
+                "position_value": 1482792.4404,
                 "size": 11000.76,
-                "unrealised_pnl": -734566.997781,
+                "unrealised_pnl": -645570.849381,
+                "direction": "LONG"
+            }
+        }
+    },
+    "0xb5f3cd71d689f964ed36ec287834093952c5da9f": {
+        "vault_name": "BLOCKCHAINREBELLEN",
+        "vault_tvl": 426750.617341,
+        "vault_apr": 53.68850723552955,
+        "positions": {
+            "KAS": {
+                "leverage": 1.0,
+                "position_value": 161900.0,
+                "size": 2000000.0,
+                "unrealised_pnl": 41849.242563,
+                "direction": "LONG"
+            }
+        }
+    },
+    "0x8d599f4a77eaa7d4569735a0be656aab8efbf101": {
+        "vault_name": "Stabilizer",
+        "vault_tvl": 404158.494165,
+        "vault_apr": -4.432272150409637,
+        "positions": {
+            "AVAX": {
+                "leverage": 10.0,
+                "position_value": 448.40003,
+                "size": 24.07,
+                "unrealised_pnl": -5.92122,
+                "direction": "LONG"
+            },
+            "LINK": {
+                "leverage": 10.0,
+                "position_value": 454.2158,
+                "size": 32.6,
+                "unrealised_pnl": -0.8802,
+                "direction": "LONG"
+            },
+            "HBAR": {
+                "leverage": 5.0,
+                "position_value": 455.9022,
+                "size": 2340.0,
+                "unrealised_pnl": 1.521,
                 "direction": "LONG"
             }
         }
     },
     "0xa671357791d0f31eebf135b9a05a0bfac5ba575e": {
         "vault_name": "[A] Ventures | IVA labs",
-        "vault_tvl": 337080.823312,
-        "vault_apr": -60.658758706031165,
+        "vault_tvl": 395060.217035,
+        "vault_apr": -60.41802219164649,
         "positions": {
             "BTC": {
                 "leverage": 15.0,
-                "position_value": 3819205.15471,
+                "position_value": 3870582.95498,
                 "size": 45.75049,
-                "unrealised_pnl": -863450.72763,
+                "unrealised_pnl": -812072.92736,
                 "direction": "LONG"
             },
             "ETH": {
                 "leverage": 15.0,
-                "position_value": 347978.303,
+                "position_value": 351510.2416,
                 "size": 183.002,
-                "unrealised_pnl": -303462.342453,
+                "unrealised_pnl": -299930.403853,
+                "direction": "LONG"
+            }
+        }
+    },
+    "0xbee2f4609e1ca13801c552083de24c1e90ae4e07": {
+        "vault_name": "TopCryp - MEME",
+        "vault_tvl": 391838.518471,
+        "vault_apr": 172.45653692932143,
+        "positions": {
+            "BTC": {
+                "leverage": 20.0,
+                "position_value": 68410.02322,
+                "size": 0.80861,
+                "unrealised_pnl": -4737.303392,
+                "direction": "LONG"
+            },
+            "APE": {
+                "leverage": 5.0,
+                "position_value": 12954.115032,
+                "size": -25056.8,
+                "unrealised_pnl": 5845.972599,
+                "direction": "SHORT"
+            },
+            "LTC": {
+                "leverage": 10.0,
+                "position_value": 18215.30079,
+                "size": 198.21,
+                "unrealised_pnl": -2302.941306,
+                "direction": "LONG"
+            },
+            "RLB": {
+                "leverage": 2.0,
+                "position_value": 30122.327844,
+                "size": 349524.0,
+                "unrealised_pnl": 3202.480686,
+                "direction": "LONG"
+            },
+            "WIF": {
+                "leverage": 10.0,
+                "position_value": 14798.64175,
+                "size": -29255.0,
+                "unrealised_pnl": 5256.83826,
+                "direction": "SHORT"
+            },
+            "SAND": {
+                "leverage": 5.0,
+                "position_value": 3174.6598,
+                "size": -11206.0,
+                "unrealised_pnl": 1347.676065,
+                "direction": "SHORT"
+            },
+            "HYPE": {
+                "leverage": 3.0,
+                "position_value": 7647.954,
+                "size": 537.0,
+                "unrealised_pnl": 943.08053,
+                "direction": "LONG"
+            },
+            "SPX": {
+                "leverage": 5.0,
+                "position_value": 14761.455555,
+                "size": -42399.7,
+                "unrealised_pnl": 11088.857108,
+                "direction": "SHORT"
+            },
+            "TRUMP": {
+                "leverage": 10.0,
+                "position_value": 94089.5688,
+                "size": -7694.6,
+                "unrealised_pnl": 34757.48227,
+                "direction": "SHORT"
+            },
+            "OM": {
+                "leverage": 5.0,
+                "position_value": 39785.18644,
+                "size": -6308.3,
+                "unrealised_pnl": 5219.321667,
+                "direction": "SHORT"
+            }
+        }
+    },
+    "0xc6870be718616c6e949f91737331be4c9f83104a": {
+        "vault_name": "WILD",
+        "vault_tvl": 354830.227896,
+        "vault_apr": -54.62850312771814,
+        "positions": {
+            "BTC": {
+                "leverage": 40.0,
+                "position_value": 1412289.10466,
+                "size": 16.69333,
+                "unrealised_pnl": 50124.635185,
+                "direction": "LONG"
+            },
+            "ETH": {
+                "leverage": 25.0,
+                "position_value": 317038.22024,
+                "size": 165.0553,
+                "unrealised_pnl": 4549.293058,
+                "direction": "LONG"
+            },
+            "DOGE": {
+                "leverage": 10.0,
+                "position_value": 107929.2084,
+                "size": 623688.0,
+                "unrealised_pnl": 4368.451434,
+                "direction": "LONG"
+            },
+            "MKR": {
+                "leverage": 10.0,
+                "position_value": 178627.89213,
+                "size": 152.3219,
+                "unrealised_pnl": 7135.98121,
+                "direction": "LONG"
+            },
+            "WLD": {
+                "leverage": 10.0,
+                "position_value": 249240.62011,
+                "size": 285123.4,
+                "unrealised_pnl": 23827.186769,
+                "direction": "LONG"
+            },
+            "PURR": {
+                "leverage": 3.0,
+                "position_value": 55651.46176,
+                "size": 628688.0,
+                "unrealised_pnl": 6029.101864,
+                "direction": "LONG"
+            },
+            "HYPE": {
+                "leverage": 3.0,
+                "position_value": 470723.16592,
+                "size": 33051.76,
+                "unrealised_pnl": 14142.96427,
+                "direction": "LONG"
+            },
+            "PENGU": {
+                "leverage": 5.0,
+                "position_value": 24840.378557,
+                "size": 3686063.0,
+                "unrealised_pnl": 2005.833571,
+                "direction": "LONG"
+            },
+            "AI16Z": {
+                "leverage": 5.0,
+                "position_value": 40041.565278,
+                "size": 214343.8,
+                "unrealised_pnl": 812.061898,
                 "direction": "LONG"
             }
         }
     },
     "0xf47a13b928e4ab593a4fbb738a4c979c9b179cae": {
         "vault_name": "Serpentine",
-        "vault_tvl": 319553.351289,
-        "vault_apr": -33.74224105089401,
+        "vault_tvl": 342555.645143,
+        "vault_apr": -31.453307408261345,
         "positions": {
             "BTC": {
                 "leverage": 40.0,
-                "position_value": 565738.55576,
+                "position_value": 573369.75052,
                 "size": 6.77726,
-                "unrealised_pnl": 19024.050435,
+                "unrealised_pnl": 26655.245195,
                 "direction": "LONG"
             },
             "ETH": {
                 "leverage": 25.0,
-                "position_value": 924434.19075,
+                "position_value": 933817.0884,
                 "size": 486.1605,
-                "unrealised_pnl": -183296.871993,
+                "unrealised_pnl": -173913.974343,
                 "direction": "LONG"
             },
             "LINK": {
                 "leverage": 10.0,
-                "position_value": 64307.034,
+                "position_value": 63450.882,
                 "size": 4554.0,
-                "unrealised_pnl": -2858.906,
+                "unrealised_pnl": -3715.058,
                 "direction": "LONG"
             },
             "HYPE": {
                 "leverage": 3.0,
-                "position_value": 132529.98968,
+                "position_value": 136933.55434,
                 "size": 9614.77,
-                "unrealised_pnl": -3591.058364,
+                "unrealised_pnl": 812.506296,
                 "direction": "LONG"
             },
             "FARTCOIN": {
                 "leverage": 3.0,
-                "position_value": 36893.88257,
+                "position_value": 42707.55085,
                 "size": 143193.8,
-                "unrealised_pnl": 1985.149396,
-                "direction": "LONG"
-            }
-        }
-    },
-    "0xc6870be718616c6e949f91737331be4c9f83104a": {
-        "vault_name": "WILD",
-        "vault_tvl": 306619.396123,
-        "vault_apr": -64.72546410891194,
-        "positions": {
-            "BTC": {
-                "leverage": 40.0,
-                "position_value": 945226.29508,
-                "size": 11.32333,
-                "unrealised_pnl": 32768.757225,
-                "direction": "LONG"
-            },
-            "ETH": {
-                "leverage": 25.0,
-                "position_value": 222580.65295,
-                "size": 117.0553,
-                "unrealised_pnl": 2807.325768,
-                "direction": "LONG"
-            },
-            "DOGE": {
-                "leverage": 10.0,
-                "position_value": 106326.33024,
-                "size": 623688.0,
-                "unrealised_pnl": 2765.573274,
-                "direction": "LONG"
-            },
-            "MKR": {
-                "leverage": 10.0,
-                "position_value": 175337.73909,
-                "size": 152.3219,
-                "unrealised_pnl": 3845.82817,
-                "direction": "LONG"
-            },
-            "WLD": {
-                "leverage": 10.0,
-                "position_value": 242386.253574,
-                "size": 285123.4,
-                "unrealised_pnl": 16972.820233,
-                "direction": "LONG"
-            },
-            "PURR": {
-                "leverage": 3.0,
-                "position_value": 52911.010768,
-                "size": 628688.0,
-                "unrealised_pnl": 3288.650872,
-                "direction": "LONG"
-            },
-            "HYPE": {
-                "leverage": 3.0,
-                "position_value": 455585.45984,
-                "size": 33051.76,
-                "unrealised_pnl": -994.74181,
-                "direction": "LONG"
-            },
-            "PENGU": {
-                "leverage": 5.0,
-                "position_value": 23137.417451,
-                "size": 3686063.0,
-                "unrealised_pnl": 302.872465,
-                "direction": "LONG"
-            },
-            "AI16Z": {
-                "leverage": 5.0,
-                "position_value": 40133.733112,
-                "size": 214343.8,
-                "unrealised_pnl": 904.229732,
+                "unrealised_pnl": 7798.817676,
                 "direction": "LONG"
             }
         }
     },
     "0x32776b25efd17f73aaeac319a782c90694533cb0": {
         "vault_name": "Elsewhere (Clone)",
-        "vault_tvl": 290840.269154,
-        "vault_apr": -17.36434422003775,
+        "vault_tvl": 302172.425554,
+        "vault_apr": -15.039481980585231,
         "positions": {
             "BTC": {
                 "leverage": 40.0,
-                "position_value": 749915.82836,
+                "position_value": 760040.35683,
                 "size": 8.98361,
-                "unrealised_pnl": 8576.056889,
+                "unrealised_pnl": 18700.585359,
+                "direction": "LONG"
+            },
+            "SOL": {
+                "leverage": 20.0,
+                "position_value": 19664.5131,
+                "size": 145.89,
+                "unrealised_pnl": 481.5765,
                 "direction": "LONG"
             }
         }
     },
     "0x3005fade4c0df5e1cd187d7062da359416f0eb8e": {
         "vault_name": "Delta_01",
-        "vault_tvl": 281198.414829,
-        "vault_apr": -28.680140308592282,
+        "vault_tvl": 284455.613536,
+        "vault_apr": -33.012533005047786,
         "positions": {
             "HYPE": {
                 "leverage": 3.0,
-                "position_value": 130689.41216,
+                "position_value": 135031.82008,
                 "size": 9481.24,
-                "unrealised_pnl": -114244.74776,
+                "unrealised_pnl": -109902.33984,
                 "direction": "LONG"
             }
         }
     },
-    "0x7c3f3ea90c19670c7429e47e9972330bd549dea9": {
-        "vault_name": "Neutral Momentum Vault",
-        "vault_tvl": 233915.978944,
-        "vault_apr": -7.791850864385299,
+    "0xb0a686a7b5023b92925e197471c39bef801b099d": {
+        "vault_name": "KFC ",
+        "vault_tvl": 237553.802549,
+        "vault_apr": 20.22067606758038,
         "positions": {
-            "BTC": {
+            "ETH": {
                 "leverage": 20.0,
-                "position_value": 304499.19119,
-                "size": 3.64709,
-                "unrealised_pnl": 12633.434012,
-                "direction": "LONG"
-            },
-            "MOODENG": {
-                "leverage": 5.0,
-                "position_value": 22488.955109,
-                "size": -560249.0,
-                "unrealised_pnl": -2501.798633,
+                "position_value": 248685.70562,
+                "size": -129.4766,
+                "unrealised_pnl": 1295.58204,
                 "direction": "SHORT"
             },
-            "PNUT": {
-                "leverage": 5.0,
-                "position_value": 45513.592646,
-                "size": -249334.9,
-                "unrealised_pnl": -5562.731518,
-                "direction": "SHORT"
-            },
-            "HYPE": {
-                "leverage": 3.0,
-                "position_value": 58840.71008,
-                "size": 4267.84,
-                "unrealised_pnl": -125.68909,
-                "direction": "LONG"
-            },
-            "TRUMP": {
-                "leverage": 10.0,
-                "position_value": 286309.276,
-                "size": -24671.2,
-                "unrealised_pnl": -23057.14381,
-                "direction": "SHORT"
-            }
-        }
-    },
-    "0xd232274b0807c561cbee970a716edea97381c38c": {
-        "vault_name": "HuskyXBT",
-        "vault_tvl": 225764.442732,
-        "vault_apr": -0.025269385696855055,
-        "positions": {
-            "CRV": {
-                "leverage": 1.0,
-                "position_value": 4878.644608,
-                "size": 12145.6,
-                "unrealised_pnl": -127.464615,
-                "direction": "LONG"
-            },
-            "LINK": {
-                "leverage": 6.0,
-                "position_value": 5473.4375,
-                "size": 387.5,
-                "unrealised_pnl": 470.0375,
-                "direction": "LONG"
-            },
-            "PURR": {
-                "leverage": 1.0,
-                "position_value": 4816.675422,
-                "size": 57231.0,
-                "unrealised_pnl": -232.110572,
+            "SOL": {
+                "leverage": 20.0,
+                "position_value": 252442.7994,
+                "size": 1872.86,
+                "unrealised_pnl": 2751.6706,
                 "direction": "LONG"
             }
         }
     },
     "0x65dfa218376939c7e18a6fb8e264ed261b5f9e92": {
         "vault_name": "PCC",
-        "vault_tvl": 221042.527845,
-        "vault_apr": -20.37570432899646,
+        "vault_tvl": 229185.321012,
+        "vault_apr": -19.51542869003788,
         "positions": {
             "ENA": {
                 "leverage": 3.0,
-                "position_value": 295611.49238,
+                "position_value": 306288.45508,
                 "size": 850754.0,
-                "unrealised_pnl": -138787.187255,
+                "unrealised_pnl": -128110.224555,
                 "direction": "LONG"
+            }
+        }
+    },
+    "0xd232274b0807c561cbee970a716edea97381c38c": {
+        "vault_name": "HuskyXBT",
+        "vault_tvl": 225997.446294,
+        "vault_apr": -0.1850674186087325,
+        "positions": {
+            "CRV": {
+                "leverage": 1.0,
+                "position_value": 4961.841968,
+                "size": 12145.6,
+                "unrealised_pnl": -44.267255,
+                "direction": "LONG"
+            },
+            "LINK": {
+                "leverage": 6.0,
+                "position_value": 5398.2625,
+                "size": 387.5,
+                "unrealised_pnl": 394.8625,
+                "direction": "LONG"
+            },
+            "PURR": {
+                "leverage": 1.0,
+                "position_value": 5066.08812,
+                "size": 57231.0,
+                "unrealised_pnl": 17.302126,
+                "direction": "LONG"
+            }
+        }
+    },
+    "0x7c3f3ea90c19670c7429e47e9972330bd549dea9": {
+        "vault_name": "Neutral Momentum Vault",
+        "vault_tvl": 222854.214181,
+        "vault_apr": -12.455678308667252,
+        "positions": {
+            "BTC": {
+                "leverage": 20.0,
+                "position_value": 369290.40294,
+                "size": 4.36498,
+                "unrealised_pnl": 17192.956872,
+                "direction": "LONG"
+            },
+            "PNUT": {
+                "leverage": 5.0,
+                "position_value": 70488.032472,
+                "size": -357190.8,
+                "unrealised_pnl": -7724.705181,
+                "direction": "SHORT"
+            },
+            "TRUMP": {
+                "leverage": 10.0,
+                "position_value": 301654.7624,
+                "size": -24671.2,
+                "unrealised_pnl": -38402.63021,
+                "direction": "SHORT"
             }
         }
     },
     "0xa844d7ac9fa3424c4fd38a25baa23e460ec3e802": {
         "vault_name": "69 Jump Street",
-        "vault_tvl": 201772.688716,
-        "vault_apr": 67.64898514285214,
+        "vault_tvl": 202305.271615,
+        "vault_apr": 52.02808843786097,
         "positions": {
             "BTC": {
                 "leverage": 2.0,
-                "position_value": 175034.70695,
-                "size": 2.09645,
-                "unrealised_pnl": 2221.12122,
+                "position_value": 84603.0,
+                "size": 1.0,
+                "unrealised_pnl": 271.16786,
                 "direction": "LONG"
             },
             "ETH": {
                 "leverage": 20.0,
-                "position_value": 20129.54388,
+                "position_value": 20326.38396,
                 "size": -10.5828,
-                "unrealised_pnl": -135.38049,
+                "unrealised_pnl": -332.22057,
                 "direction": "SHORT"
             },
             "OP": {
                 "leverage": 10.0,
-                "position_value": 9993.44943,
+                "position_value": 10112.93973,
                 "size": -11601.0,
-                "unrealised_pnl": 2.130732,
+                "unrealised_pnl": -117.359568,
                 "direction": "SHORT"
             },
             "LDO": {
                 "leverage": 10.0,
-                "position_value": 19851.23192,
+                "position_value": 20738.83136,
                 "size": 21675.2,
-                "unrealised_pnl": -157.445049,
+                "unrealised_pnl": 730.154391,
                 "direction": "LONG"
             },
             "GRASS": {
                 "leverage": 5.0,
-                "position_value": 10425.68042,
+                "position_value": 10340.86318,
                 "size": 6840.1,
-                "unrealised_pnl": 420.15608,
+                "unrealised_pnl": 335.33884,
                 "direction": "LONG"
             },
             "XLM": {
                 "leverage": 5.0,
-                "position_value": 14948.84222,
-                "size": -54314.0,
-                "unrealised_pnl": 46.92138,
+                "position_value": 20061.71568,
+                "size": -72232.0,
+                "unrealised_pnl": -66.98212,
                 "direction": "SHORT"
             },
             "HYPE": {
                 "leverage": 3.0,
-                "position_value": 14836.46644,
-                "size": 1076.12,
-                "unrealised_pnl": -166.81157,
+                "position_value": 20437.42313,
+                "size": 1434.91,
+                "unrealised_pnl": 434.04768,
+                "direction": "LONG"
+            }
+        }
+    },
+    "0x90f4174d630c02c425ba27986b76410e6ee37434": {
+        "vault_name": "Immutable Fund I",
+        "vault_tvl": 200834.688352,
+        "vault_apr": 128.08856631539587,
+        "positions": {
+            "BTC": {
+                "leverage": 40.0,
+                "position_value": 2791899.0,
+                "size": 33.0,
+                "unrealised_pnl": 19899.0,
                 "direction": "LONG"
             }
         }
     },
     "0x4078582c42fdb547b1397fabb5d5a4beab81be9e": {
         "vault_name": "Hyperdash Vault #1",
-        "vault_tvl": 196312.425568,
-        "vault_apr": 132.57630422927173,
+        "vault_tvl": 197812.814599,
+        "vault_apr": 89.7789908769528,
         "positions": {
             "BTC": {
                 "leverage": 20.0,
-                "position_value": 109217.08183,
-                "size": 1.30813,
-                "unrealised_pnl": 1201.374653,
+                "position_value": 129353.75685,
+                "size": 1.52895,
+                "unrealised_pnl": 2953.864705,
                 "direction": "LONG"
             },
             "AVAX": {
                 "leverage": 10.0,
-                "position_value": 336.92736,
+                "position_value": 336.40362,
                 "size": 18.06,
-                "unrealised_pnl": 1.76988,
+                "unrealised_pnl": 1.24614,
                 "direction": "LONG"
             },
             "DOGE": {
                 "leverage": 10.0,
-                "position_value": 1863.32004,
+                "position_value": 1890.7443,
                 "size": -10926.0,
-                "unrealised_pnl": 220.37742,
+                "unrealised_pnl": 192.95316,
+                "direction": "SHORT"
+            },
+            "LINK": {
+                "leverage": 10.0,
+                "position_value": 7018.4378,
+                "size": -503.8,
+                "unrealised_pnl": 123.6384,
                 "direction": "SHORT"
             },
             "MKR": {
                 "leverage": 10.0,
-                "position_value": 3218.68941,
+                "position_value": 3278.23782,
                 "size": -2.7957,
-                "unrealised_pnl": 517.82314,
+                "unrealised_pnl": 458.27473,
                 "direction": "SHORT"
             },
             "WLD": {
                 "leverage": 10.0,
-                "position_value": 6348.319056,
+                "position_value": 6527.647572,
                 "size": 7465.8,
-                "unrealised_pnl": 136.705691,
+                "unrealised_pnl": 316.034207,
                 "direction": "LONG"
             },
             "UNI": {
                 "leverage": 10.0,
-                "position_value": 2806.0485,
+                "position_value": 2886.58126,
                 "size": -475.4,
-                "unrealised_pnl": 545.33134,
+                "unrealised_pnl": 464.79858,
                 "direction": "SHORT"
             },
             "TIA": {
                 "leverage": 10.0,
-                "position_value": 8611.8864,
+                "position_value": 8349.90345,
                 "size": 2379.5,
-                "unrealised_pnl": 68.489792,
+                "unrealised_pnl": -193.493158,
                 "direction": "LONG"
             },
             "ADA": {
                 "leverage": 10.0,
-                "position_value": 3161.2095,
+                "position_value": 3289.58772,
                 "size": -4386.0,
-                "unrealised_pnl": 398.38038,
+                "unrealised_pnl": 270.00216,
                 "direction": "SHORT"
             },
             "FET": {
                 "leverage": 5.0,
-                "position_value": 1692.36408,
+                "position_value": 1729.4937,
                 "size": -3333.0,
-                "unrealised_pnl": 163.61697,
+                "unrealised_pnl": 126.48735,
                 "direction": "SHORT"
             },
             "ONDO": {
                 "leverage": 10.0,
-                "position_value": 3840.84468,
+                "position_value": 3924.0828,
                 "size": -4437.0,
-                "unrealised_pnl": 300.39398,
+                "unrealised_pnl": 217.15586,
                 "direction": "SHORT"
             },
             "ENA": {
                 "leverage": 10.0,
-                "position_value": 8495.29403,
-                "size": 24449.0,
-                "unrealised_pnl": -2218.50488,
+                "position_value": 6353.9045,
+                "size": 17662.0,
+                "unrealised_pnl": -1385.762411,
                 "direction": "LONG"
             },
             "RENDER": {
                 "leverage": 5.0,
-                "position_value": 1763.85041,
+                "position_value": 1873.37829,
                 "size": -578.9,
-                "unrealised_pnl": 223.7272,
-                "direction": "SHORT"
-            },
-            "MOVE": {
-                "leverage": 5.0,
-                "position_value": 6215.51265,
-                "size": -13677.0,
-                "unrealised_pnl": 405.373143,
+                "unrealised_pnl": 114.19932,
                 "direction": "SHORT"
             },
             "AI16Z": {
                 "leverage": 5.0,
-                "position_value": 4799.5625,
+                "position_value": 4788.8,
                 "size": 25625.0,
-                "unrealised_pnl": 256.034734,
+                "unrealised_pnl": 245.272234,
                 "direction": "LONG"
             },
             "TRUMP": {
                 "leverage": 3.0,
-                "position_value": 2931.423,
+                "position_value": 3088.5402,
                 "size": -252.6,
-                "unrealised_pnl": 95.4828,
+                "unrealised_pnl": -61.6344,
                 "direction": "SHORT"
             },
             "IP": {
                 "leverage": 3.0,
-                "position_value": 5261.6543,
+                "position_value": 5293.4742,
                 "size": -917.0,
-                "unrealised_pnl": -518.44849,
+                "unrealised_pnl": -550.26839,
                 "direction": "SHORT"
             }
         }
     },
     "0x9187fcb82c26bf9327a05992b1970fe98bb383ae": {
         "vault_name": "Dynamic Multi-System Trading with Risk Control",
-        "vault_tvl": 154982.605039,
-        "vault_apr": -5.643969160772219,
+        "vault_tvl": 161524.713886,
+        "vault_apr": -2.944192879304479,
         "positions": {
             "SUI": {
                 "leverage": 2.0,
-                "position_value": 310921.728,
-                "size": 138649.6,
-                "unrealised_pnl": 1733.12,
+                "position_value": 326528.65362,
+                "size": 138084.6,
+                "unrealised_pnl": -1426.93724,
                 "direction": "LONG"
             }
         }
     },
     "0xdf5cfd9a72efd86d9a7d7f6b48e4f29194fd069e": {
         "vault_name": "Long Short HF",
-        "vault_tvl": 140416.915199,
-        "vault_apr": -17.98645697647039,
+        "vault_tvl": 142549.238307,
+        "vault_apr": -17.79954624742354,
         "positions": {
             "MKR": {
                 "leverage": 10.0,
-                "position_value": 980.70256,
+                "position_value": 998.16036,
                 "size": 0.8516,
-                "unrealised_pnl": -426.374631,
+                "unrealised_pnl": -408.916831,
                 "direction": "LONG"
             },
             "STRK": {
                 "leverage": 5.0,
-                "position_value": 70459.6628,
+                "position_value": 71390.4912,
                 "size": 404708.0,
-                "unrealised_pnl": -64133.837937,
+                "unrealised_pnl": -63203.009537,
                 "direction": "LONG"
             },
             "HYPE": {
                 "leverage": 3.0,
-                "position_value": 69000.0,
+                "position_value": 71205.0,
                 "size": 5000.0,
-                "unrealised_pnl": -12224.65,
+                "unrealised_pnl": -10019.65,
                 "direction": "LONG"
             }
         }
     },
     "0x9e5b544388de0f07e06b31522bb49c965575e559": {
         "vault_name": "Elsewhere - copytrade",
-        "vault_tvl": 130287.98249,
-        "vault_apr": -3.7649198014528893,
+        "vault_tvl": 134500.043189,
+        "vault_apr": -0.9991083642143794,
         "positions": {
             "BTC": {
                 "leverage": 40.0,
-                "position_value": 288149.5565,
-                "size": 3.44986,
-                "unrealised_pnl": 3753.140271,
+                "position_value": 291503.8704,
+                "size": 3.44665,
+                "unrealised_pnl": 7350.595431,
+                "direction": "LONG"
+            },
+            "SOL": {
+                "leverage": 20.0,
+                "position_value": 7345.7676,
+                "size": 54.51,
+                "unrealised_pnl": 176.9176,
                 "direction": "LONG"
             }
         }
     },
     "0x8e1e865e9ec7b8cae3bce0518780e7f3574f80b1": {
         "vault_name": "ElseWhere - Clone ai",
-        "vault_tvl": 128342.460644,
-        "vault_apr": -12.0931146472536,
+        "vault_tvl": 132987.427029,
+        "vault_apr": -9.49180338339574,
         "positions": {
             "BTC": {
                 "leverage": 40.0,
-                "position_value": 250575.0,
-                "size": 3.0,
-                "unrealised_pnl": 6582.062586,
+                "position_value": 126855.0,
+                "size": 1.5,
+                "unrealised_pnl": 451.5,
+                "direction": "LONG"
+            },
+            "ETH": {
+                "leverage": 25.0,
+                "position_value": 19956.288,
+                "size": 10.3939,
+                "unrealised_pnl": -41.5756,
+                "direction": "LONG"
+            },
+            "AVAX": {
+                "leverage": 10.0,
+                "position_value": 9821.15012,
+                "size": 527.48,
+                "unrealised_pnl": -169.77455,
+                "direction": "LONG"
+            },
+            "LINK": {
+                "leverage": 10.0,
+                "position_value": 9681.36,
+                "size": 695.5,
+                "unrealised_pnl": -307.6918,
+                "direction": "LONG"
+            },
+            "AAVE": {
+                "leverage": 10.0,
+                "position_value": 10040.6912,
+                "size": 57.52,
+                "unrealised_pnl": 94.9134,
+                "direction": "LONG"
+            },
+            "MKR": {
+                "leverage": 10.0,
+                "position_value": 10000.76022,
+                "size": 8.5338,
+                "unrealised_pnl": -7.11397,
+                "direction": "LONG"
+            },
+            "TIA": {
+                "leverage": 10.0,
+                "position_value": 19657.35024,
+                "size": -5602.3,
+                "unrealised_pnl": 332.97558,
+                "direction": "SHORT"
+            },
+            "PENDLE": {
+                "leverage": 5.0,
+                "position_value": 9740.6106,
+                "size": 4578.0,
+                "unrealised_pnl": -255.6253,
+                "direction": "LONG"
+            },
+            "JTO": {
+                "leverage": 5.0,
+                "position_value": 9818.5632,
+                "size": 4418.0,
+                "unrealised_pnl": -164.0452,
+                "direction": "LONG"
+            },
+            "ONDO": {
+                "leverage": 10.0,
+                "position_value": 10082.13232,
+                "size": 11401.0,
+                "unrealised_pnl": 80.16735,
                 "direction": "LONG"
             },
             "TAO": {
                 "leverage": 5.0,
-                "position_value": 48703.123,
-                "size": 200.095,
-                "unrealised_pnl": -555.031183,
+                "position_value": 30868.9114,
+                "size": 119.116,
+                "unrealised_pnl": 892.15072,
+                "direction": "LONG"
+            },
+            "ENA": {
+                "leverage": 10.0,
+                "position_value": 10029.74059,
+                "size": 27917.0,
+                "unrealised_pnl": 109.33039,
                 "direction": "LONG"
             },
             "HYPE": {
                 "leverage": 3.0,
-                "position_value": 40246.32,
-                "size": 2916.4,
-                "unrealised_pnl": 218.58496,
+                "position_value": 19835.57685,
+                "size": 1392.85,
+                "unrealised_pnl": -164.3563,
                 "direction": "LONG"
+            },
+            "LAYER": {
+                "leverage": 3.0,
+                "position_value": 19291.4573,
+                "size": -16339.0,
+                "unrealised_pnl": 676.2104,
+                "direction": "SHORT"
             }
         }
     },
     "0x702255357a886ee309c4b82bd61ae9783a4e6d5d": {
         "vault_name": "Meme Fund",
-        "vault_tvl": 126665.279791,
-        "vault_apr": -19.63081989643443,
+        "vault_tvl": 128724.923753,
+        "vault_apr": -19.612255557372542,
         "positions": {
             "MKR": {
                 "leverage": 10.0,
-                "position_value": 1062.69648,
+                "position_value": 1081.42932,
                 "size": 0.9228,
-                "unrealised_pnl": -462.022675,
+                "unrealised_pnl": -443.289835,
                 "direction": "LONG"
             },
             "STRK": {
                 "leverage": 5.0,
-                "position_value": 57596.04056,
+                "position_value": 58356.93024,
                 "size": 330821.6,
-                "unrealised_pnl": -59327.993505,
+                "unrealised_pnl": -58567.103825,
                 "direction": "LONG"
             },
             "HYPE": {
                 "leverage": 3.0,
-                "position_value": 69000.0,
+                "position_value": 71205.0,
                 "size": 5000.0,
-                "unrealised_pnl": -12223.95,
+                "unrealised_pnl": -10018.95,
                 "direction": "LONG"
             }
         }
     },
     "0x99c2cec0cd98df74fb14a8b7e6b71f0ebcc02600": {
         "vault_name": "Makrochronios",
-        "vault_tvl": 118815.103136,
-        "vault_apr": 48.24850017850407,
+        "vault_tvl": 118734.403379,
+        "vault_apr": 47.255362492937145,
         "positions": {
             "ETH": {
                 "leverage": 10.0,
-                "position_value": 204.33924,
-                "size": 0.1074,
-                "unrealised_pnl": 0.98808,
+                "position_value": 211.008,
+                "size": 0.1099,
+                "unrealised_pnl": 0.20881,
                 "direction": "LONG"
             },
             "AVAX": {
                 "leverage": 10.0,
-                "position_value": 202.84507,
-                "size": 10.87,
-                "unrealised_pnl": -0.47828,
+                "position_value": 207.78804,
+                "size": 11.16,
+                "unrealised_pnl": -2.48868,
                 "direction": "LONG"
             },
-            "XRP": {
+            "LINK": {
                 "leverage": 10.0,
-                "position_value": 212.3728,
-                "size": 92.0,
-                "unrealised_pnl": 0.9752,
-                "direction": "LONG"
-            },
-            "ADA": {
-                "leverage": 10.0,
-                "position_value": 405.83855,
-                "size": 563.0,
-                "unrealised_pnl": 0.96167,
+                "position_value": 210.192,
+                "size": 15.1,
+                "unrealised_pnl": -0.6342,
                 "direction": "LONG"
             },
             "HBAR": {
                 "leverage": 5.0,
-                "position_value": 211.32608,
-                "size": 1097.0,
-                "unrealised_pnl": 0.6582,
-                "direction": "LONG"
-            }
-        }
-    },
-    "0x777c467a16bc3791d1b6a752c4a380530c160876": {
-        "vault_name": "\u03b1lpha strategies",
-        "vault_tvl": 106255.016376,
-        "vault_apr": 54.15502208292639,
-        "positions": {
-            "BTC": {
-                "leverage": 20.0,
-                "position_value": 718487.0,
-                "size": -8.6,
-                "unrealised_pnl": -13049.6238,
-                "direction": "SHORT"
-            },
-            "ETH": {
-                "leverage": 20.0,
-                "position_value": 380520.0,
-                "size": 200.0,
-                "unrealised_pnl": 3475.52929,
+                "position_value": 211.30375,
+                "size": 1085.0,
+                "unrealised_pnl": 0.6293,
                 "direction": "LONG"
             }
         }
     },
     "0xfb3bf4441c6eb2d44c958e7751bbb6bb2718eec2": {
         "vault_name": "HYPE Specialist",
-        "vault_tvl": 105131.929958,
-        "vault_apr": -15.112083377844176,
+        "vault_tvl": 107211.895081,
+        "vault_apr": -13.557635419525374,
         "positions": {
             "HYPE": {
                 "leverage": 3.0,
-                "position_value": 68620.638,
-                "size": 4972.51,
-                "unrealised_pnl": 7010.549002,
+                "position_value": 45961.26099,
+                "size": 3227.39,
+                "unrealised_pnl": 5973.450993,
                 "direction": "LONG"
+            }
+        }
+    },
+    "0x4bbe9a95577e03ef63d893b13a218c777982f060": {
+        "vault_name": "Short HYPE",
+        "vault_tvl": 106840.199466,
+        "vault_apr": 262.94236545889174,
+        "positions": {
+            "HYPE": {
+                "leverage": 3.0,
+                "position_value": 18969.012,
+                "size": -1332.0,
+                "unrealised_pnl": -412.587,
+                "direction": "SHORT"
             }
         }
     },
     "0xbbf7d7a9d0eaeab4115f022a6863450296112422": {
         "vault_name": "Satori Quantum HF Vault",
-        "vault_tvl": 101596.540228,
-        "vault_apr": 28.69427575830816,
+        "vault_tvl": 102150.405571,
+        "vault_apr": 34.48924519637462,
         "positions": {
             "BTC": {
                 "leverage": 40.0,
-                "position_value": 451.97845,
-                "size": 0.00541,
-                "unrealised_pnl": 7.802999,
+                "position_value": 469.3746,
+                "size": 0.00555,
+                "unrealised_pnl": 9.249989,
                 "direction": "LONG"
             },
             "ETH": {
                 "leverage": 25.0,
-                "position_value": 1198.638,
+                "position_value": 1209.348,
                 "size": 0.63,
-                "unrealised_pnl": 21.21,
+                "unrealised_pnl": 31.92,
                 "direction": "LONG"
             },
             "ATOM": {
                 "leverage": 5.0,
-                "position_value": 1522.45516,
-                "size": -376.24,
-                "unrealised_pnl": -91.872777,
+                "position_value": 3515.602416,
+                "size": -809.04,
+                "unrealised_pnl": -254.131453,
                 "direction": "SHORT"
             },
             "DYDX": {
                 "leverage": 5.0,
-                "position_value": 259.888392,
-                "size": 424.8,
-                "unrealised_pnl": -2.440527,
+                "position_value": 254.148026,
+                "size": 410.3,
+                "unrealised_pnl": -3.082436,
                 "direction": "LONG"
             },
             "SOL": {
                 "leverage": 20.0,
-                "position_value": 720.224,
-                "size": 5.68,
-                "unrealised_pnl": 6.188473,
+                "position_value": 662.8716,
+                "size": 4.92,
+                "unrealised_pnl": 1.771941,
                 "direction": "LONG"
             },
             "AVAX": {
                 "leverage": 10.0,
-                "position_value": 607.60216,
+                "position_value": 606.2672,
                 "size": -32.56,
-                "unrealised_pnl": 1.897404,
+                "unrealised_pnl": 3.232364,
                 "direction": "SHORT"
             },
             "BNB": {
                 "leverage": 10.0,
-                "position_value": 614.53692,
-                "size": 1.062,
-                "unrealised_pnl": -10.126157,
+                "position_value": 622.0515,
+                "size": 1.05,
+                "unrealised_pnl": 2.947166,
                 "direction": "LONG"
             },
             "APE": {
                 "leverage": 5.0,
-                "position_value": 332.4286,
-                "size": -647.0,
-                "unrealised_pnl": -4.079384,
+                "position_value": 335.280376,
+                "size": -648.8,
+                "unrealised_pnl": -0.641614,
                 "direction": "SHORT"
             },
             "OP": {
                 "leverage": 10.0,
-                "position_value": 574.83394,
-                "size": 667.0,
-                "unrealised_pnl": 4.50573,
+                "position_value": 481.501186,
+                "size": 552.7,
+                "unrealised_pnl": -1.591628,
                 "direction": "LONG"
             },
             "LTC": {
                 "leverage": 10.0,
-                "position_value": 446.10624,
+                "position_value": 452.09388,
                 "size": 4.92,
-                "unrealised_pnl": 10.431593,
+                "unrealised_pnl": 16.419233,
                 "direction": "LONG"
             },
             "ARB": {
                 "leverage": 10.0,
-                "position_value": 311.2668,
-                "size": -886.8,
-                "unrealised_pnl": -7.952027,
+                "position_value": 690.579295,
+                "size": -1914.5,
+                "unrealised_pnl": -4.136625,
                 "direction": "SHORT"
             },
             "DOGE": {
                 "leverage": 10.0,
-                "position_value": 465.02834,
-                "size": -2726.0,
-                "unrealised_pnl": -4.287756,
+                "position_value": 524.24176,
+                "size": -3031.0,
+                "unrealised_pnl": -7.22311,
                 "direction": "SHORT"
             },
             "INJ": {
                 "leverage": 10.0,
-                "position_value": 844.77344,
-                "size": 86.3,
-                "unrealised_pnl": 17.310443,
+                "position_value": 681.729,
+                "size": 67.8,
+                "unrealised_pnl": -8.016071,
                 "direction": "LONG"
             },
             "SUI": {
                 "leverage": 10.0,
-                "position_value": 827.5563,
-                "size": 369.0,
-                "unrealised_pnl": -14.607764,
+                "position_value": 830.30704,
+                "size": 351.2,
+                "unrealised_pnl": 8.689228,
                 "direction": "LONG"
             },
             "kPEPE": {
                 "leverage": 10.0,
-                "position_value": 633.133384,
+                "position_value": 641.674506,
                 "size": 90863.0,
-                "unrealised_pnl": -33.416206,
+                "unrealised_pnl": -24.875084,
                 "direction": "LONG"
             },
             "LDO": {
                 "leverage": 10.0,
-                "position_value": 447.413472,
+                "position_value": 467.071572,
                 "size": -488.4,
-                "unrealised_pnl": -13.618588,
+                "unrealised_pnl": -33.276688,
                 "direction": "SHORT"
             },
             "LINK": {
                 "leverage": 10.0,
-                "position_value": 49.4445,
-                "size": -3.5,
-                "unrealised_pnl": 0.074205,
+                "position_value": 176.784,
+                "size": -12.7,
+                "unrealised_pnl": 7.879048,
                 "direction": "SHORT"
             },
             "STX": {
                 "leverage": 5.0,
-                "position_value": 8.255097,
-                "size": -12.9,
-                "unrealised_pnl": 0.082371,
+                "position_value": 44.33004,
+                "size": -68.4,
+                "unrealised_pnl": 0.074516,
                 "direction": "SHORT"
             },
             "CFX": {
                 "leverage": 5.0,
-                "position_value": 841.880028,
-                "size": 10076.0,
-                "unrealised_pnl": 5.743665,
+                "position_value": 802.52835,
+                "size": 9571.0,
+                "unrealised_pnl": -1.021057,
                 "direction": "LONG"
             },
             "GMX": {
                 "leverage": 5.0,
-                "position_value": 5714.51671,
-                "size": 398.03,
-                "unrealised_pnl": -50.763207,
+                "position_value": 1345.07718,
+                "size": 86.74,
+                "unrealised_pnl": 12.59738,
                 "direction": "LONG"
             },
             "SNX": {
                 "leverage": 3.0,
-                "position_value": 723.847878,
-                "size": 872.6,
-                "unrealised_pnl": 9.898708,
+                "position_value": 722.44403,
+                "size": 870.1,
+                "unrealised_pnl": 1.83426,
                 "direction": "LONG"
             },
             "XRP": {
                 "leverage": 20.0,
-                "position_value": 311.634,
-                "size": 135.0,
-                "unrealised_pnl": -1.446593,
-                "direction": "LONG"
+                "position_value": 128.3183,
+                "size": -53.0,
+                "unrealised_pnl": 0.104222,
+                "direction": "SHORT"
             },
             "BCH": {
                 "leverage": 10.0,
-                "position_value": 568.31166,
+                "position_value": 572.27226,
                 "size": 1.722,
-                "unrealised_pnl": -42.902934,
+                "unrealised_pnl": -38.942334,
                 "direction": "LONG"
             },
             "APT": {
                 "leverage": 10.0,
-                "position_value": 444.715005,
+                "position_value": 452.941385,
                 "size": 86.05,
-                "unrealised_pnl": 5.930962,
+                "unrealised_pnl": 14.157342,
                 "direction": "LONG"
             },
             "AAVE": {
                 "leverage": 10.0,
-                "position_value": 1642.095,
-                "size": 9.75,
-                "unrealised_pnl": 7.928051,
+                "position_value": 1211.4464,
+                "size": 6.94,
+                "unrealised_pnl": 37.260372,
                 "direction": "LONG"
             },
             "COMP": {
                 "leverage": 5.0,
-                "position_value": 637.60725,
+                "position_value": 651.34125,
                 "size": 15.75,
-                "unrealised_pnl": -10.68297,
+                "unrealised_pnl": 3.05103,
                 "direction": "LONG"
             },
             "MKR": {
                 "leverage": 10.0,
-                "position_value": 3430.33845,
-                "size": 2.9785,
-                "unrealised_pnl": -32.009395,
+                "position_value": 1570.58038,
+                "size": 1.3402,
+                "unrealised_pnl": -6.342371,
                 "direction": "LONG"
             },
             "WLD": {
                 "leverage": 10.0,
-                "position_value": 1167.920332,
-                "size": 1373.2,
-                "unrealised_pnl": 12.784315,
+                "position_value": 726.714147,
+                "size": 831.3,
+                "unrealised_pnl": -5.376085,
                 "direction": "LONG"
             },
             "TRX": {
                 "leverage": 10.0,
-                "position_value": 1578.64218,
+                "position_value": 1590.86697,
                 "size": 7149.0,
-                "unrealised_pnl": -75.316224,
+                "unrealised_pnl": -63.091434,
                 "direction": "LONG"
             },
             "kSHIB": {
                 "leverage": 10.0,
-                "position_value": 148.892148,
-                "size": 11919.0,
-                "unrealised_pnl": -1.661138,
+                "position_value": 146.964286,
+                "size": 11542.0,
+                "unrealised_pnl": -1.629707,
                 "direction": "LONG"
             },
             "UNI": {
                 "leverage": 10.0,
-                "position_value": 800.7858,
+                "position_value": 823.21404,
                 "size": 135.6,
-                "unrealised_pnl": -7.630064,
+                "unrealised_pnl": 14.798176,
                 "direction": "LONG"
             },
             "DOT": {
                 "leverage": 10.0,
-                "position_value": 540.2925,
-                "size": -129.8,
-                "unrealised_pnl": -37.453715,
+                "position_value": 568.2002,
+                "size": -134.0,
+                "unrealised_pnl": -40.607847,
                 "direction": "SHORT"
             },
             "TIA": {
                 "leverage": 10.0,
-                "position_value": 636.44874,
+                "position_value": 616.77672,
                 "size": 175.8,
-                "unrealised_pnl": -20.018821,
+                "unrealised_pnl": -39.690841,
                 "direction": "LONG"
             },
             "NEAR": {
                 "leverage": 10.0,
-                "position_value": 650.78684,
-                "size": 246.1,
-                "unrealised_pnl": -10.145544,
+                "position_value": 649.26506,
+                "size": 246.7,
+                "unrealised_pnl": -12.693334,
                 "direction": "LONG"
             },
             "NEO": {
                 "leverage": 5.0,
-                "position_value": 301.501365,
-                "size": -37.95,
-                "unrealised_pnl": -8.782896,
+                "position_value": 362.227632,
+                "size": -45.24,
+                "unrealised_pnl": -6.174207,
                 "direction": "SHORT"
             }
         }
     },
     "0x58986dbbfe60f62605bec077a82a8ca38a94f29d": {
         "vault_name": "Hypefaydr",
-        "vault_tvl": 101273.232864,
-        "vault_apr": -17.661482434527052,
+        "vault_tvl": 101203.770046,
+        "vault_apr": -17.57210511104053,
         "positions": {
             "ATOM": {
                 "leverage": 5.0,
-                "position_value": 1860.843624,
+                "position_value": 1997.754196,
                 "size": -459.74,
-                "unrealised_pnl": 1139.143772,
+                "unrealised_pnl": 1002.2332,
                 "direction": "SHORT"
             },
             "XRP": {
                 "leverage": 20.0,
-                "position_value": 2735.8095,
+                "position_value": 2869.0035,
                 "size": 1185.0,
-                "unrealised_pnl": -262.833,
+                "unrealised_pnl": -129.639,
                 "direction": "LONG"
             },
             "kSHIB": {
                 "leverage": 10.0,
-                "position_value": 1749.37438,
+                "position_value": 1783.409446,
                 "size": -140062.0,
-                "unrealised_pnl": 1250.613598,
+                "unrealised_pnl": 1216.578532,
                 "direction": "SHORT"
             },
             "DOT": {
                 "leverage": 10.0,
-                "position_value": 1892.40888,
+                "position_value": 1927.64038,
                 "size": -454.6,
-                "unrealised_pnl": 1107.4056,
+                "unrealised_pnl": 1072.1741,
                 "direction": "SHORT"
+            }
+        }
+    },
+    "0x777c467a16bc3791d1b6a752c4a380530c160876": {
+        "vault_name": "\u03b1lpha strategies",
+        "vault_tvl": 100004.949585,
+        "vault_apr": -0.3012517527579446,
+        "positions": {
+            "BTC": {
+                "leverage": 20.0,
+                "position_value": 169144.0,
+                "size": 2.0,
+                "unrealised_pnl": 148.0,
+                "direction": "LONG"
             }
         }
     }
