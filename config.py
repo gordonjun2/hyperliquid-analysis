@@ -22,11 +22,6 @@ if cfg:
         TEST_TG_CHAT_ID = ''
         TEST_TG_CHAT_ID_2 = ''
         USER_ID = ''
-    if cfg.has_section('general'):
-        general = dict(cfg.items('general'))
-        TIMEZONE = general.get('timezone', 'Asia/Singapore')
-    else:
-        TIMEZONE = 'Asia/Singapore'
     if cfg.has_section('hyperliquid'):
         hyperliquid = dict(cfg.items('hyperliquid'))
         cleaned_addresses = hyperliquid.get('addresses_to_track',
@@ -42,18 +37,18 @@ else:
     TEST_TG_CHAT_ID = ''
     TEST_TG_CHAT_ID_2 = ''
     USER_ID = ''
-    TIMEZONE = 'Asia/Singapore'
     ADDRESSES_TO_TRACK = ['']
 
+TIMEZONE = 'Asia/Singapore'
 MIN_VAULT_TVL = 1e5
 MIN_VAULT_APR = 10  # in %
 MAX_RETRIES = 10
 RETRY_AFTER = 10
 MIN_POSITION_COUNTS = 3
-
 EXCLUDED_VAULT_ADDRESSES = [
     "0xdfc24b077bc1425ad1dea75bcb6f8158e10df303",  # Hyperliquidity Provider (HLP)
     "0x010461c14e146ac35fe42271bdc1134ee31c703a",  # HLP Strategy A
     "0x2e3d94f0562703b25c83308a05046ddaf9a8dd14",  # HLP Liquidator
     "0x31ca8395cf837de08b24da3f660e77761dfb974b",  # HLP Strategy B
 ]
+SUBSCRIPTION_TYPE = 'orderUpdates'
