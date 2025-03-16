@@ -50,6 +50,7 @@ def on_user_fills_message(ws_msg):
 
         msg_list = []
         msg = f"🚨 **Trade Filled Alert** 🚨\n\n"
+        msg_list.append(msg)
 
         print("Received user fills:")
         for fill in fills:
@@ -65,7 +66,7 @@ def on_user_fills_message(ws_msg):
             dt_sg = pytz.utc.localize(dt_utc).astimezone(timezone)
             dt_str = dt_sg.strftime('%Y-%m-%d %H:%M:%S')
 
-            msg = msg + (
+            msg = (
                 f"🔗 *Tracked Address*: {ADDRESSES_TO_TRACK[0]}\n"
                 f"#️⃣ *Hash*: {hash}\n"
                 f"⏰ **Time**: {dt_str}\n"
@@ -109,6 +110,7 @@ def on_order_updates_message(ws_msg):
 
         msg_list = []
         msg = f"🚨 **Order Updates Alert** 🚨\n\n"
+        msg_list.append(msg)
 
         print("Received user fills:")
         for order in orders:
@@ -138,10 +140,8 @@ def on_order_updates_message(ws_msg):
             dt_sg = pytz.utc.localize(dt_utc).astimezone(timezone)
             dt_str = dt_sg.strftime('%Y-%m-%d %H:%M:%S')
 
-            msg = msg + (
+            msg = (
                 f"🔗 *Tracked Address*: {ADDRESSES_TO_TRACK[0]}\n"
-                f"#️⃣ *Order ID*: {oid}\n"
-                f"#️⃣ *Close Order ID*: {cloid}\n"
                 f"⏰ **Time**: {dt_str}\n"
                 f"💰 **Coin**: {coin}\n"
                 f"📊 **Limit Price**: ${limit_px:,.2f}\n"

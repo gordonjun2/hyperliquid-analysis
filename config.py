@@ -51,4 +51,4 @@ EXCLUDED_VAULT_ADDRESSES = [
     "0x2e3d94f0562703b25c83308a05046ddaf9a8dd14",  # HLP Liquidator
     "0x31ca8395cf837de08b24da3f660e77761dfb974b",  # HLP Strategy B
 ]
-SUBSCRIPTION_TYPE = 'orderUpdates'
+SUBSCRIPTION_TYPE = 'userFills'
