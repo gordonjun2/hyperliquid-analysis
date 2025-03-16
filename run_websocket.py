@@ -11,11 +11,25 @@ from config import (TIMEZONE, TELEGRAM_BOT_TOKEN, TEST_TG_CHAT_ID_2,
 bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN, threaded=False)
 is_first_message = True
 send_to_tg = True
+alert_queue = asyncio.Queue()
 
 try:
     timezone = pytz.timezone(TIMEZONE)
 except:
     timezone = pytz.timezone('Asia/Singapore')
+
+
+async def send_telegram_alerts():
+    while True:
+        msg_list = await alert_queue.get()
+        if msg_list:
+            print(f"Dequeued Message: {msg_list}")
+            try:
+                send_to_telegram(msg_list, bot, TEST_TG_CHAT_ID_2, MAX_RETRIES,
+                                 1, 5)
+            except Exception as e:
+                print(f"Error sending Telegram alert: {e}")
+        alert_queue.task_done()
 
 
 def get_direction_icon(direction):
@@ -81,18 +95,20 @@ def on_user_fills_message(ws_msg):
             msg_list.append(msg)
 
         if send_to_tg:
-            send_to_telegram(msg_list, bot, TEST_TG_CHAT_ID_2, MAX_RETRIES, 1,
-                             5)
+            # send_to_telegram(msg_list, bot, TEST_TG_CHAT_ID_2, MAX_RETRIES, 1,
+            #                  5)
+            asyncio.create_task(alert_queue.put(msg_list))
 
     except Exception as e:
         print(f"Error processing userFills message: {e}")
         if send_to_tg:
-            error_message += f"❌ **An error occurred while processing the userFills message** ❌\n\n"
+            error_message = f"❌ **An error occurred while processing the userFills message** ❌\n\n"
             error_message += f"**Error Message**: {e}\n"
             error_message += f"Please investigate the issue."
             msg_list = [error_message]
-            send_to_telegram(msg_list, bot, TEST_TG_CHAT_ID_2, MAX_RETRIES, 1,
-                             5)
+            # send_to_telegram(msg_list, bot, TEST_TG_CHAT_ID_2, MAX_RETRIES, 1,
+            #                  5)
+            asyncio.create_task(alert_queue.put(msg_list))
 
 
 def on_order_updates_message(ws_msg):
@@ -122,8 +138,6 @@ def on_order_updates_message(ws_msg):
             limit_px = float(basic_order.get("limitPx", 0))
             sz = float(basic_order.get("sz", 0))
             timestamp = basic_order.get("timestamp", 0)
-            oid = basic_order.get("oid", '')
-            cloid = basic_order.get("cloid", '')
             origSz = float(basic_order.get("origSz", 0))
 
             if side.upper() == 'A':
@@ -155,8 +169,9 @@ def on_order_updates_message(ws_msg):
             msg_list.append(msg)
 
         if send_to_tg:
-            send_to_telegram(msg_list, bot, TEST_TG_CHAT_ID_2, MAX_RETRIES, 1,
-                             5)
+            # send_to_telegram(msg_list, bot, TEST_TG_CHAT_ID_2, MAX_RETRIES, 1,
+            #                  5)
+            asyncio.create_task(alert_queue.put(msg_list))
 
     except Exception as e:
         print(f"Error processing orderUpdates message: {e}")
@@ -165,8 +180,9 @@ def on_order_updates_message(ws_msg):
             error_message += f"**Error Message**: {e}\n"
             error_message += f"Please investigate the issue."
             msg_list = [error_message]
-            send_to_telegram(msg_list, bot, TEST_TG_CHAT_ID_2, MAX_RETRIES, 1,
-                             5)
+            # send_to_telegram(msg_list, bot, TEST_TG_CHAT_ID_2, MAX_RETRIES, 1,
+            #                  5)
+            asyncio.create_task(alert_queue.put(msg_list))
 
 
 def on_ws_close(ws):
@@ -175,7 +191,8 @@ def on_ws_close(ws):
         error_message = f"❌ **WebSocket Closed** ❌\n\n"
         error_message += f"Attempting to reconnect..."
         msg_list = [error_message]
-        send_to_telegram(msg_list, bot, TEST_TG_CHAT_ID_2, MAX_RETRIES, 1, 5)
+        # send_to_telegram(msg_list, bot, TEST_TG_CHAT_ID_2, MAX_RETRIES, 1, 5)
+        asyncio.create_task(alert_queue.put(msg_list))
     reconnect()
 
 
@@ -186,7 +203,8 @@ def on_ws_error(ws, error):
         error_message += f"**Error**: {error}\n"
         error_message += f"Attempting to reconnect..."
         msg_list = [error_message]
-        send_to_telegram(msg_list, bot, TEST_TG_CHAT_ID_2, MAX_RETRIES, 1, 5)
+        # send_to_telegram(msg_list, bot, TEST_TG_CHAT_ID_2, MAX_RETRIES, 1, 5)
+        asyncio.create_task(alert_queue.put(msg_list))
     reconnect()
 
 
@@ -211,7 +229,8 @@ async def create_ws_manager_and_subscribe():
         init_message += f"**Subscription Type**: {SUBSCRIPTION_TYPE}\n"
         init_message += f"**Tracked User Address**: {ADDRESSES_TO_TRACK[0]}"
         msg_list = [init_message]
-        send_to_telegram(msg_list, bot, TEST_TG_CHAT_ID_2, MAX_RETRIES, 1, 5)
+        # send_to_telegram(msg_list, bot, TEST_TG_CHAT_ID_2, MAX_RETRIES, 1, 5)
+        asyncio.create_task(alert_queue.put(msg_list))
 
 
 async def reconnect():
@@ -223,11 +242,13 @@ async def reconnect():
         ws_manager.stop()
 
     await create_ws_manager_and_subscribe()
+    asyncio.create_task(send_telegram_alerts())
 
 
 async def main():
     global ws_manager
     await create_ws_manager_and_subscribe()
+    asyncio.create_task(send_telegram_alerts())
 
     while True:
         await asyncio.sleep(1)
