@@ -74,8 +74,9 @@ def on_user_fills_message(ws_msg):
             return
 
         msg_list = []
-        msg = f"🚨 **Trade Filled Alert** 🚨\n\n"
-        msg_list.append(msg)
+        header = f"🚨 **Trade Filled Alert** 🚨\n\n"
+
+        coin_dir_cache = {}
 
         print("Received user fills:")
         for fill in fills:
@@ -86,6 +87,14 @@ def on_user_fills_message(ws_msg):
             timestamp = fill.get("time")
             direction = fill.get("dir")
             hash = fill.get("hash")
+
+            if coin not in coin_dir_cache:
+                coin_dir_cache[coin] = direction
+            else:
+                if coin_dir_cache[coin] == direction:
+                    continue
+                else:
+                    coin_dir_cache[coin] = direction
 
             dt_utc = datetime.utcfromtimestamp(timestamp / 1000)
             dt_sg = pytz.utc.localize(dt_utc).astimezone(timezone)
@@ -105,7 +114,9 @@ def on_user_fills_message(ws_msg):
 
             msg_list.append(msg)
 
-        if send_to_tg:
+        if send_to_tg and msg_list:
+            msg_list.insert(0, header)
+
             # send_to_telegram(msg_list, bot, TEST_TG_CHAT_ID_2, MAX_RETRIES, 1,
             #                  5)
             message_queue.put(msg_list)
