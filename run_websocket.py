@@ -14,6 +14,7 @@ bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN, threaded=False)
 is_first_message = True
 send_to_tg = True
 message_queue = queue.Queue()
+mirrored_queue = queue.Queue()
 
 try:
     timezone = pytz.timezone(TIMEZONE)
@@ -27,13 +28,15 @@ def worker():
         if msg_list is None:
             break
         try:
-            # print(f"Current full queue: {list(message_queue.queue)}")
             send_to_telegram(msg_list, bot, TEST_TG_CHAT_ID_2, MAX_RETRIES, 1,
                              5)
         except Exception as e:
             print(f"Error sending message to Telegram: {e}")
         finally:
             message_queue.task_done()
+
+        print("Current queue before get: ", list(mirrored_queue.queue))
+        _ = mirrored_queue.get()
 
 
 worker_thread = threading.Thread(target=worker, daemon=True)
@@ -60,7 +63,6 @@ def on_user_fills_message(ws_msg):
 
     try:
         fills = ws_msg.get("data", {}).get("fills", [])
-        print(fills)
 
         if not fills:
             print("No fills found in the message.")
@@ -106,7 +108,8 @@ def on_user_fills_message(ws_msg):
         if send_to_tg:
             # send_to_telegram(msg_list, bot, TEST_TG_CHAT_ID_2, MAX_RETRIES, 1,
             #                  5)
-            message_queue.put((msg_list))
+            message_queue.put(msg_list)
+            mirrored_queue.put(msg_list)
 
     except Exception as e:
         print(f"Error processing userFills message: {e}")
@@ -117,7 +120,8 @@ def on_user_fills_message(ws_msg):
             msg_list = [error_message]
             # send_to_telegram(msg_list, bot, TEST_TG_CHAT_ID_2, MAX_RETRIES, 1,
             #                  5)
-            message_queue.put((msg_list))
+            message_queue.put(msg_list)
+            mirrored_queue.put(msg_list)
 
 
 def on_order_updates_message(ws_msg):
@@ -180,7 +184,8 @@ def on_order_updates_message(ws_msg):
         if send_to_tg:
             # send_to_telegram(msg_list, bot, TEST_TG_CHAT_ID_2, MAX_RETRIES, 1,
             #                  5)
-            message_queue.put((msg_list))
+            message_queue.put(msg_list)
+            mirrored_queue.put(msg_list)
 
     except Exception as e:
         print(f"Error processing orderUpdates message: {e}")
@@ -191,7 +196,8 @@ def on_order_updates_message(ws_msg):
             msg_list = [error_message]
             # send_to_telegram(msg_list, bot, TEST_TG_CHAT_ID_2, MAX_RETRIES, 1,
             #                  5)
-            message_queue.put((msg_list))
+            message_queue.put(msg_list)
+            mirrored_queue.put(msg_list)
 
 
 def on_ws_close(ws):
@@ -201,7 +207,8 @@ def on_ws_close(ws):
         error_message += f"Attempting to reconnect..."
         msg_list = [error_message]
         # send_to_telegram(msg_list, bot, TEST_TG_CHAT_ID_2, MAX_RETRIES, 1, 5)
-        message_queue.put((msg_list))
+        message_queue.put(msg_list)
+        mirrored_queue.put(msg_list)
 
     reconnect()
 
@@ -214,12 +221,13 @@ def on_ws_error(ws, error):
         error_message += f"Attempting to reconnect..."
         msg_list = [error_message]
         # send_to_telegram(msg_list, bot, TEST_TG_CHAT_ID_2, MAX_RETRIES, 1, 5)
-        message_queue.put((msg_list))
+        message_queue.put(msg_list)
+        mirrored_queue.put(msg_list)
 
     reconnect()
 
 
-async def create_ws_manager_and_subscribe():
+def create_ws_manager_and_subscribe():
     global ws_manager
     ws_manager = WebsocketManager("http://api.hyperliquid.xyz")
     ws_manager.on_close = on_ws_close
@@ -241,26 +249,18 @@ async def create_ws_manager_and_subscribe():
         init_message += f"**Tracked User Address**: {ADDRESSES_TO_TRACK[0]}"
         msg_list = [init_message]
         # send_to_telegram(msg_list, bot, TEST_TG_CHAT_ID_2, MAX_RETRIES, 1, 5)
-        message_queue.put((msg_list))
+        message_queue.put(msg_list)
+        mirrored_queue.put(msg_list)
 
 
-async def reconnect():
+def reconnect():
     global ws_manager
-    await asyncio.sleep(2)
     print("Attempting to reconnect...")
 
     if ws_manager:
         ws_manager.stop()
 
-    await create_ws_manager_and_subscribe()
-
-
-async def main():
-    global ws_manager
-    await create_ws_manager_and_subscribe()
-
-    while True:
-        await asyncio.sleep(1)
+    create_ws_manager_and_subscribe()
 
 
 def signal_handler(sig, frame):
@@ -274,4 +274,6 @@ def signal_handler(sig, frame):
 signal.signal(signal.SIGINT, signal_handler)
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    create_ws_manager_and_subscribe()
+    while True:
+        time.sleep(1)
